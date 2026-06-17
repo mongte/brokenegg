@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "cad0a104339abc27",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a0d29f5c49dba81",
+        "type": "tabs",
+        "dimension": 34.66666666666667,
+        "children": [
+          {
+            "id": "641efc2157a9ecd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e324cd013117338e",
+        "type": "tabs",
+        "dimension": 65.33333333333333,
+        "children": [
+          {
+            "id": "525272938ea2685d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10_product/솔루션 - 산업안전위험 교육.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "솔루션 - 산업안전위험 교육"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "759c91cd8f7b33ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "a71bd340a83daab8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c543cbd6f0e6e790",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "eb767b11d45d2426",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "1b19de3366f21edf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "12d1f3fdf52e2b77",
+    "type": "split",
+    "children": [
+      {
+        "id": "9306d47fd15839f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1700b93447ffcb18",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "10_product/솔루션 - 산업안전위험 교육.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "솔루션 - 산업안전위험 교육 의 백링크"
+            }
+          },
+          {
+            "id": "0ebdc15f14707009",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "10_product/솔루션 - 산업안전위험 교육.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "솔루션 - 산업안전위험 교육 의 나가는 링크"
+            }
+          },
+          {
+            "id": "ea134b392dd4e741",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "29115c1a9afa31cc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "44caf164d9c720b3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "10_product/솔루션 - 산업안전위험 교육.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "솔루션 - 산업안전위험 교육 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "525272938ea2685d",
+  "lastOpenFiles": [
+    "20_content/메인 카피.md",
+    "CLAUDE.md",
+    "환영합니다!.md",
+    "20_content/랜딩 페이지 카피.md",
+    "10_product/회사 개요.md",
+    "10_product/핵심 기술 - 3D 인터랙션 시뮬레이션 엔진.md",
+    "10_product/디지털 생태계.md",
+    "10_product/솔루션 - 산업안전위험 교육.md",
+    "10_product/솔루션 - 3D 디지털제품여권 (DPP).md",
+    "90_source/서비스 기획서 (정리본).md",
+    "90_source/서비스 소개서 (원본 슬라이드 변환).md",
+    "00_index/인덱스 (MOC).md",
+    "99_archive",
+    "90_source",
+    "30_policy",
+    "20_content",
+    "10_product",
+    "00_index"
+  ]
+}

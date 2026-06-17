@@ -1,0 +1,889 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "core_to_edge_two_solutions",
+        "label": "\ub2e8\uc77c \ucf54\uc5b4 \uc5d4\uc9c4 \u2192 \ub450 \uc194\ub8e8\uc158 \ud655\uc7a5 (Core-to-Edge)",
+        "nodes": [
+          "wiki____________3d_____________________engine",
+          "wiki____________dpp",
+          "wiki____________safety_education"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "brokenegg-doc/wiki/\ud68c\uc0ac \uac1c\uc694.md"
+      },
+      {
+        "id": "digital_ecosystem_integration",
+        "label": "\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4: \uc81c\ud488 \uc644\ubcbd\uc131 + \uacf5\uc815 \uc548\uc804\uc131 \ud1b5\ud569",
+        "nodes": [
+          "wiki____________digital_ecosystem",
+          "wiki____________dpp",
+          "wiki____________safety_education",
+          "wiki____________3d_____________________engine"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "brokenegg-doc/wiki/\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4.md"
+      },
+      {
+        "id": "landing_three_services",
+        "label": "\ub79c\ub529 3\uc885 \uc11c\ube44\uc2a4 (Egg One / Egg Two / XR)",
+        "nodes": [
+          "wiki____________egg_one",
+          "wiki____________egg_two",
+          "wiki____________xr_safety_training"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "app.json",
+      "file_type": "code",
+      "source_file": "brokenegg-doc/.obsidian/app.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "app.json",
+      "id": "obsidian_app"
+    },
+    {
+      "label": "brokenegg-doc CLAUDE.md (LLM Wiki \uc6b4\uc601 \uac00\uc774\ub4dc)",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "brokenegg-doc claude.md (llm wiki \u110b\u116e\u11ab\u110b\u1167\u11bc \u1100\u1161\u110b\u1175\u1103\u1173)",
+      "id": "brokenegg_doc_claude_wiki_guide"
+    },
+    {
+      "label": "3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "raw_____________________________engine",
+      "community": 0,
+      "norm_label": "3d \u110b\u1175\u11ab\u1110\u1165\u1105\u1162\u11a8\u1109\u1167\u11ab \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab \u110b\u1166\u11ab\u110c\u1175\u11ab"
+    },
+    {
+      "label": "\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d_____________________engine",
+      "community": 1,
+      "norm_label": "\u1112\u1162\u11a8\u1109\u1175\u11b7 \u1100\u1175\u1109\u116e\u11af - 3d \u110b\u1175\u11ab\u1110\u1165\u1105\u1162\u11a8\u1109\u1167\u11ab \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab \u110b\u1166\u11ab\u110c\u1175\u11ab"
+    },
+    {
+      "label": "\ub124\uc774\ud2f0\ube0c XR \ud655\uc7a5\uc131",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________native_xr",
+      "community": 1,
+      "norm_label": "\u1102\u1166\u110b\u1175\u1110\u1175\u1107\u1173 xr \u1112\u116a\u11a8\u110c\u1161\u11bc\u1109\u1165\u11bc"
+    },
+    {
+      "label": "\ub2e4\uac01\ub3c4 \uc2dc\uc810 \uc81c\uc5b4 (Global View / Detail View)",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________viewpoint_control",
+      "community": 1,
+      "norm_label": "\u1103\u1161\u1100\u1161\u11a8\u1103\u1169 \u1109\u1175\u110c\u1165\u11b7 \u110c\u1166\u110b\u1165 (global view / detail view)"
+    },
+    {
+      "label": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP)",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________dpp",
+      "community": 2,
+      "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - 3d \u1103\u1175\u110c\u1175\u1110\u1165\u11af\u110c\u1166\u1111\u116e\u11b7\u110b\u1167\u1100\u116f\u11ab (dpp)"
+    },
+    {
+      "label": "\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________safety_education",
+      "community": 3,
+      "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - \u1109\u1161\u11ab\u110b\u1165\u11b8\u110b\u1161\u11ab\u110c\u1165\u11ab\u110b\u1171\u1112\u1165\u11b7 \u1100\u116d\u110b\u1172\u11a8"
+    },
+    {
+      "label": "\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________digital_ecosystem",
+      "community": 1,
+      "norm_label": "\u1103\u1175\u110c\u1175\u1110\u1165\u11af \u1109\u1162\u11bc\u1110\u1162\u1100\u1168"
+    },
+    {
+      "label": "\ud68c\uc0ac \uac1c\uc694 (\ube0c\ub85c\ud070\uc5d0\uadf8)",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ud68c\uc0ac \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________company_overview",
+      "community": 1,
+      "norm_label": "\u1112\u116c\u1109\u1161 \u1100\u1162\u110b\u116d (\u1107\u1173\u1105\u1169\u110f\u1173\u11ab\u110b\u1166\u1100\u1173)"
+    },
+    {
+      "label": "Core-to-Edge \uc0ac\uc5c5 \uad6c\uc870",
+      "file_type": "rationale",
+      "source_file": "brokenegg-doc/wiki/\ud68c\uc0ac \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________core_to_edge",
+      "community": 1,
+      "norm_label": "core-to-edge \u1109\u1161\u110b\u1165\u11b8 \u1100\u116e\u110c\u1169"
+    },
+    {
+      "label": "\ubb3c\ub9ac \uc5d4\uc9c4 \uae30\ubc18 \ub2a5\ub3d9\uc801 \uc0ac\uace0 \uc2dc\ubbac\ub808\uc774\uc158",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________physics_engine",
+      "community": 3,
+      "norm_label": "\u1106\u116e\u11af\u1105\u1175 \u110b\u1166\u11ab\u110c\u1175\u11ab \u1100\u1175\u1107\u1161\u11ab \u1102\u1173\u11bc\u1103\u1169\u11bc\u110c\u1165\u11a8 \u1109\u1161\u1100\u1169 \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab"
+    },
+    {
+      "label": "\uccb4\ud654\ud615 \ubc18\ubcf5 \ud6c8\ub828 (Muscle Memory)",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________muscle_memory",
+      "community": 3,
+      "norm_label": "\u110e\u1166\u1112\u116a\u1112\u1167\u11bc \u1107\u1161\u11ab\u1107\u1169\u11a8 \u1112\u116e\u11ab\u1105\u1167\u11ab (muscle memory)"
+    },
+    {
+      "label": "\uc8fc\uc694 \ud6c8\ub828 \uc2dc\ub098\ub9ac\uc624 (\uc9c0\uac8c\ucc28/\ud611\ucc29/\ucd94\ub77d)",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________training_scenarios",
+      "community": 3,
+      "norm_label": "\u110c\u116e\u110b\u116d \u1112\u116e\u11ab\u1105\u1167\u11ab \u1109\u1175\u1102\u1161\u1105\u1175\u110b\u1169 (\u110c\u1175\u1100\u1166\u110e\u1161/\u1112\u1167\u11b8\u110e\u1161\u11a8/\u110e\u116e\u1105\u1161\u11a8)"
+    },
+    {
+      "label": "ESG \uaddc\uc81c \uc900\uc218 / \uc81c\ud488\uc5ec\uad8c \uaddc\uc81c",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________esg_regulation",
+      "community": 2,
+      "norm_label": "esg \u1100\u1172\u110c\u1166 \u110c\u116e\u11ab\u1109\u116e / \u110c\u1166\u1111\u116e\u11b7\u110b\u1167\u1100\u116f\u11ab \u1100\u1172\u110c\u1166"
+    },
+    {
+      "label": "\ub370\uc774\ud130\uc758 \uc2dc\uac01\ud654 (\uacf5\uae09\ub9dd \uc815\ubcf4)",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________data_visualization",
+      "community": 2,
+      "norm_label": "\u1103\u1166\u110b\u1175\u1110\u1165\u110b\u1174 \u1109\u1175\u1100\u1161\u11a8\u1112\u116a (\u1100\u1169\u11bc\u1100\u1173\u11b8\u1106\u1161\u11bc \u110c\u1165\u11bc\u1107\u1169)"
+    },
+    {
+      "label": "\uc2e4\uc2dc\uac04 \ub370\uc774\ud130 \uc5f0\ub3d9",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________realtime_data_link",
+      "community": 2,
+      "norm_label": "\u1109\u1175\u11af\u1109\u1175\u1100\u1161\u11ab \u1103\u1166\u110b\u1175\u1110\u1165 \u110b\u1167\u11ab\u1103\u1169\u11bc"
+    },
+    {
+      "label": "\uba54\uc778 \uce74\ud53c",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\uba54\uc778 \uce74\ud53c.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________main_copy",
+      "community": 4,
+      "norm_label": "\u1106\u1166\u110b\u1175\u11ab \u110f\u1161\u1111\u1175"
+    },
+    {
+      "label": "\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________landing_copy",
+      "community": 0,
+      "norm_label": "\u1105\u1162\u11ab\u1103\u1175\u11bc \u1111\u1166\u110b\u1175\u110c\u1175 \u110f\u1161\u1111\u1175"
+    },
+    {
+      "label": "Egg One \u2014 \ubc18\uc751\ud615 3D \uc81c\ud488 \uc2dc\uac01\ud654",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________egg_one",
+      "community": 0,
+      "norm_label": "egg one \u2014 \u1107\u1161\u11ab\u110b\u1173\u11bc\u1112\u1167\u11bc 3d \u110c\u1166\u1111\u116e\u11b7 \u1109\u1175\u1100\u1161\u11a8\u1112\u116a"
+    },
+    {
+      "label": "Egg Two \u2014 3D \ubc18\uc751\ud615 \ubbf8\ub514\uc5b4",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________egg_two",
+      "community": 0,
+      "norm_label": "egg two \u2014 3d \u1107\u1161\u11ab\u110b\u1173\u11bc\u1112\u1167\u11bc \u1106\u1175\u1103\u1175\u110b\u1165"
+    },
+    {
+      "label": "XR \uc0b0\uc5c5\uc548\uc804 \uad50\uc721 (VR/AR/MR)",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________xr_safety_training",
+      "community": 0,
+      "norm_label": "xr \u1109\u1161\u11ab\u110b\u1165\u11b8\u110b\u1161\u11ab\u110c\u1165\u11ab \u1100\u116d\u110b\u1172\u11a8 (vr/ar/mr)"
+    },
+    {
+      "label": "\uc778\ub371\uc2a4 (MOC)",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________index_moc",
+      "community": 4,
+      "norm_label": "\u110b\u1175\u11ab\u1103\u1166\u11a8\u1109\u1173 (moc)"
+    },
+    {
+      "label": "\uc11c\ube44\uc2a4 \uae30\ud68d\uc11c (\uc815\ub9ac\ubcf8)",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/raw/\uc11c\ube44\uc2a4 \uae30\ud68d\uc11c (\uc815\ub9ac\ubcf8).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "raw____________service_plan",
+      "community": 0,
+      "norm_label": "\u1109\u1165\u1107\u1175\u1109\u1173 \u1100\u1175\u1112\u116c\u11a8\u1109\u1165 (\u110c\u1165\u11bc\u1105\u1175\u1107\u1169\u11ab)"
+    },
+    {
+      "label": "\uc11c\ube44\uc2a4 \uc18c\uac1c\uc11c (\uc6d0\ubcf8 \uc2ac\ub77c\uc774\ub4dc \ubcc0\ud658)",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/raw/\uc11c\ube44\uc2a4 \uc18c\uac1c\uc11c (\uc6d0\ubcf8 \uc2ac\ub77c\uc774\ub4dc \ubcc0\ud658).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "raw____________service_intro",
+      "community": 0,
+      "norm_label": "\u1109\u1165\u1107\u1175\u1109\u1173 \u1109\u1169\u1100\u1162\u1109\u1165 (\u110b\u116f\u11ab\u1107\u1169\u11ab \u1109\u1173\u11af\u1105\u1161\u110b\u1175\u1103\u1173 \u1107\u1167\u11ab\u1112\u116a\u11ab)"
+    },
+    {
+      "label": "LLM Wiki + Graphify \uc6b4\uc601 \ubc29\uc2dd",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "brokenegg_doc_claude_llm_wiki",
+      "community": 4,
+      "norm_label": "llm wiki + graphify \u110b\u116e\u11ab\u110b\u1167\u11bc \u1107\u1161\u11bc\u1109\u1175\u11a8"
+    }
+  ],
+  "links": [
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "brokenegg-doc/raw/\uc11c\ube44\uc2a4 \uae30\ud68d\uc11c (\uc815\ub9ac\ubcf8).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "raw_____________________________engine",
+      "target": "wiki____________3d_____________________engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/raw/\uc11c\ube44\uc2a4 \uc18c\uac1c\uc11c (\uc6d0\ubcf8 \uc2ac\ub77c\uc774\ub4dc \ubcc0\ud658).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "raw____________service_intro",
+      "target": "raw_____________________________engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/raw/\uc11c\ube44\uc2a4 \uae30\ud68d\uc11c (\uc815\ub9ac\ubcf8).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "raw____________service_plan",
+      "target": "raw_____________________________engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d_____________________engine",
+      "target": "wiki____________company_overview"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d_____________________engine",
+      "target": "wiki____________dpp"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d_____________________engine",
+      "target": "wiki____________native_xr"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d_____________________engine",
+      "target": "wiki____________safety_education"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d_____________________engine",
+      "target": "wiki____________viewpoint_control"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "brokenegg-doc/wiki/\ud68c\uc0ac \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________core_to_edge",
+      "target": "wiki____________3d_____________________engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________digital_ecosystem",
+      "target": "wiki____________3d_____________________engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki____________3d_____________________engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________landing_copy",
+      "target": "wiki____________3d_____________________engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "brokenegg-doc/wiki/\uba54\uc778 \uce74\ud53c.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________main_copy",
+      "target": "wiki____________3d_____________________engine"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud68c\uc0ac \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________company_overview",
+      "target": "wiki____________dpp"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________digital_ecosystem",
+      "target": "wiki____________dpp"
+    },
+    {
+      "relation": "cites",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________dpp",
+      "target": "raw____________service_intro"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________dpp",
+      "target": "wiki____________data_visualization"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________dpp",
+      "target": "wiki____________esg_regulation"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________dpp",
+      "target": "wiki____________realtime_data_link"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________egg_one",
+      "target": "wiki____________dpp"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki____________dpp"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uba54\uc778 \uce74\ud53c.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________main_copy",
+      "target": "wiki____________dpp"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud68c\uc0ac \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________company_overview",
+      "target": "wiki____________safety_education"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________digital_ecosystem",
+      "target": "wiki____________safety_education"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki____________safety_education"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uba54\uc778 \uce74\ud53c.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________main_copy",
+      "target": "wiki____________safety_education"
+    },
+    {
+      "relation": "cites",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________safety_education",
+      "target": "raw____________service_intro"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________safety_education",
+      "target": "wiki____________muscle_memory"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________safety_education",
+      "target": "wiki____________physics_engine"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________safety_education",
+      "target": "wiki____________training_scenarios"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________xr_safety_training",
+      "target": "wiki____________safety_education"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud68c\uc0ac \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________company_overview",
+      "target": "wiki____________digital_ecosystem"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki____________digital_ecosystem"
+    },
+    {
+      "relation": "cites",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "brokenegg-doc/wiki/\ud68c\uc0ac \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________company_overview",
+      "target": "raw____________service_plan"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud68c\uc0ac \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________company_overview",
+      "target": "wiki____________core_to_edge"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki____________company_overview"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki____________main_copy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki____________landing_copy"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________landing_copy",
+      "target": "raw____________service_intro"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________landing_copy",
+      "target": "raw____________service_plan"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________landing_copy",
+      "target": "wiki____________egg_one"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________landing_copy",
+      "target": "wiki____________egg_two"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________landing_copy",
+      "target": "wiki____________xr_safety_training"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "brokenegg_doc_claude_llm_wiki",
+      "target": "wiki____________index_moc"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "raw____________service_intro"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "raw____________service_plan"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "core_to_edge_two_solutions",
+      "label": "\ub2e8\uc77c \ucf54\uc5b4 \uc5d4\uc9c4 \u2192 \ub450 \uc194\ub8e8\uc158 \ud655\uc7a5 (Core-to-Edge)",
+      "nodes": [
+        "wiki____________3d_____________________engine",
+        "wiki____________dpp",
+        "wiki____________safety_education"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud68c\uc0ac \uac1c\uc694.md"
+    },
+    {
+      "id": "digital_ecosystem_integration",
+      "label": "\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4: \uc81c\ud488 \uc644\ubcbd\uc131 + \uacf5\uc815 \uc548\uc804\uc131 \ud1b5\ud569",
+      "nodes": [
+        "wiki____________digital_ecosystem",
+        "wiki____________dpp",
+        "wiki____________safety_education",
+        "wiki____________3d_____________________engine"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4.md"
+    },
+    {
+      "id": "landing_three_services",
+      "label": "\ub79c\ub529 3\uc885 \uc11c\ube44\uc2a4 (Egg One / Egg Two / XR)",
+      "nodes": [
+        "wiki____________egg_one",
+        "wiki____________egg_two",
+        "wiki____________xr_safety_training"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md"
+    }
+  ]
+}

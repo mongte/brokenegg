@@ -1,0 +1,586 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "\ucf58\ud150\uce20 & \uc11c\ube44\uc2a4 \ub77c\uc778\uc5c5",
+      "x": 0,
+      "y": 0,
+      "width": 660,
+      "height": 420,
+      "color": "1"
+    },
+    {
+      "id": "n_raw_____________________________engine",
+      "type": "file",
+      "file": "3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________egg_one",
+      "type": "file",
+      "file": "Egg One \u2014 \ubc18\uc751\ud615 3D \uc81c\ud488 \uc2dc\uac01\ud654.md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________egg_two",
+      "type": "file",
+      "file": "Egg Two \u2014 3D \ubc18\uc751\ud615 \ubbf8\ub514\uc5b4.md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________xr_safety_training",
+      "type": "file",
+      "file": "XR \uc0b0\uc5c5\uc548\uc804 \uad50\uc721 (VRARMR).md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________landing_copy",
+      "type": "file",
+      "file": "\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_raw____________service_plan",
+      "type": "file",
+      "file": "\uc11c\ube44\uc2a4 \uae30\ud68d\uc11c (\uc815\ub9ac\ubcf8).md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_raw____________service_intro",
+      "type": "file",
+      "file": "\uc11c\ube44\uc2a4 \uc18c\uac1c\uc11c (\uc6d0\ubcf8 \uc2ac\ub77c\uc774\ub4dc \ubcc0\ud658).md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "\ud575\uc2ec \uae30\uc220 & \uc0ac\uc5c5 \uad6c\uc870",
+      "x": 740,
+      "y": 0,
+      "width": 660,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_wiki____________core_to_edge",
+      "type": "file",
+      "file": "Core-to-Edge \uc0ac\uc5c5 \uad6c\uc870.md",
+      "x": 760,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________native_xr",
+      "type": "file",
+      "file": "\ub124\uc774\ud2f0\ube0c XR \ud655\uc7a5\uc131.md",
+      "x": 960,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________viewpoint_control",
+      "type": "file",
+      "file": "\ub2e4\uac01\ub3c4 \uc2dc\uc810 \uc81c\uc5b4 (Global View  Detail View).md",
+      "x": 1160,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________digital_ecosystem",
+      "type": "file",
+      "file": "\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4.md",
+      "x": 760,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d_____________________engine",
+      "type": "file",
+      "file": "\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
+      "x": 960,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________company_overview",
+      "type": "file",
+      "file": "\ud68c\uc0ac \uac1c\uc694 (\ube0c\ub85c\ud070\uc5d0\uadf8).md",
+      "x": 1160,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP)",
+      "x": 1480,
+      "y": 0,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_wiki____________esg_regulation",
+      "type": "file",
+      "file": "ESG \uaddc\uc81c \uc900\uc218  \uc81c\ud488\uc5ec\uad8c \uaddc\uc81c.md",
+      "x": 1500,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________data_visualization",
+      "type": "file",
+      "file": "\ub370\uc774\ud130\uc758 \uc2dc\uac01\ud654 (\uacf5\uae09\ub9dd \uc815\ubcf4).md",
+      "x": 1700,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________dpp",
+      "type": "file",
+      "file": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP).md",
+      "x": 1900,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________realtime_data_link",
+      "type": "file",
+      "file": "\uc2e4\uc2dc\uac04 \ub370\uc774\ud130 \uc5f0\ub3d9.md",
+      "x": 1500,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "\uc0b0\uc5c5\uc548\uc804 \ud6c8\ub828 \uc194\ub8e8\uc158",
+      "x": 0,
+      "y": 500,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_wiki____________physics_engine",
+      "type": "file",
+      "file": "\ubb3c\ub9ac \uc5d4\uc9c4 \uae30\ubc18 \ub2a5\ub3d9\uc801 \uc0ac\uace0 \uc2dc\ubbac\ub808\uc774\uc158.md",
+      "x": 20,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________safety_education",
+      "type": "file",
+      "file": "\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721.md",
+      "x": 220,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________training_scenarios",
+      "type": "file",
+      "file": "\uc8fc\uc694 \ud6c8\ub828 \uc2dc\ub098\ub9ac\uc624 (\uc9c0\uac8c\ucc28\ud611\ucc29\ucd94\ub77d).md",
+      "x": 420,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________muscle_memory",
+      "type": "file",
+      "file": "\uccb4\ud654\ud615 \ubc18\ubcf5 \ud6c8\ub828 (Muscle Memory).md",
+      "x": 20,
+      "y": 660,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "\uc704\ud0a4 \uc6b4\uc601 & \uc778\ub371\uc2a4",
+      "x": 740,
+      "y": 500,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_brokenegg_doc_claude_llm_wiki",
+      "type": "file",
+      "file": "LLM Wiki + Graphify \uc6b4\uc601 \ubc29\uc2dd.md",
+      "x": 760,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________main_copy",
+      "type": "file",
+      "file": "\uba54\uc778 \uce74\ud53c.md",
+      "x": 960,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________index_moc",
+      "type": "file",
+      "file": "\uc778\ub371\uc2a4 (MOC).md",
+      "x": 1160,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "\uc6b4\uc601 \uac00\uc774\ub4dc",
+      "x": 1480,
+      "y": 500,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_brokenegg_doc_claude_wiki_guide",
+      "type": "file",
+      "file": "brokenegg-doc CLAUDE.md (LLM Wiki \uc6b4\uc601 \uac00\uc774\ub4dc).md",
+      "x": 1500,
+      "y": 580,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "Obsidian \uc124\uc815",
+      "x": 0,
+      "y": 980,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_obsidian_app",
+      "type": "file",
+      "file": "app.json.md",
+      "x": 20,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_raw_____________________________engine_wiki____________3d_____________________engine",
+      "fromNode": "n_raw_____________________________engine",
+      "toNode": "n_wiki____________3d_____________________engine",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_raw_____________________________engine_raw____________service_intro",
+      "fromNode": "n_raw_____________________________engine",
+      "toNode": "n_raw____________service_intro",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_raw_____________________________engine_raw____________service_plan",
+      "fromNode": "n_raw_____________________________engine",
+      "toNode": "n_raw____________service_plan",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d_____________________engine_wiki____________company_overview",
+      "fromNode": "n_wiki____________3d_____________________engine",
+      "toNode": "n_wiki____________company_overview",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d_____________________engine_wiki____________dpp",
+      "fromNode": "n_wiki____________3d_____________________engine",
+      "toNode": "n_wiki____________dpp",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d_____________________engine_wiki____________native_xr",
+      "fromNode": "n_wiki____________3d_____________________engine",
+      "toNode": "n_wiki____________native_xr",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d_____________________engine_wiki____________safety_education",
+      "fromNode": "n_wiki____________3d_____________________engine",
+      "toNode": "n_wiki____________safety_education",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d_____________________engine_wiki____________viewpoint_control",
+      "fromNode": "n_wiki____________3d_____________________engine",
+      "toNode": "n_wiki____________viewpoint_control",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d_____________________engine_wiki____________core_to_edge",
+      "fromNode": "n_wiki____________3d_____________________engine",
+      "toNode": "n_wiki____________core_to_edge",
+      "label": "rationale_for [INFERRED]"
+    },
+    {
+      "id": "e_wiki____________3d_____________________engine_wiki____________digital_ecosystem",
+      "fromNode": "n_wiki____________3d_____________________engine",
+      "toNode": "n_wiki____________digital_ecosystem",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d_____________________engine_wiki____________index_moc",
+      "fromNode": "n_wiki____________3d_____________________engine",
+      "toNode": "n_wiki____________index_moc",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d_____________________engine_wiki____________landing_copy",
+      "fromNode": "n_wiki____________3d_____________________engine",
+      "toNode": "n_wiki____________landing_copy",
+      "label": "references [INFERRED]"
+    },
+    {
+      "id": "e_wiki____________3d_____________________engine_wiki____________main_copy",
+      "fromNode": "n_wiki____________3d_____________________engine",
+      "toNode": "n_wiki____________main_copy",
+      "label": "references [INFERRED]"
+    },
+    {
+      "id": "e_wiki____________dpp_wiki____________company_overview",
+      "fromNode": "n_wiki____________dpp",
+      "toNode": "n_wiki____________company_overview",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________dpp_wiki____________digital_ecosystem",
+      "fromNode": "n_wiki____________dpp",
+      "toNode": "n_wiki____________digital_ecosystem",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________dpp_raw____________service_intro",
+      "fromNode": "n_wiki____________dpp",
+      "toNode": "n_raw____________service_intro",
+      "label": "cites [INFERRED]"
+    },
+    {
+      "id": "e_wiki____________dpp_wiki____________data_visualization",
+      "fromNode": "n_wiki____________dpp",
+      "toNode": "n_wiki____________data_visualization",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________dpp_wiki____________esg_regulation",
+      "fromNode": "n_wiki____________dpp",
+      "toNode": "n_wiki____________esg_regulation",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________dpp_wiki____________realtime_data_link",
+      "fromNode": "n_wiki____________dpp",
+      "toNode": "n_wiki____________realtime_data_link",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________dpp_wiki____________egg_one",
+      "fromNode": "n_wiki____________dpp",
+      "toNode": "n_wiki____________egg_one",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_wiki____________dpp_wiki____________index_moc",
+      "fromNode": "n_wiki____________dpp",
+      "toNode": "n_wiki____________index_moc",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________dpp_wiki____________main_copy",
+      "fromNode": "n_wiki____________dpp",
+      "toNode": "n_wiki____________main_copy",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________safety_education_wiki____________company_overview",
+      "fromNode": "n_wiki____________safety_education",
+      "toNode": "n_wiki____________company_overview",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________safety_education_wiki____________digital_ecosystem",
+      "fromNode": "n_wiki____________safety_education",
+      "toNode": "n_wiki____________digital_ecosystem",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________safety_education_wiki____________index_moc",
+      "fromNode": "n_wiki____________safety_education",
+      "toNode": "n_wiki____________index_moc",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________safety_education_wiki____________main_copy",
+      "fromNode": "n_wiki____________safety_education",
+      "toNode": "n_wiki____________main_copy",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________safety_education_raw____________service_intro",
+      "fromNode": "n_wiki____________safety_education",
+      "toNode": "n_raw____________service_intro",
+      "label": "cites [INFERRED]"
+    },
+    {
+      "id": "e_wiki____________safety_education_wiki____________muscle_memory",
+      "fromNode": "n_wiki____________safety_education",
+      "toNode": "n_wiki____________muscle_memory",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________safety_education_wiki____________physics_engine",
+      "fromNode": "n_wiki____________safety_education",
+      "toNode": "n_wiki____________physics_engine",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________safety_education_wiki____________training_scenarios",
+      "fromNode": "n_wiki____________safety_education",
+      "toNode": "n_wiki____________training_scenarios",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________safety_education_wiki____________xr_safety_training",
+      "fromNode": "n_wiki____________safety_education",
+      "toNode": "n_wiki____________xr_safety_training",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_wiki____________digital_ecosystem_wiki____________company_overview",
+      "fromNode": "n_wiki____________digital_ecosystem",
+      "toNode": "n_wiki____________company_overview",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________digital_ecosystem_wiki____________index_moc",
+      "fromNode": "n_wiki____________digital_ecosystem",
+      "toNode": "n_wiki____________index_moc",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________company_overview_raw____________service_plan",
+      "fromNode": "n_wiki____________company_overview",
+      "toNode": "n_raw____________service_plan",
+      "label": "cites [INFERRED]"
+    },
+    {
+      "id": "e_wiki____________company_overview_wiki____________core_to_edge",
+      "fromNode": "n_wiki____________company_overview",
+      "toNode": "n_wiki____________core_to_edge",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________company_overview_wiki____________index_moc",
+      "fromNode": "n_wiki____________company_overview",
+      "toNode": "n_wiki____________index_moc",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________main_copy_wiki____________index_moc",
+      "fromNode": "n_wiki____________main_copy",
+      "toNode": "n_wiki____________index_moc",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________landing_copy_wiki____________index_moc",
+      "fromNode": "n_wiki____________landing_copy",
+      "toNode": "n_wiki____________index_moc",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________landing_copy_raw____________service_intro",
+      "fromNode": "n_wiki____________landing_copy",
+      "toNode": "n_raw____________service_intro",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________landing_copy_raw____________service_plan",
+      "fromNode": "n_wiki____________landing_copy",
+      "toNode": "n_raw____________service_plan",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________landing_copy_wiki____________egg_one",
+      "fromNode": "n_wiki____________landing_copy",
+      "toNode": "n_wiki____________egg_one",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________landing_copy_wiki____________egg_two",
+      "fromNode": "n_wiki____________landing_copy",
+      "toNode": "n_wiki____________egg_two",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________landing_copy_wiki____________xr_safety_training",
+      "fromNode": "n_wiki____________landing_copy",
+      "toNode": "n_wiki____________xr_safety_training",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________index_moc_brokenegg_doc_claude_llm_wiki",
+      "fromNode": "n_wiki____________index_moc",
+      "toNode": "n_brokenegg_doc_claude_llm_wiki",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________index_moc_raw____________service_intro",
+      "fromNode": "n_wiki____________index_moc",
+      "toNode": "n_raw____________service_intro",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________index_moc_raw____________service_plan",
+      "fromNode": "n_wiki____________index_moc",
+      "toNode": "n_raw____________service_plan",
+      "label": "references [EXTRACTED]"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "colorGroups": [
+    {
+      "query": "tag:#community/\ucf58\ud150\uce20_&_\uc11c\ube44\uc2a4_\ub77c\uc778\uc5c5",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/\ud575\uc2ec_\uae30\uc220_&_\uc0ac\uc5c5_\uad6c\uc870",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/3D_\ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c_(DPP)",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/\uc0b0\uc5c5\uc548\uc804_\ud6c8\ub828_\uc194\ub8e8\uc158",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/\uc704\ud0a4_\uc6b4\uc601_&_\uc778\ub371\uc2a4",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/\uc6b4\uc601_\uac00\uc774\ub4dc",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Obsidian_\uc124\uc815",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    }
+  ]
+}
