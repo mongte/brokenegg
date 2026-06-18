@@ -1,9 +1,9 @@
 import './global.css';
+import { siteConfig } from '@/shared/config';
 
 export const metadata = {
-  title: 'Broken Egg — 3D Interactive Simulation',
-  description:
-    '도면 속에 갇혀 있던 제품을, 손으로 만지듯 보여주세요. 브로큰에그의 3D 인터랙션 시뮬레이션 · XR 산업안전 교육 솔루션.',
+  title: siteConfig.metadata.title,
+  description: siteConfig.metadata.description,
 };
 
 export default function RootLayout({

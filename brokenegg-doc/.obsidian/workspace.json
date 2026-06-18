@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_product/솔루션 - 산업안전위험 교육.md",
+                "file": "wiki/메인 카피.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "솔루션 - 산업안전위험 교육"
+              "title": "메인 카피"
             }
           }
         ]
@@ -207,6 +207,11 @@
   },
   "active": "525272938ea2685d",
   "lastOpenFiles": [
+    "wiki/솔루션 - 산업안전위험 교육.md",
+    "wiki/인덱스 (MOC).md",
+    "wiki/랜딩 페이지 카피.md",
+    "raw/서비스 기획서 (정리본).md",
+    "raw/서비스 소개서 (원본 슬라이드 변환).md",
     "20_content/메인 카피.md",
     "CLAUDE.md",
     "환영합니다!.md",

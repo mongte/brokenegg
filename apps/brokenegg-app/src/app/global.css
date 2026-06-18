@@ -115,10 +115,8 @@ header {
 }
 
 .logo {
-  font-size: 24px;
-  font-weight: 900;
-  letter-spacing: -0.05em;
-  text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 
 .nav-right {
