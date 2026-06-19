@@ -2,6 +2,7 @@ import { Badge } from '@/shared/ui/badge';
 import { Logo } from '@/shared/ui/logo';
 import { siteConfig } from '@/shared/config';
 import { DemoRequestButton } from '@/features/demo-request';
+import { NavMenu } from '@/features/nav-menu';
 
 export function SiteHeader() {
   return (
@@ -18,7 +19,7 @@ export function SiteHeader() {
       </div>
       <div className="nav-right">
         <DemoRequestButton variant="badge" label="DEMO REQUEST" />
-        <div className="menu-toggle" />
+        <NavMenu />
       </div>
     </header>
   );

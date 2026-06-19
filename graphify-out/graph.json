@@ -4,44 +4,47 @@
   "graph": {
     "hyperedges": [
       {
-        "id": "core_to_edge_two_solutions",
-        "label": "\ub2e8\uc77c \ucf54\uc5b4 \uc5d4\uc9c4 \u2192 \ub450 \uc194\ub8e8\uc158 \ud655\uc7a5 (Core-to-Edge)",
+        "id": "design_system_four_notes",
+        "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c 4\ubd80\uc791 \ub178\ud2b8 (\uac1c\uc694\u00b7\ud1a0\ud070\u00b7\ucef4\ud3ec\ub10c\ud2b8\u00b7\ub808\uc774\uc544\uc6c3)",
         "nodes": [
-          "wiki____________3d_____________________engine",
-          "wiki____________dpp",
-          "wiki____________safety_education"
-        ],
-        "relation": "participate_in",
-        "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "brokenegg-doc/wiki/\ud68c\uc0ac \uac1c\uc694.md"
-      },
-      {
-        "id": "digital_ecosystem_integration",
-        "label": "\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4: \uc81c\ud488 \uc644\ubcbd\uc131 + \uacf5\uc815 \uc548\uc804\uc131 \ud1b5\ud569",
-        "nodes": [
-          "wiki____________digital_ecosystem",
-          "wiki____________dpp",
-          "wiki____________safety_education",
-          "wiki____________3d_____________________engine"
+          "wiki_design_system_overview",
+          "wiki_design_system_tokens",
+          "wiki_design_system_components",
+          "wiki_design_system_layout_patterns"
         ],
         "relation": "form",
         "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "brokenegg-doc/wiki/\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4.md"
+        "confidence_score": 0.9,
+        "source_file": "wiki/\uc778\ub371\uc2a4 (MOC).md"
       },
       {
-        "id": "landing_three_services",
-        "label": "\ub79c\ub529 3\uc885 \uc11c\ube44\uc2a4 (Egg One / Egg Two / XR)",
+        "id": "page_shell_composition",
+        "label": "\ud398\uc774\uc9c0 \uc178 \uad6c\uc131 (grid-bg + canvas + SiteHeader/Footer)",
         "nodes": [
-          "wiki____________egg_one",
-          "wiki____________egg_two",
-          "wiki____________xr_safety_training"
+          "wiki_design_system_tokens_grid_bg",
+          "wiki_design_system_tokens_canvas",
+          "wiki_design_system_components_site_header",
+          "wiki_design_system_components_site_footer"
         ],
         "relation": "participate_in",
         "confidence": "EXTRACTED",
-        "confidence_score": 1.0,
-        "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md"
+        "confidence_score": 0.9,
+        "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md"
+      },
+      {
+        "id": "section_building_blocks",
+        "label": "\uc139\uc158 \ube4c\ub529\ube14\ub85d \uc870\ud569 (Hero/Problems/Services/Testimonials/FinalCta)",
+        "nodes": [
+          "wiki_design_system_components_hero",
+          "wiki_design_system_components_problems",
+          "wiki_design_system_components_services",
+          "wiki_design_system_components_testimonials",
+          "wiki_design_system_components_final_cta"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.85,
+        "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md"
       }
     ]
   },
@@ -52,7 +55,7 @@
       "source_file": "brokenegg-doc/.obsidian/app.json",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 11,
       "norm_label": "app.json",
       "id": "obsidian_app"
     },
@@ -65,7 +68,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 10,
       "norm_label": "brokenegg-doc claude.md (llm wiki \u110b\u116e\u11ab\u110b\u1167\u11bc \u1100\u1161\u110b\u1175\u1103\u1173)",
       "id": "brokenegg_doc_claude_wiki_guide"
     },
@@ -78,9 +81,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "raw_____________________________engine",
-      "community": 0,
-      "norm_label": "3d \u110b\u1175\u11ab\u1110\u1165\u1105\u1162\u11a8\u1109\u1167\u11ab \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab \u110b\u1166\u11ab\u110c\u1175\u11ab"
+      "community": 3,
+      "norm_label": "3d \u110b\u1175\u11ab\u1110\u1165\u1105\u1162\u11a8\u1109\u1167\u11ab \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab \u110b\u1166\u11ab\u110c\u1175\u11ab",
+      "id": "raw_____________________________engine"
     },
     {
       "label": "\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4",
@@ -91,9 +94,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________3d_____________________engine",
-      "community": 1,
-      "norm_label": "\u1112\u1162\u11a8\u1109\u1175\u11b7 \u1100\u1175\u1109\u116e\u11af - 3d \u110b\u1175\u11ab\u1110\u1165\u1105\u1162\u11a8\u1109\u1167\u11ab \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab \u110b\u1166\u11ab\u110c\u1175\u11ab"
+      "community": 5,
+      "norm_label": "\u1112\u1162\u11a8\u1109\u1175\u11b7 \u1100\u1175\u1109\u116e\u11af - 3d \u110b\u1175\u11ab\u1110\u1165\u1105\u1162\u11a8\u1109\u1167\u11ab \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab \u110b\u1166\u11ab\u110c\u1175\u11ab",
+      "id": "wiki____________3d_____________________engine"
     },
     {
       "label": "\ub124\uc774\ud2f0\ube0c XR \ud655\uc7a5\uc131",
@@ -104,9 +107,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________native_xr",
-      "community": 1,
-      "norm_label": "\u1102\u1166\u110b\u1175\u1110\u1175\u1107\u1173 xr \u1112\u116a\u11a8\u110c\u1161\u11bc\u1109\u1165\u11bc"
+      "community": 5,
+      "norm_label": "\u1102\u1166\u110b\u1175\u1110\u1175\u1107\u1173 xr \u1112\u116a\u11a8\u110c\u1161\u11bc\u1109\u1165\u11bc",
+      "id": "wiki____________native_xr"
     },
     {
       "label": "\ub2e4\uac01\ub3c4 \uc2dc\uc810 \uc81c\uc5b4 (Global View / Detail View)",
@@ -117,9 +120,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________viewpoint_control",
-      "community": 1,
-      "norm_label": "\u1103\u1161\u1100\u1161\u11a8\u1103\u1169 \u1109\u1175\u110c\u1165\u11b7 \u110c\u1166\u110b\u1165 (global view / detail view)"
+      "community": 5,
+      "norm_label": "\u1103\u1161\u1100\u1161\u11a8\u1103\u1169 \u1109\u1175\u110c\u1165\u11b7 \u110c\u1166\u110b\u1165 (global view / detail view)",
+      "id": "wiki____________viewpoint_control"
     },
     {
       "label": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP)",
@@ -130,9 +133,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________dpp",
-      "community": 2,
-      "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - 3d \u1103\u1175\u110c\u1175\u1110\u1165\u11af\u110c\u1166\u1111\u116e\u11b7\u110b\u1167\u1100\u116f\u11ab (dpp)"
+      "community": 7,
+      "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - 3d \u1103\u1175\u110c\u1175\u1110\u1165\u11af\u110c\u1166\u1111\u116e\u11b7\u110b\u1167\u1100\u116f\u11ab (dpp)",
+      "id": "wiki____________dpp"
     },
     {
       "label": "\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721",
@@ -143,9 +146,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________safety_education",
-      "community": 3,
-      "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - \u1109\u1161\u11ab\u110b\u1165\u11b8\u110b\u1161\u11ab\u110c\u1165\u11ab\u110b\u1171\u1112\u1165\u11b7 \u1100\u116d\u110b\u1172\u11a8"
+      "community": 8,
+      "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - \u1109\u1161\u11ab\u110b\u1165\u11b8\u110b\u1161\u11ab\u110c\u1165\u11ab\u110b\u1171\u1112\u1165\u11b7 \u1100\u116d\u110b\u1172\u11a8",
+      "id": "wiki____________safety_education"
     },
     {
       "label": "\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4",
@@ -156,9 +159,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________digital_ecosystem",
-      "community": 1,
-      "norm_label": "\u1103\u1175\u110c\u1175\u1110\u1165\u11af \u1109\u1162\u11bc\u1110\u1162\u1100\u1168"
+      "community": 5,
+      "norm_label": "\u1103\u1175\u110c\u1175\u1110\u1165\u11af \u1109\u1162\u11bc\u1110\u1162\u1100\u1168",
+      "id": "wiki____________digital_ecosystem"
     },
     {
       "label": "\ud68c\uc0ac \uac1c\uc694 (\ube0c\ub85c\ud070\uc5d0\uadf8)",
@@ -169,9 +172,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________company_overview",
-      "community": 1,
-      "norm_label": "\u1112\u116c\u1109\u1161 \u1100\u1162\u110b\u116d (\u1107\u1173\u1105\u1169\u110f\u1173\u11ab\u110b\u1166\u1100\u1173)"
+      "community": 5,
+      "norm_label": "\u1112\u116c\u1109\u1161 \u1100\u1162\u110b\u116d (\u1107\u1173\u1105\u1169\u110f\u1173\u11ab\u110b\u1166\u1100\u1173)",
+      "id": "wiki____________company_overview"
     },
     {
       "label": "Core-to-Edge \uc0ac\uc5c5 \uad6c\uc870",
@@ -182,9 +185,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________core_to_edge",
-      "community": 1,
-      "norm_label": "core-to-edge \u1109\u1161\u110b\u1165\u11b8 \u1100\u116e\u110c\u1169"
+      "community": 5,
+      "norm_label": "core-to-edge \u1109\u1161\u110b\u1165\u11b8 \u1100\u116e\u110c\u1169",
+      "id": "wiki____________core_to_edge"
     },
     {
       "label": "\ubb3c\ub9ac \uc5d4\uc9c4 \uae30\ubc18 \ub2a5\ub3d9\uc801 \uc0ac\uace0 \uc2dc\ubbac\ub808\uc774\uc158",
@@ -195,9 +198,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________physics_engine",
-      "community": 3,
-      "norm_label": "\u1106\u116e\u11af\u1105\u1175 \u110b\u1166\u11ab\u110c\u1175\u11ab \u1100\u1175\u1107\u1161\u11ab \u1102\u1173\u11bc\u1103\u1169\u11bc\u110c\u1165\u11a8 \u1109\u1161\u1100\u1169 \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab"
+      "community": 8,
+      "norm_label": "\u1106\u116e\u11af\u1105\u1175 \u110b\u1166\u11ab\u110c\u1175\u11ab \u1100\u1175\u1107\u1161\u11ab \u1102\u1173\u11bc\u1103\u1169\u11bc\u110c\u1165\u11a8 \u1109\u1161\u1100\u1169 \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab",
+      "id": "wiki____________physics_engine"
     },
     {
       "label": "\uccb4\ud654\ud615 \ubc18\ubcf5 \ud6c8\ub828 (Muscle Memory)",
@@ -208,9 +211,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________muscle_memory",
-      "community": 3,
-      "norm_label": "\u110e\u1166\u1112\u116a\u1112\u1167\u11bc \u1107\u1161\u11ab\u1107\u1169\u11a8 \u1112\u116e\u11ab\u1105\u1167\u11ab (muscle memory)"
+      "community": 8,
+      "norm_label": "\u110e\u1166\u1112\u116a\u1112\u1167\u11bc \u1107\u1161\u11ab\u1107\u1169\u11a8 \u1112\u116e\u11ab\u1105\u1167\u11ab (muscle memory)",
+      "id": "wiki____________muscle_memory"
     },
     {
       "label": "\uc8fc\uc694 \ud6c8\ub828 \uc2dc\ub098\ub9ac\uc624 (\uc9c0\uac8c\ucc28/\ud611\ucc29/\ucd94\ub77d)",
@@ -221,9 +224,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________training_scenarios",
-      "community": 3,
-      "norm_label": "\u110c\u116e\u110b\u116d \u1112\u116e\u11ab\u1105\u1167\u11ab \u1109\u1175\u1102\u1161\u1105\u1175\u110b\u1169 (\u110c\u1175\u1100\u1166\u110e\u1161/\u1112\u1167\u11b8\u110e\u1161\u11a8/\u110e\u116e\u1105\u1161\u11a8)"
+      "community": 8,
+      "norm_label": "\u110c\u116e\u110b\u116d \u1112\u116e\u11ab\u1105\u1167\u11ab \u1109\u1175\u1102\u1161\u1105\u1175\u110b\u1169 (\u110c\u1175\u1100\u1166\u110e\u1161/\u1112\u1167\u11b8\u110e\u1161\u11a8/\u110e\u116e\u1105\u1161\u11a8)",
+      "id": "wiki____________training_scenarios"
     },
     {
       "label": "ESG \uaddc\uc81c \uc900\uc218 / \uc81c\ud488\uc5ec\uad8c \uaddc\uc81c",
@@ -234,9 +237,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________esg_regulation",
-      "community": 2,
-      "norm_label": "esg \u1100\u1172\u110c\u1166 \u110c\u116e\u11ab\u1109\u116e / \u110c\u1166\u1111\u116e\u11b7\u110b\u1167\u1100\u116f\u11ab \u1100\u1172\u110c\u1166"
+      "community": 7,
+      "norm_label": "esg \u1100\u1172\u110c\u1166 \u110c\u116e\u11ab\u1109\u116e / \u110c\u1166\u1111\u116e\u11b7\u110b\u1167\u1100\u116f\u11ab \u1100\u1172\u110c\u1166",
+      "id": "wiki____________esg_regulation"
     },
     {
       "label": "\ub370\uc774\ud130\uc758 \uc2dc\uac01\ud654 (\uacf5\uae09\ub9dd \uc815\ubcf4)",
@@ -247,9 +250,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________data_visualization",
-      "community": 2,
-      "norm_label": "\u1103\u1166\u110b\u1175\u1110\u1165\u110b\u1174 \u1109\u1175\u1100\u1161\u11a8\u1112\u116a (\u1100\u1169\u11bc\u1100\u1173\u11b8\u1106\u1161\u11bc \u110c\u1165\u11bc\u1107\u1169)"
+      "community": 7,
+      "norm_label": "\u1103\u1166\u110b\u1175\u1110\u1165\u110b\u1174 \u1109\u1175\u1100\u1161\u11a8\u1112\u116a (\u1100\u1169\u11bc\u1100\u1173\u11b8\u1106\u1161\u11bc \u110c\u1165\u11bc\u1107\u1169)",
+      "id": "wiki____________data_visualization"
     },
     {
       "label": "\uc2e4\uc2dc\uac04 \ub370\uc774\ud130 \uc5f0\ub3d9",
@@ -260,9 +263,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________realtime_data_link",
-      "community": 2,
-      "norm_label": "\u1109\u1175\u11af\u1109\u1175\u1100\u1161\u11ab \u1103\u1166\u110b\u1175\u1110\u1165 \u110b\u1167\u11ab\u1103\u1169\u11bc"
+      "community": 7,
+      "norm_label": "\u1109\u1175\u11af\u1109\u1175\u1100\u1161\u11ab \u1103\u1166\u110b\u1175\u1110\u1165 \u110b\u1167\u11ab\u1103\u1169\u11bc",
+      "id": "wiki____________realtime_data_link"
     },
     {
       "label": "\uba54\uc778 \uce74\ud53c",
@@ -273,9 +276,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________main_copy",
-      "community": 4,
-      "norm_label": "\u1106\u1166\u110b\u1175\u11ab \u110f\u1161\u1111\u1175"
+      "community": 9,
+      "norm_label": "\u1106\u1166\u110b\u1175\u11ab \u110f\u1161\u1111\u1175",
+      "id": "wiki____________main_copy"
     },
     {
       "label": "\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c",
@@ -286,9 +289,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________landing_copy",
-      "community": 0,
-      "norm_label": "\u1105\u1162\u11ab\u1103\u1175\u11bc \u1111\u1166\u110b\u1175\u110c\u1175 \u110f\u1161\u1111\u1175"
+      "community": 3,
+      "norm_label": "\u1105\u1162\u11ab\u1103\u1175\u11bc \u1111\u1166\u110b\u1175\u110c\u1175 \u110f\u1161\u1111\u1175",
+      "id": "wiki____________landing_copy"
     },
     {
       "label": "Egg One \u2014 \ubc18\uc751\ud615 3D \uc81c\ud488 \uc2dc\uac01\ud654",
@@ -299,9 +302,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________egg_one",
-      "community": 0,
-      "norm_label": "egg one \u2014 \u1107\u1161\u11ab\u110b\u1173\u11bc\u1112\u1167\u11bc 3d \u110c\u1166\u1111\u116e\u11b7 \u1109\u1175\u1100\u1161\u11a8\u1112\u116a"
+      "community": 3,
+      "norm_label": "egg one \u2014 \u1107\u1161\u11ab\u110b\u1173\u11bc\u1112\u1167\u11bc 3d \u110c\u1166\u1111\u116e\u11b7 \u1109\u1175\u1100\u1161\u11a8\u1112\u116a",
+      "id": "wiki____________egg_one"
     },
     {
       "label": "Egg Two \u2014 3D \ubc18\uc751\ud615 \ubbf8\ub514\uc5b4",
@@ -312,9 +315,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________egg_two",
-      "community": 0,
-      "norm_label": "egg two \u2014 3d \u1107\u1161\u11ab\u110b\u1173\u11bc\u1112\u1167\u11bc \u1106\u1175\u1103\u1175\u110b\u1165"
+      "community": 3,
+      "norm_label": "egg two \u2014 3d \u1107\u1161\u11ab\u110b\u1173\u11bc\u1112\u1167\u11bc \u1106\u1175\u1103\u1175\u110b\u1165",
+      "id": "wiki____________egg_two"
     },
     {
       "label": "XR \uc0b0\uc5c5\uc548\uc804 \uad50\uc721 (VR/AR/MR)",
@@ -325,9 +328,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________xr_safety_training",
-      "community": 0,
-      "norm_label": "xr \u1109\u1161\u11ab\u110b\u1165\u11b8\u110b\u1161\u11ab\u110c\u1165\u11ab \u1100\u116d\u110b\u1172\u11a8 (vr/ar/mr)"
+      "community": 3,
+      "norm_label": "xr \u1109\u1161\u11ab\u110b\u1165\u11b8\u110b\u1161\u11ab\u110c\u1165\u11ab \u1100\u116d\u110b\u1172\u11a8 (vr/ar/mr)",
+      "id": "wiki____________xr_safety_training"
     },
     {
       "label": "\uc778\ub371\uc2a4 (MOC)",
@@ -338,9 +341,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki____________index_moc",
-      "community": 4,
-      "norm_label": "\u110b\u1175\u11ab\u1103\u1166\u11a8\u1109\u1173 (moc)"
+      "community": 9,
+      "norm_label": "\u110b\u1175\u11ab\u1103\u1166\u11a8\u1109\u1173 (moc)",
+      "id": "wiki____________index_moc"
     },
     {
       "label": "\uc11c\ube44\uc2a4 \uae30\ud68d\uc11c (\uc815\ub9ac\ubcf8)",
@@ -351,9 +354,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "raw____________service_plan",
-      "community": 0,
-      "norm_label": "\u1109\u1165\u1107\u1175\u1109\u1173 \u1100\u1175\u1112\u116c\u11a8\u1109\u1165 (\u110c\u1165\u11bc\u1105\u1175\u1107\u1169\u11ab)"
+      "community": 3,
+      "norm_label": "\u1109\u1165\u1107\u1175\u1109\u1173 \u1100\u1175\u1112\u116c\u11a8\u1109\u1165 (\u110c\u1165\u11bc\u1105\u1175\u1107\u1169\u11ab)",
+      "id": "raw____________service_plan"
     },
     {
       "label": "\uc11c\ube44\uc2a4 \uc18c\uac1c\uc11c (\uc6d0\ubcf8 \uc2ac\ub77c\uc774\ub4dc \ubcc0\ud658)",
@@ -364,9 +367,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "raw____________service_intro",
-      "community": 0,
-      "norm_label": "\u1109\u1165\u1107\u1175\u1109\u1173 \u1109\u1169\u1100\u1162\u1109\u1165 (\u110b\u116f\u11ab\u1107\u1169\u11ab \u1109\u1173\u11af\u1105\u1161\u110b\u1175\u1103\u1173 \u1107\u1167\u11ab\u1112\u116a\u11ab)"
+      "community": 3,
+      "norm_label": "\u1109\u1165\u1107\u1175\u1109\u1173 \u1109\u1169\u1100\u1162\u1109\u1165 (\u110b\u116f\u11ab\u1107\u1169\u11ab \u1109\u1173\u11af\u1105\u1161\u110b\u1175\u1103\u1173 \u1107\u1167\u11ab\u1112\u116a\u11ab)",
+      "id": "raw____________service_intro"
     },
     {
       "label": "LLM Wiki + Graphify \uc6b4\uc601 \ubc29\uc2dd",
@@ -377,9 +380,620 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "brokenegg_doc_claude_llm_wiki",
+      "community": 9,
+      "norm_label": "llm wiki + graphify \u110b\u116e\u11ab\u110b\u1167\u11bc \u1107\u1161\u11bc\u1109\u1175\u11a8",
+      "id": "brokenegg_doc_claude_llm_wiki"
+    },
+    {
+      "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694",
+      "file_type": "document",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_overview",
+      "community": 0,
+      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u1100\u1162\u110b\u116d"
+    },
+    {
+      "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070",
+      "file_type": "document",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_tokens",
+      "community": 1,
+      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1110\u1169\u110f\u1173\u11ab"
+    },
+    {
+      "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8",
+      "file_type": "document",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components",
+      "community": 2,
+      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173"
+    },
+    {
+      "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134",
+      "file_type": "document",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_layout_patterns",
+      "community": 0,
+      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u1111\u1166\u110b\u1175\u110c\u1175 \u1105\u1166\u110b\u1175\u110b\u1161\u110b\u116e\u11ba \u1111\u1162\u1110\u1165\u11ab"
+    },
+    {
+      "label": "\uc778\ub371\uc2a4 (MOC)",
+      "file_type": "document",
+      "source_file": "wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_index_moc",
+      "community": 0,
+      "norm_label": "\u110b\u1175\u11ab\u1103\u1166\u11a8\u1109\u1173 (moc)"
+    },
+    {
+      "label": "\ud504\ub808\uc784-\uc778-\uce94\ubc84\uc2a4 \uc6d0\uce59",
+      "file_type": "rationale",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_overview_frame_in_canvas",
       "community": 4,
-      "norm_label": "llm wiki + graphify \u110b\u116e\u11ab\u110b\u1167\u11bc \u1107\u1161\u11bc\u1109\u1175\u11a8"
+      "norm_label": "\u1111\u1173\u1105\u1166\u110b\u1175\u11b7-\u110b\u1175\u11ab-\u110f\u1162\u11ab\u1107\u1165\u1109\u1173 \u110b\u116f\u11ab\u110e\u1175\u11a8"
+    },
+    {
+      "label": "\ubaa8\ub178\ud06c\ub86c \uc6b0\uc120 \uc6d0\uce59",
+      "file_type": "rationale",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_overview_monochrome_first",
+      "community": 0,
+      "norm_label": "\u1106\u1169\u1102\u1169\u110f\u1173\u1105\u1169\u11b7 \u110b\u116e\u1109\u1165\u11ab \u110b\u116f\u11ab\u110e\u1175\u11a8"
+    },
+    {
+      "label": "\ub450 \uc11c\uccb4\uc758 \uc5ed\ud560 \ubd84\ub2f4 \uc6d0\uce59",
+      "file_type": "rationale",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_overview_two_typefaces",
+      "community": 1,
+      "norm_label": "\u1103\u116e \u1109\u1165\u110e\u1166\u110b\u1174 \u110b\u1167\u11a8\u1112\u1161\u11af \u1107\u116e\u11ab\u1103\u1161\u11b7 \u110b\u116f\u11ab\u110e\u1175\u11a8"
+    },
+    {
+      "label": "\ub9c8\uc774\ud06c\ub85c \ud0c0\uc774\ud3ec \ub77c\ubca8 \uc6d0\uce59",
+      "file_type": "rationale",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_overview_micro_typo_label",
+      "community": 6,
+      "norm_label": "\u1106\u1161\u110b\u1175\u110f\u1173\u1105\u1169 \u1110\u1161\u110b\u1175\u1111\u1169 \u1105\u1161\u1107\u1166\u11af \u110b\u116f\u11ab\u110e\u1175\u11a8"
+    },
+    {
+      "label": "\uc5d0\ub514\ud1a0\ub9ac\uc5bc \uadf8\ub9ac\ub4dc \uc6d0\uce59",
+      "file_type": "rationale",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_overview_editorial_grid",
+      "community": 1,
+      "norm_label": "\u110b\u1166\u1103\u1175\u1110\u1169\u1105\u1175\u110b\u1165\u11af \u1100\u1173\u1105\u1175\u1103\u1173 \u110b\u116f\u11ab\u110e\u1175\u11a8"
+    },
+    {
+      "label": "\ud55c \ubc88\uc758 \ub300\ube44 \uba74 \uc6d0\uce59",
+      "file_type": "rationale",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_overview_single_contrast_plane",
+      "community": 0,
+      "norm_label": "\u1112\u1161\u11ab \u1107\u1165\u11ab\u110b\u1174 \u1103\u1162\u1107\u1175 \u1106\u1167\u11ab \u110b\u116f\u11ab\u110e\u1175\u11a8"
+    },
+    {
+      "label": "\uc54c\uc57d \ud615\ud0dc \uc6d0\uce59",
+      "file_type": "rationale",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_overview_pill_shape",
+      "community": 6,
+      "norm_label": "\u110b\u1161\u11af\u110b\u1163\u11a8 \u1112\u1167\u11bc\u1110\u1162 \u110b\u116f\u11ab\u110e\u1175\u11a8"
+    },
+    {
+      "label": "Variant \ub808\ud37c\ub7f0\uc2a4 \ub514\uc790\uc778 (BRK-EGG-2024-V1)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_overview_variant_reference",
+      "community": 0,
+      "norm_label": "variant \u1105\u1166\u1111\u1165\u1105\u1165\u11ab\u1109\u1173 \u1103\u1175\u110c\u1161\u110b\u1175\u11ab (brk-egg-2024-v1)"
+    },
+    {
+      "label": "global.css (\uad6c\ud604 \ub2e8\uc77c \ucd9c\ucc98)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_overview_global_css",
+      "community": 1,
+      "norm_label": "global.css (\u1100\u116e\u1112\u1167\u11ab \u1103\u1161\u11ab\u110b\u1175\u11af \u110e\u116e\u11af\u110e\u1165)"
+    },
+    {
+      "label": "/brokenegg-page \uc2a4\ud0ac",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_overview_brokenegg_page_skill",
+      "community": 0,
+      "norm_label": "/brokenegg-page \u1109\u1173\u110f\u1175\u11af"
+    },
+    {
+      "label": "\uc0c9 \ud1a0\ud070 (Color)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_tokens_color_token",
+      "community": 1,
+      "norm_label": "\u1109\u1162\u11a8 \u1110\u1169\u110f\u1173\u11ab (color)"
+    },
+    {
+      "label": "\ubc18\uacbd \ud1a0\ud070 (Radius)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_tokens_radius_token",
+      "community": 6,
+      "norm_label": "\u1107\u1161\u11ab\u1100\u1167\u11bc \u1110\u1169\u110f\u1173\u11ab (radius)"
+    },
+    {
+      "label": "\uc11c\uccb4 \ud1a0\ud070 (Typography)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_tokens_typography_token",
+      "community": 1,
+      "norm_label": "\u1109\u1165\u110e\u1166 \u1110\u1169\u110f\u1173\u11ab (typography)"
+    },
+    {
+      "label": "\ud0c0\uc785 \uc2a4\ucf00\uc77c",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_tokens_type_scale",
+      "community": 1,
+      "norm_label": "\u1110\u1161\u110b\u1175\u11b8 \u1109\u1173\u110f\u1166\u110b\u1175\u11af"
+    },
+    {
+      "label": "\uac04\uaca9 (Spacing)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_tokens_spacing",
+      "community": 1,
+      "norm_label": "\u1100\u1161\u11ab\u1100\u1167\u11a8 (spacing)"
+    },
+    {
+      "label": "\ubaa8\uc158 (Motion)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_tokens_motion",
+      "community": 1,
+      "norm_label": "\u1106\u1169\u1109\u1167\u11ab (motion)"
+    },
+    {
+      "label": "\ubc18\uc751\ud615 \ube0c\ub808\uc774\ud06c\ud3ec\uc778\ud2b8 (1024px)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_tokens_breakpoint",
+      "community": 1,
+      "norm_label": "\u1107\u1161\u11ab\u110b\u1173\u11bc\u1112\u1167\u11bc \u1107\u1173\u1105\u1166\u110b\u1175\u110f\u1173\u1111\u1169\u110b\u1175\u11ab\u1110\u1173 (1024px)"
+    },
+    {
+      "label": "grid-bg (\uaca9\uc790 \ubc30\uacbd)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_tokens_grid_bg",
+      "community": 4,
+      "norm_label": "grid-bg (\u1100\u1167\u11a8\u110c\u1161 \u1107\u1162\u1100\u1167\u11bc)"
+    },
+    {
+      "label": "canvas (\uce94\ubc84\uc2a4 \uce74\ub4dc)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_tokens_canvas",
+      "community": 4,
+      "norm_label": "canvas (\u110f\u1162\u11ab\u1107\u1165\u1109\u1173 \u110f\u1161\u1103\u1173)"
+    },
+    {
+      "label": "Pretendard (\uc0b0\uc138\ub9ac\ud504)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_tokens_pretendard",
+      "community": 1,
+      "norm_label": "pretendard (\u1109\u1161\u11ab\u1109\u1166\u1105\u1175\u1111\u1173)"
+    },
+    {
+      "label": "Noto Serif KR (\uc138\ub9ac\ud504)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_tokens_noto_serif_kr",
+      "community": 1,
+      "norm_label": "noto serif kr (\u1109\u1166\u1105\u1175\u1111\u1173)"
+    },
+    {
+      "label": "Badge \ucef4\ud3ec\ub10c\ud2b8",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components_badge",
+      "community": 6,
+      "norm_label": "badge \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173"
+    },
+    {
+      "label": "Button \ucef4\ud3ec\ub10c\ud2b8",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components_button",
+      "community": 6,
+      "norm_label": "button \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173"
+    },
+    {
+      "label": "Logo \ucef4\ud3ec\ub10c\ud2b8",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components_logo",
+      "community": 2,
+      "norm_label": "logo \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173"
+    },
+    {
+      "label": "SiteHeader \uc704\uc82f",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components_site_header",
+      "community": 4,
+      "norm_label": "siteheader \u110b\u1171\u110c\u1166\u11ba"
+    },
+    {
+      "label": "SiteFooter \uc704\uc82f",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components_site_footer",
+      "community": 4,
+      "norm_label": "sitefooter \u110b\u1171\u110c\u1166\u11ba"
+    },
+    {
+      "label": "Hero \uc704\uc82f",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components_hero",
+      "community": 2,
+      "norm_label": "hero \u110b\u1171\u110c\u1166\u11ba"
+    },
+    {
+      "label": "Problems \uc704\uc82f",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components_problems",
+      "community": 2,
+      "norm_label": "problems \u110b\u1171\u110c\u1166\u11ba"
+    },
+    {
+      "label": "Services \uc704\uc82f (\ubbf8\ub514\uc5b4 \uac24\ub7ec\ub9ac)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components_services",
+      "community": 2,
+      "norm_label": "services \u110b\u1171\u110c\u1166\u11ba (\u1106\u1175\u1103\u1175\u110b\u1165 \u1100\u1162\u11af\u1105\u1165\u1105\u1175)"
+    },
+    {
+      "label": "Testimonials \uc704\uc82f",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components_testimonials",
+      "community": 2,
+      "norm_label": "testimonials \u110b\u1171\u110c\u1166\u11ba"
+    },
+    {
+      "label": "FinalCta \uc704\uc82f",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components_final_cta",
+      "community": 4,
+      "norm_label": "finalcta \u110b\u1171\u110c\u1166\u11ba"
+    },
+    {
+      "label": "service-preview \uc778\ub77c\uc778 \ud504\ub9ac\ubdf0 \ud53c\ucc98",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components_service_preview",
+      "community": 2,
+      "norm_label": "service-preview \u110b\u1175\u11ab\u1105\u1161\u110b\u1175\u11ab \u1111\u1173\u1105\u1175\u1107\u1172 \u1111\u1175\u110e\u1165"
+    },
+    {
+      "label": "\ubaa9\uc801 \uae30\ubc18 \uc138\uadf8\uba3c\ud2b8 \uba85\uba85 \uaddc\uce59",
+      "file_type": "rationale",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_components_fsd_segment_rule",
+      "community": 2,
+      "norm_label": "\u1106\u1169\u11a8\u110c\u1165\u11a8 \u1100\u1175\u1107\u1161\u11ab \u1109\u1166\u1100\u1173\u1106\u1165\u11ab\u1110\u1173 \u1106\u1167\u11bc\u1106\u1167\u11bc \u1100\u1172\u110e\u1175\u11a8"
+    },
+    {
+      "label": "fsd-feature-sliced-design",
+      "file_type": "document",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_fsd_feature_sliced_design",
+      "community": 2,
+      "norm_label": "fsd-feature-sliced-design"
+    },
+    {
+      "label": "fsd-public-api",
+      "file_type": "document",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_fsd_public_api",
+      "community": 0,
+      "norm_label": "fsd-public-api"
+    },
+    {
+      "label": "\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c",
+      "file_type": "document",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_landing_page_copy",
+      "community": 0,
+      "norm_label": "\u1105\u1162\u11ab\u1103\u1175\u11bc \u1111\u1166\u110b\u1175\u110c\u1175 \u110f\u1161\u1111\u1175"
+    },
+    {
+      "label": "\uba54\uc778 \uce74\ud53c",
+      "file_type": "document",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_main_copy",
+      "community": 0,
+      "norm_label": "\u1106\u1166\u110b\u1175\u11ab \u110f\u1161\u1111\u1175"
+    },
+    {
+      "label": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP)",
+      "file_type": "document",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_solution_3d_dpp",
+      "community": 0,
+      "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - 3d \u1103\u1175\u110c\u1175\u1110\u1165\u11af\u110c\u1166\u1111\u116e\u11b7\u110b\u1167\u1100\u116f\u11ab (dpp)"
+    },
+    {
+      "label": "\ud398\uc774\uc9c0 \uace8\uaca9 (\uc178)",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_layout_patterns_page_shell",
+      "community": 4,
+      "norm_label": "\u1111\u1166\u110b\u1175\u110c\u1175 \u1100\u1169\u11af\u1100\u1167\u11a8 (\u1109\u1168\u11af)"
+    },
+    {
+      "label": "\uc139\uc158 \ube4c\ub529\ube14\ub85d",
+      "file_type": "concept",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_layout_patterns_section_blocks",
+      "community": 2,
+      "norm_label": "\u1109\u1166\u11a8\u1109\u1167\u11ab \u1107\u1175\u11af\u1103\u1175\u11bc\u1107\u1173\u11af\u1105\u1169\u11a8"
+    },
+    {
+      "label": "\ub9ac\ub4ec \uaddc\uce59 (\ubc1d\uc74c\u2192\uac80\uc815 \uac24\ub7ec\ub9ac\u2192\ubc1d\uc74c)",
+      "file_type": "rationale",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_layout_patterns_rhythm_rule",
+      "community": 0,
+      "norm_label": "\u1105\u1175\u1103\u1173\u11b7 \u1100\u1172\u110e\u1175\u11a8 (\u1107\u1161\u11b0\u110b\u1173\u11b7\u2192\u1100\u1165\u11b7\u110c\u1165\u11bc \u1100\u1162\u11af\u1105\u1165\u1105\u1175\u2192\u1107\u1161\u11b0\u110b\u1173\u11b7)"
+    },
+    {
+      "label": "FSD import \ubc29\ud5a5 \uaddc\uce59",
+      "file_type": "rationale",
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "wiki_design_system_layout_patterns_fsd_import_direction",
+      "community": 0,
+      "norm_label": "fsd import \u1107\u1161\u11bc\u1112\u1163\u11bc \u1100\u1172\u110e\u1175\u11a8"
     }
   ],
   "links": [
@@ -842,48 +1456,872 @@
       "weight": 1.0,
       "source": "wiki____________index_moc",
       "target": "raw____________service_plan"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_overview"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns",
+      "target": "wiki_design_system_overview"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview",
+      "target": "wiki_design_system_overview_brokenegg_page_skill"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview",
+      "target": "wiki_design_system_overview_editorial_grid"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview",
+      "target": "wiki_design_system_overview_frame_in_canvas"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview",
+      "target": "wiki_design_system_overview_global_css"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview",
+      "target": "wiki_design_system_overview_micro_typo_label"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview",
+      "target": "wiki_design_system_overview_monochrome_first"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview",
+      "target": "wiki_design_system_overview_pill_shape"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview",
+      "target": "wiki_design_system_overview_single_contrast_plane"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview",
+      "target": "wiki_design_system_overview_two_typefaces"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview",
+      "target": "wiki_design_system_overview_variant_reference"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview",
+      "target": "wiki_design_system_tokens"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview",
+      "target": "wiki_landing_page_copy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_index_moc",
+      "target": "wiki_design_system_overview"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_tokens"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns",
+      "target": "wiki_design_system_tokens"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_tokens",
+      "target": "wiki_design_system_tokens_breakpoint"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_tokens",
+      "target": "wiki_design_system_tokens_canvas"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_tokens",
+      "target": "wiki_design_system_tokens_color_token"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_tokens",
+      "target": "wiki_design_system_tokens_grid_bg"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_tokens",
+      "target": "wiki_design_system_tokens_motion"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_tokens",
+      "target": "wiki_design_system_tokens_radius_token"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_tokens",
+      "target": "wiki_design_system_tokens_spacing"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_tokens",
+      "target": "wiki_design_system_tokens_type_scale"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_tokens",
+      "target": "wiki_design_system_tokens_typography_token"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_index_moc",
+      "target": "wiki_design_system_tokens"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_components_badge"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_components_button"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_components_final_cta"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_components_fsd_segment_rule"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_components_hero"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_components_logo"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_components_problems"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_components_service_preview"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_components_services"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_components_site_footer"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_components_site_header"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_components_testimonials"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_design_system_layout_patterns"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components",
+      "target": "wiki_fsd_feature_sliced_design"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_index_moc",
+      "target": "wiki_design_system_components"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns",
+      "target": "wiki_design_system_layout_patterns_fsd_import_direction"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns",
+      "target": "wiki_design_system_layout_patterns_page_shell"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns",
+      "target": "wiki_design_system_layout_patterns_rhythm_rule"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns",
+      "target": "wiki_design_system_layout_patterns_section_blocks"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns",
+      "target": "wiki_fsd_feature_sliced_design"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns",
+      "target": "wiki_fsd_public_api"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns",
+      "target": "wiki_landing_page_copy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns",
+      "target": "wiki_main_copy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns",
+      "target": "wiki_solution_3d_dpp"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_index_moc",
+      "target": "wiki_design_system_layout_patterns"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_index_moc",
+      "target": "wiki_landing_page_copy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_index_moc",
+      "target": "wiki_main_copy"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_index_moc",
+      "target": "wiki_solution_3d_dpp"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview_frame_in_canvas",
+      "target": "wiki_design_system_tokens_canvas"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview_frame_in_canvas",
+      "target": "wiki_design_system_tokens_grid_bg"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview_two_typefaces",
+      "target": "wiki_design_system_tokens_noto_serif_kr"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview_two_typefaces",
+      "target": "wiki_design_system_tokens_pretendard"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview_micro_typo_label",
+      "target": "wiki_design_system_components_badge"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview_editorial_grid",
+      "target": "wiki_design_system_tokens_spacing"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns_rhythm_rule",
+      "target": "wiki_design_system_overview_single_contrast_plane"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview_single_contrast_plane",
+      "target": "wiki_design_system_components_services"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components_badge",
+      "target": "wiki_design_system_overview_pill_shape"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components_button",
+      "target": "wiki_design_system_overview_pill_shape"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_overview_pill_shape",
+      "target": "wiki_design_system_tokens_radius_token"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_tokens_color_token",
+      "target": "wiki_design_system_overview_global_css"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_tokens_typography_token",
+      "target": "wiki_design_system_tokens_noto_serif_kr"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_tokens_typography_token",
+      "target": "wiki_design_system_tokens_pretendard"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns_page_shell",
+      "target": "wiki_design_system_tokens_grid_bg"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns_page_shell",
+      "target": "wiki_design_system_tokens_canvas"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns_page_shell",
+      "target": "wiki_design_system_components_site_header"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns_page_shell",
+      "target": "wiki_design_system_components_site_footer"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns_section_blocks",
+      "target": "wiki_design_system_components_hero"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns_section_blocks",
+      "target": "wiki_design_system_components_problems"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components_service_preview",
+      "target": "wiki_design_system_components_services"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns_section_blocks",
+      "target": "wiki_design_system_components_services"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns_section_blocks",
+      "target": "wiki_design_system_components_testimonials"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns_page_shell",
+      "target": "wiki_design_system_components_final_cta"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_components_fsd_segment_rule",
+      "target": "wiki_fsd_feature_sliced_design"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns_fsd_import_direction",
+      "target": "wiki_fsd_feature_sliced_design"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_design_system_layout_patterns_fsd_import_direction",
+      "target": "wiki_fsd_public_api"
     }
   ],
   "hyperedges": [
     {
-      "id": "core_to_edge_two_solutions",
-      "label": "\ub2e8\uc77c \ucf54\uc5b4 \uc5d4\uc9c4 \u2192 \ub450 \uc194\ub8e8\uc158 \ud655\uc7a5 (Core-to-Edge)",
+      "id": "design_system_four_notes",
+      "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c 4\ubd80\uc791 \ub178\ud2b8 (\uac1c\uc694\u00b7\ud1a0\ud070\u00b7\ucef4\ud3ec\ub10c\ud2b8\u00b7\ub808\uc774\uc544\uc6c3)",
       "nodes": [
-        "wiki____________3d_____________________engine",
-        "wiki____________dpp",
-        "wiki____________safety_education"
-      ],
-      "relation": "participate_in",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "brokenegg-doc/wiki/\ud68c\uc0ac \uac1c\uc694.md"
-    },
-    {
-      "id": "digital_ecosystem_integration",
-      "label": "\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4: \uc81c\ud488 \uc644\ubcbd\uc131 + \uacf5\uc815 \uc548\uc804\uc131 \ud1b5\ud569",
-      "nodes": [
-        "wiki____________digital_ecosystem",
-        "wiki____________dpp",
-        "wiki____________safety_education",
-        "wiki____________3d_____________________engine"
+        "wiki_design_system_overview",
+        "wiki_design_system_tokens",
+        "wiki_design_system_components",
+        "wiki_design_system_layout_patterns"
       ],
       "relation": "form",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "brokenegg-doc/wiki/\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4.md"
+      "confidence_score": 0.9,
+      "source_file": "wiki/\uc778\ub371\uc2a4 (MOC).md"
     },
     {
-      "id": "landing_three_services",
-      "label": "\ub79c\ub529 3\uc885 \uc11c\ube44\uc2a4 (Egg One / Egg Two / XR)",
+      "id": "page_shell_composition",
+      "label": "\ud398\uc774\uc9c0 \uc178 \uad6c\uc131 (grid-bg + canvas + SiteHeader/Footer)",
       "nodes": [
-        "wiki____________egg_one",
-        "wiki____________egg_two",
-        "wiki____________xr_safety_training"
+        "wiki_design_system_tokens_grid_bg",
+        "wiki_design_system_tokens_canvas",
+        "wiki_design_system_components_site_header",
+        "wiki_design_system_components_site_footer"
       ],
       "relation": "participate_in",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "brokenegg-doc/wiki/\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md"
+      "confidence_score": 0.9,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md"
+    },
+    {
+      "id": "section_building_blocks",
+      "label": "\uc139\uc158 \ube4c\ub529\ube14\ub85d \uc870\ud569 (Hero/Problems/Services/Testimonials/FinalCta)",
+      "nodes": [
+        "wiki_design_system_components_hero",
+        "wiki_design_system_components_problems",
+        "wiki_design_system_components_services",
+        "wiki_design_system_components_testimonials",
+        "wiki_design_system_components_final_cta"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md"
     }
-  ]
+  ],
+  "built_at_commit": "e2b0dbb781fd9a1753ffcf88a6b187c635bf4c2e"
 }

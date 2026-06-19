@@ -1,28 +1,28 @@
 {
   "/Users/mongte/github/brokenegg/brokenegg-doc/.obsidian/app.json": {
-    "mtime": 1781605505.4679043,
+    "mtime": 1781800712.42627,
     "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
     "semantic_hash": "99914b932bd37a50b983c5e7c90ae93b"
   },
   "/Users/mongte/github/brokenegg/brokenegg-doc/.obsidian/appearance.json": {
-    "mtime": 1781605505.4685073,
+    "mtime": 1781800712.4270184,
     "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
     "semantic_hash": "99914b932bd37a50b983c5e7c90ae93b"
   },
   "/Users/mongte/github/brokenegg/brokenegg-doc/.obsidian/core-plugins.json": {
-    "mtime": 1781605504.9768093,
+    "mtime": 1781800711.9371033,
     "ast_hash": "7c877bea49eaeabb100563bd157b9051",
     "semantic_hash": "7c877bea49eaeabb100563bd157b9051"
   },
   "/Users/mongte/github/brokenegg/brokenegg-doc/.obsidian/graph.json": {
-    "mtime": 1781604501.421,
+    "mtime": 1781800732.290999,
     "ast_hash": "a759b9cdf40bcaea48edc6b1fb3ee3a2",
     "semantic_hash": "a759b9cdf40bcaea48edc6b1fb3ee3a2"
   },
   "/Users/mongte/github/brokenegg/brokenegg-doc/.obsidian/workspace.json": {
-    "mtime": 1781605505.4932,
-    "ast_hash": "e31a09b4bf3ef678c26fef425b4aae0a",
-    "semantic_hash": "e31a09b4bf3ef678c26fef425b4aae0a"
+    "mtime": 1781800731.19272,
+    "ast_hash": "42f37e15891d7fc802035f4c82c175ba",
+    "semantic_hash": "42f37e15891d7fc802035f4c82c175ba"
   },
   "/Users/mongte/github/brokenegg/brokenegg-doc/CLAUDE.md": {
     "mtime": 1781608359.0795794,
@@ -65,9 +65,9 @@
     "semantic_hash": "4563d1685617ab8d0270d9c313c40d9d"
   },
   "/Users/mongte/github/brokenegg/brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md": {
-    "mtime": 1781602355.0488992,
-    "ast_hash": "3c2873f0e1a8792843cc5234f5c44e0f",
-    "semantic_hash": "3c2873f0e1a8792843cc5234f5c44e0f"
+    "mtime": 1781800346.1063623,
+    "ast_hash": "83cdfd3c6bef89e11847f47c5bb967e7",
+    "semantic_hash": "83cdfd3c6bef89e11847f47c5bb967e7"
   },
   "/Users/mongte/github/brokenegg/brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md": {
     "mtime": 1781600020.4898217,
@@ -78,5 +78,25 @@
     "mtime": 1781600008.6348877,
     "ast_hash": "0011b42a47bdf1e1557de12159affda0",
     "semantic_hash": "0011b42a47bdf1e1557de12159affda0"
+  },
+  "/Users/mongte/github/brokenegg/brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md": {
+    "mtime": 1781800224.7061992,
+    "ast_hash": "b7d21d6dc1c5784af8a74f8534d27bb9",
+    "semantic_hash": "b7d21d6dc1c5784af8a74f8534d27bb9"
+  },
+  "/Users/mongte/github/brokenegg/brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md": {
+    "mtime": 1781800252.2971215,
+    "ast_hash": "6316123d3e6a9af5985ed1076b393833",
+    "semantic_hash": "6316123d3e6a9af5985ed1076b393833"
+  },
+  "/Users/mongte/github/brokenegg/brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md": {
+    "mtime": 1781800283.0718286,
+    "ast_hash": "430f5a4660f740de447839f651f9e103",
+    "semantic_hash": "430f5a4660f740de447839f651f9e103"
+  },
+  "/Users/mongte/github/brokenegg/brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md": {
+    "mtime": 1781800316.5537574,
+    "ast_hash": "fa3a6de2f83072515e5b049c5a335ca5",
+    "semantic_hash": "fa3a6de2f83072515e5b049c5a335ca5"
   }
 }

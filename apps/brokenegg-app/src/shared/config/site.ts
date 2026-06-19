@@ -13,6 +13,12 @@ export const siteConfig = {
     { label: 'SIMULATION', active: false },
     { label: 'SAFETY', active: false },
   ],
+  /** 햄버거(오버레이) 메뉴. 랜딩은 "홈"으로 표기. */
+  menu: [
+    { label: '홈', href: '/' },
+    { label: '서비스 소개', href: '/services' },
+    { label: '고객 사례', href: '/cases' },
+  ],
   topicTags: ['CLIMATE CHANGE', 'SAFETY FIRST', 'INNOVATION', 'ESG COMPLIANCE'],
   footer: {
     copyright: '© 2024 Broken Egg Inc. All Rights Reserved.',
