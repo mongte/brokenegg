@@ -1,3 +1,4 @@
+import styles from './use-case.module.css';
 import {
   Users,
   TrendingUp,
@@ -24,14 +25,14 @@ export function UseCaseRow({ useCase }: UseCaseRowProps) {
   const Icon = ICONS[useCase.icon];
 
   return (
-    <article className="use-case">
-      <div className="use-case-head">
-        <span className="use-case-icon">
+    <article className={styles['use-case']}>
+      <div className={styles['use-case-head']}>
+        <span className={styles['use-case-icon']}>
           <Icon size={40} strokeWidth={1.5} aria-hidden="true" />
         </span>
         <h3>{useCase.title}</h3>
       </div>
-      <div className="use-case-body">
+      <div className={styles['use-case-body']}>
         {useCase.body.map((para, i) => (
           <p key={i}>{para}</p>
         ))}

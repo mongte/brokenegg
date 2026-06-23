@@ -1,0 +1,287 @@
+/* --- Demo request modal --- */
+
+.demo-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  animation: demo-fade 0.2s ease;
+}
+
+.demo-modal {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 48px;
+  animation: demo-rise 0.25s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.demo-modal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 14px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+.demo-modal-close:hover {
+  background: var(--accent-bg);
+  color: var(--text-main);
+}
+
+.demo-modal-head {
+  margin-bottom: 32px;
+}
+
+.demo-modal-head h2 {
+  margin: 16px 0 8px;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.demo-modal-head p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+/* --- Form --- */
+
+.demo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.demo-field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.demo-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.demo-field label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-main);
+}
+
+.demo-field .req {
+  color: var(--text-main);
+}
+
+.demo-field input,
+.demo-field textarea {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--text-main);
+  outline: none;
+  transition: border-color 0.2s ease;
+  resize: vertical;
+}
+
+.demo-field textarea {
+  min-height: 88px;
+  line-height: 1.6;
+}
+
+.demo-field input::placeholder,
+.demo-field textarea::placeholder {
+  color: #bbb;
+}
+
+.demo-field input:focus,
+.demo-field textarea:focus {
+  border-bottom-color: var(--text-main);
+}
+
+/* 에러 상태: 컬러 액센트 대신 2px 검정 밑줄로 표시(디자인 시스템 원칙) */
+
+.demo-field input[aria-invalid='true'],
+.demo-field textarea[aria-invalid='true'] {
+  border-bottom-width: 2px;
+  border-bottom-color: var(--text-main);
+}
+
+.demo-field input:disabled,
+.demo-field textarea:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.demo-field-error {
+  margin-top: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.demo-consent-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.demo-consent-title {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-main);
+}
+
+/* 약관 원문 — 고정 높이 + 스크롤 */
+
+.demo-policy {
+  max-height: 150px;
+  overflow-y: auto;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--accent-bg);
+  font-size: 11px;
+  line-height: 1.75;
+  color: var(--text-muted);
+  white-space: pre-line;
+}
+
+.demo-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-main);
+  cursor: pointer;
+}
+
+.demo-consent input {
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  accent-color: var(--text-main);
+  cursor: pointer;
+}
+
+/* 동의 누락 시 강조: 입력 필드와 동일한 모노크롬 원칙(2px 검정) */
+.demo-consent input[aria-invalid='true'] {
+  outline: 2px solid var(--text-main);
+  outline-offset: 3px;
+}
+
+.demo-consent input[aria-invalid='true'] + span {
+  font-weight: 700;
+}
+
+.demo-submit {
+  width: 100%;
+  padding: 16px;
+  font-size: 15px;
+}
+
+.demo-submit:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.demo-form-error {
+  font-size: 13px;
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+/* 화면에서 숨기되 봇은 채우게 두는 허니팟 */
+
+.demo-honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* --- Success state --- */
+
+.demo-modal-success {
+  text-align: center;
+  padding: 24px 0;
+}
+
+.demo-modal-success h2 {
+  margin: 16px 0 12px;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.demo-modal-success p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin-bottom: 28px;
+}
+
+@keyframes demo-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes demo-rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .demo-modal {
+    padding: 32px 24px;
+    border-radius: 24px;
+  }
+  .demo-field-row {
+    grid-template-columns: 1fr;
+  }
+}

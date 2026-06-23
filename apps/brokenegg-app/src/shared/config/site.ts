@@ -18,8 +18,14 @@ export const siteConfig = {
     { label: '홈', href: '/' },
     { label: '서비스 소개', href: '/services' },
     { label: '고객 사례', href: '/cases' },
+    { label: '회사 소개', href: '/about' },
   ],
   topicTags: ['CLIMATE CHANGE', 'SAFETY FIRST', 'INNOVATION', 'ESG COMPLIANCE'],
+  /** 문의 채널 — 문자 / 이메일 / 전화. */
+  contact: {
+    phone: '010-2022-3863',
+    email: 'smlee@brokenegg.co.kr',
+  },
   footer: {
     copyright: '© 2024 Broken Egg Inc. All Rights Reserved.',
     links: ['Privacy', 'Terms', 'Contact'],

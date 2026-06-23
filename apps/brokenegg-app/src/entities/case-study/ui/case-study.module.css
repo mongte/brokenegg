@@ -1,0 +1,270 @@
+.case-study {
+  padding: 64px 40px;
+  border-top: 1px solid var(--border);
+}
+
+.case-study:first-child {
+  border-top: none;
+}
+
+.case-media-row {
+  display: grid;
+  /* 부모 폭을 정확히 반반으로 분할 (minmax(0,…)로 콘텐츠 최소폭이 비율을 밀지 않게) */
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px;
+}
+
+.case-media {
+  position: relative;
+  /* 높이는 고정 440px. (aspect-ratio + min-height 조합은 높이로부터 폭을 역산해
+     그리드 트랙을 넘는 폭 오버플로/겹침을 유발하므로 비율을 쓰지 않는다.)
+     폭은 그리드 트랙(부모의 반)에 그대로 맞춰진다. */
+  width: 100%;
+  min-width: 0;
+  height: 440px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.case-media iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.case-media--video {
+  background: var(--text-main);
+}
+
+.case-media--experience {
+  background: var(--accent-bg);
+}
+
+.case-exp-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 10px 16px;
+  background: var(--text-main);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.case-media-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* 클릭 전 포스터(이미지 + 가운데 재생 버튼) — button 요소 */
+
+.case-poster {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  background-color: var(--text-main);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* 이미지 위 가독성을 위한 어둑한 오버레이 (hover 시 옅어짐) */
+
+.case-poster::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.32);
+  transition: background 0.25s ease;
+}
+
+.case-poster:hover::before {
+  background: rgba(0, 0, 0, 0.18);
+}
+
+/* 가운데 재생 버튼 — hover/active 인터랙션 */
+
+.case-play-btn {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1.5px solid rgba(255, 255, 255, 0.85);
+  padding-left: 3px;
+  transition: transform 0.25s cubic-bezier(0.23, 1, 0.32, 1), background 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.case-poster:hover .case-play-btn {
+  transform: scale(1.12);
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.12);
+}
+
+.case-poster:active .case-play-btn {
+  transform: scale(0.96);
+}
+
+.case-poster:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: -4px;
+}
+
+/* 3D 체험 포스터: 클릭 시 한 번 뒤집히는(flip) 애니메이션 */
+
+.case-media--experience {
+  perspective: 1200px;
+}
+
+.case-poster--exp {
+  transform-style: preserve-3d;
+  /* 90°를 넘어가면 뒷면을 감춰 깔끔하게 "넘어가며 사라지는" 연출 */
+  backface-visibility: hidden;
+}
+
+.case-poster--exp.is-rotating {
+  animation: case-flip 0.8s cubic-bezier(0.45, 0, 0.2, 1) forwards;
+  cursor: progress;
+  pointer-events: none;
+}
+
+@keyframes case-flip {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+/* 회전 완료 후 노출되는 iframe 무대 */
+
+.case-exp-stage {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  animation: case-fade-in 0.3s ease;
+}
+
+/* 뷰포트 밖으로 나가면 렌더 루프 정지 (iframe은 살아있어 재로딩 없음) */
+
+.case-exp-stage.is-parked {
+  display: none;
+}
+
+@keyframes case-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.case-media-ph-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.case-media-ph-note {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.case-media--video .case-media-ph-label {
+  color: #fff;
+}
+
+.case-media--video .case-media-ph-note {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.case-meta {
+  text-align: center;
+  max-width: 720px;
+  margin: 28px auto 0;
+}
+
+.case-meta h3 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+}
+
+.case-meta p {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.case-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--text-muted);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+/* 링크가 가능한 anchor만 포인터/호버 강조 */
+
+a.case-link:hover {
+  color: var(--text-main);
+}
+
+.case-link svg {
+  flex: 0 0 auto;
+  opacity: 0.8;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+a.case-link:hover svg {
+  opacity: 1;
+  transform: translate(1px, -1px);
+}
+
+/* 링크가 아닌 평문(연락처 등)은 밑줄·포인터 제거 */
+
+.case-link--plain {
+  text-decoration: none;
+  cursor: default;
+}
+
+/* 스크린리더 전용 텍스트 */
+
+@media (max-width: 1024px) {
+  .case-media-row {
+    grid-template-columns: 1fr;
+  }
+}

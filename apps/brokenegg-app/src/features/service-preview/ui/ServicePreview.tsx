@@ -1,5 +1,7 @@
 'use client';
 
+import styles from './service-preview.module.css';
+import { cx } from '@/shared/lib';
 import { useEffect, useRef, useState, type TransitionEvent } from 'react';
 
 interface ServicePreviewProps {
@@ -69,23 +71,25 @@ export function ServicePreview({ open, url, title, kind = 'live3d', onClose }: S
   return (
     <div
       ref={panelRef}
-      className={`service-preview ${expanded ? 'open' : ''}`}
+      className={cx(styles['service-preview'], expanded && styles['open'])}
       onTransitionEnd={handleTransitionEnd}
       aria-hidden={!expanded}
     >
-      <div className="service-preview-inner">
-        <div className="service-preview-bar">
-          <span className="service-preview-label">
+      <div className={styles['service-preview-inner']}>
+        <div className={styles['service-preview-bar']}>
+          <span className={styles['service-preview-label']}>
             {title ? `${title} · ${kindLabel}` : kindLabel}
           </span>
-          <button type="button" className="service-preview-close" onClick={onClose}>
+          <button type="button" className={styles['service-preview-close']} onClick={onClose}>
             닫기 ✕
           </button>
         </div>
         <div
-          className={`service-preview-stage${revealed ? ' is-revealed' : ''}${
-            parked ? ' is-parked' : ''
-          }`}
+          className={cx(
+            styles['service-preview-stage'],
+            revealed && styles['is-revealed'],
+            parked && styles['is-parked'],
+          )}
         >
           {url ? (
             <iframe

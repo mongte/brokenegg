@@ -1,0 +1,64 @@
+/* --- Contact CTA (문의하기: 문자 · 이메일 · 전화) --- */
+
+.contact-cta {
+  padding: 120px 40px;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+
+.contact-cta h2 {
+  font-size: clamp(28px, 4vw, 48px);
+  font-weight: 500;
+  margin-bottom: 40px;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+.contact-channels {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.contact-channel {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 132px;
+  padding: 28px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  color: var(--text-main);
+  text-decoration: none;
+  transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+}
+
+.contact-channel:hover {
+  border-color: var(--text-main);
+  background: var(--accent-bg);
+  transform: translateY(-4px);
+}
+
+.contact-channel-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--text-main);
+  color: #fff;
+  transition: transform 0.2s ease;
+}
+
+.contact-channel:hover .contact-channel-icon {
+  transform: scale(1.08);
+}
+
+.contact-channel-label {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}

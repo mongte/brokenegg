@@ -7,8 +7,10 @@ export interface CaseStudy {
   description: string;
   /** 외부 링크 또는 연락처(스토어 URL / 이메일 등). 없으면 미표기. */
   link?: string;
-  /** 케이스 소개 영상(YouTube embed) — 추후 URL 제공. 없으면 영역만 placeholder. */
+  /** 케이스 소개 영상(YouTube embed). 없으면 영역만 placeholder. */
   videoUrl?: string;
-  /** 인터랙티브 3D 체험(iframe) — 추후 URL 제공. 없으면 영역만 placeholder. */
+  /** 인터랙티브 3D 체험(iframe). 없으면 영역만 placeholder. */
   experienceUrl?: string;
+  /** 3D 체험 썸네일(클릭 전 노출 이미지) 오버라이드. 미지정 시 영상 썸네일을 사용. */
+  posterUrl?: string;
 }

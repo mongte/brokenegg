@@ -1,9 +1,10 @@
+import styles from './final-cta.module.css';
 import { siteConfig } from '@/shared/config';
 import { DemoRequestButton } from '@/features/demo-request';
 
 export function FinalCta() {
   return (
-    <section className="final-cta" id={siteConfig.demoAnchor.replace('#', '')}>
+    <section className={styles['final-cta']} id={siteConfig.demoAnchor.replace('#', '')}>
       <h2>
         지금 브로큰에그의
         <br />

@@ -1,3 +1,5 @@
+import styles from './service-card.module.css';
+import { cx } from '@/shared/lib';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Badge } from '@/shared/ui/badge';
@@ -29,20 +31,20 @@ export function ServiceCard({ service, onSelect, active = false }: ServiceCardPr
         fill
         sizes="(max-width: 1024px) 100vw, 25vw"
       />
-      <div className="service-overlay">
-        <div className="service-meta">
+      <div className={styles['service-overlay']}>
+        <div className={styles['service-meta']}>
           <Badge style={{ background: 'rgba(255,255,255,0.2)', color: '#fff' }}>
             {service.code}
           </Badge>
           <span style={{ fontSize: '10px', fontWeight: 700 }}>{service.tag}</span>
         </div>
-        <div className="service-info">
+        <div className={styles['service-info']}>
           <span>{service.category}</span>
           <h4>{service.name}</h4>
         </div>
       </div>
       {interactive ? (
-        <span className="service-cue">{active ? '닫기 ✕' : cueLabel}</span>
+        <span className={styles['service-cue']}>{active ? '닫기 ✕' : cueLabel}</span>
       ) : null}
     </>
   );
@@ -52,7 +54,7 @@ export function ServiceCard({ service, onSelect, active = false }: ServiceCardPr
     return (
       <Link
         href={service.href}
-        className="service-item is-interactive is-link"
+        className={cx(styles['service-item'], styles['is-interactive'], 'is-link')}
         aria-label={`${service.name} — ${service.category}`}
       >
         {inner}
@@ -62,7 +64,11 @@ export function ServiceCard({ service, onSelect, active = false }: ServiceCardPr
 
   return (
     <div
-      className={`service-item${interactive ? ' is-interactive' : ''}${active ? ' is-active' : ''}`}
+      className={cx(
+        styles['service-item'],
+        interactive && styles['is-interactive'],
+        active && styles['is-active'],
+      )}
       onClick={onSelect}
       role={interactive ? 'button' : undefined}
       tabIndex={interactive ? 0 : undefined}

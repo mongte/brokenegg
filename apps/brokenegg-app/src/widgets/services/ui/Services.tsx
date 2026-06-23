@@ -1,5 +1,6 @@
 'use client';
 
+import styles from './services.module.css';
 import { useState } from 'react';
 import { siteConfig } from '@/shared/config';
 import { ServiceCard, services } from '@/entities/service';
@@ -15,7 +16,7 @@ export function Services() {
   return (
     <>
       <section
-        className="services-grid"
+        className={styles['services-grid']}
         id={siteConfig.servicesAnchor.replace('#', '')}
       >
         {services.map((service) => (

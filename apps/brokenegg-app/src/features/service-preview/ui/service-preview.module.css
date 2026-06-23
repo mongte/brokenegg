@@ -1,0 +1,82 @@
+/* --- Service live 3D preview (slide-down) --- */
+
+.service-preview {
+  height: 0;
+  overflow: hidden;
+  background: var(--text-main);
+  transition: height 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service-preview.open {
+  height: clamp(440px, 72vh, 760px);
+}
+
+.service-preview-inner {
+  display: flex;
+  flex-direction: column;
+  height: clamp(440px, 72vh, 760px);
+}
+
+.service-preview-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  flex: 0 0 auto;
+}
+
+.service-preview-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.service-preview-close {
+  appearance: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.service-preview-close:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.service-preview-stage {
+  flex: 1 1 auto;
+  position: relative;
+  background: #000;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+/* slide down 완료 후에만 노출 */
+
+.service-preview-stage.is-revealed {
+  opacity: 1;
+}
+
+/* 닫혀서 park되면 렌더 루프(rAF) 정지 — iframe 자체는 살아있어 재로딩 없음 */
+
+.service-preview-stage.is-parked {
+  display: none;
+}
+
+.service-preview-stage iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}

@@ -1,0 +1,41 @@
+.milestone {
+  display: grid;
+  grid-template-columns: 88px 22px 1fr;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 0;
+  border-top: 1px solid var(--border);
+}
+
+.milestone:first-child {
+  border-top: none;
+}
+
+.milestone-date {
+  font-size: 14px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-muted);
+}
+
+.milestone-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1.5px solid var(--text-muted);
+  justify-self: center;
+}
+
+.milestone--highlight .milestone-dot {
+  background: var(--text-main);
+  border-color: var(--text-main);
+}
+
+.milestone-title {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.milestone--highlight .milestone-title {
+  font-weight: 700;
+}

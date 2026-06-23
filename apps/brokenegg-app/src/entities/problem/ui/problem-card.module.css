@@ -1,0 +1,41 @@
+.problem-card {
+  padding: 40px;
+  border-right: 1px solid var(--border);
+  transition: background 0.3s ease;
+}
+
+.problem-card:last-child {
+  border-right: none;
+}
+
+.problem-card:hover {
+  background: #fafafa;
+}
+
+.problem-card .num {
+  font-family: monospace;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+  display: block;
+}
+
+.problem-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.problem-card p {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .problem-card {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+}

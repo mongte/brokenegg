@@ -1,0 +1,18 @@
+/* --- Testimonials --- */
+
+.testimonials {
+  padding: 80px 40px;
+  background: #fff;
+}
+
+.testimonial-track {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+@media (max-width: 1024px) {
+  .testimonial-track {
+    grid-template-columns: 1fr;
+  }
+}

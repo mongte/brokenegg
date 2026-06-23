@@ -1,0 +1,19 @@
+.partner-logo {
+  display: inline-flex;
+  align-items: center;
+  height: 46px;
+}
+
+.partner-logo img {
+  height: 100%;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+  opacity: 0.82;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.partner-logo:hover img {
+  opacity: 1;
+  transform: scale(1.04);
+}

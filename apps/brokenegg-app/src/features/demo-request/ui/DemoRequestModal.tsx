@@ -1,5 +1,7 @@
 'use client';
 
+import styles from './demo-request.module.css';
+import { cx } from '@/shared/lib';
 import { useEffect, useState } from 'react';
 import type { ChangeEvent, FormEvent } from 'react';
 import { DEMO_MODAL_OPEN_EVENT } from '../lib/events';
@@ -104,6 +106,14 @@ export function DemoRequestModal() {
     if (hasErrors(errors) || consentMissing) {
       setStatus('idle');
       setError('');
+      // 예외처리 안 된(검증 실패) 첫 항목으로 포커스 이동 → 어디가 문제인지 강조.
+      const order: (keyof DemoRequestForm)[] = ['company', 'name', 'contact', 'email', 'message'];
+      const firstInvalid = order.find((field) => errors[field]);
+      const target = firstInvalid
+        ? document.getElementById(`demo-${firstInvalid}`)
+        : document.getElementById('demo-consent-check');
+      target?.focus();
+      target?.scrollIntoView({ block: 'center', behavior: 'smooth' });
       return;
     }
 
@@ -151,15 +161,15 @@ export function DemoRequestModal() {
 
   return (
     <div
-      className="demo-modal-backdrop"
+      className={styles['demo-modal-backdrop']}
       onClick={(e) => {
         if (e.target === e.currentTarget) close();
       }}
     >
-      <div className="demo-modal" role="dialog" aria-modal="true" aria-label="데모 요청">
+      <div className={styles['demo-modal']} role="dialog" aria-modal="true" aria-label="데모 요청">
         <button
           type="button"
-          className="demo-modal-close"
+          className={styles['demo-modal-close']}
           onClick={close}
           disabled={submitting}
           aria-label="닫기"
@@ -168,7 +178,7 @@ export function DemoRequestModal() {
         </button>
 
         {status === 'success' ? (
-          <div className="demo-modal-success">
+          <div className={styles['demo-modal-success']}>
             <span className="badge">SENT</span>
             <h2>요청이 접수되었습니다.</h2>
             <p>
@@ -182,26 +192,26 @@ export function DemoRequestModal() {
           </div>
         ) : (
           <>
-            <div className="demo-modal-head">
+            <div className={styles['demo-modal-head']}>
               <span className="badge">DEMO REQUEST</span>
               <h2>데모를 요청하세요</h2>
               <p>제품과 도입 방식이 궁금하시면 남겨주세요. 영업일 기준 1–2일 내 회신드립니다.</p>
             </div>
 
-            <form className="demo-form" onSubmit={onSubmit} noValidate>
+            <form className={styles['demo-form']} onSubmit={onSubmit} noValidate>
               {/* 허니팟: 화면에 안 보이고 봇만 채움 */}
               <input
                 type="text"
                 name="botcheck"
                 tabIndex={-1}
                 autoComplete="off"
-                className="demo-honeypot"
+                className={styles['demo-honeypot']}
                 aria-hidden="true"
               />
 
-              <div className="demo-field">
+              <div className={styles['demo-field']}>
                 <label htmlFor="demo-company">
-                  회사명 <span className="req">*</span>
+                  회사명 <span className={styles['req']}>*</span>
                 </label>
                 <input
                   id="demo-company"
@@ -215,15 +225,17 @@ export function DemoRequestModal() {
                   disabled={submitting}
                 />
                 {fieldErrors.company && (
-                  <p id="demo-company-error" className="demo-field-error" role="alert">
+                  <p id="demo-company-error" className={styles['demo-field-error']} role="alert">
                     {fieldErrors.company}
                   </p>
                 )}
               </div>
 
-              <div className="demo-field-row">
-                <div className="demo-field">
-                  <label htmlFor="demo-name">이름</label>
+              <div className={styles['demo-field-row']}>
+                <div className={styles['demo-field']}>
+                  <label htmlFor="demo-name">
+                    이름 <span className={styles['req']}>*</span>
+                  </label>
                   <input
                     id="demo-name"
                     type="text"
@@ -236,14 +248,14 @@ export function DemoRequestModal() {
                     disabled={submitting}
                   />
                   {fieldErrors.name && (
-                    <p id="demo-name-error" className="demo-field-error" role="alert">
+                    <p id="demo-name-error" className={styles['demo-field-error']} role="alert">
                       {fieldErrors.name}
                     </p>
                   )}
                 </div>
-                <div className="demo-field">
+                <div className={styles['demo-field']}>
                   <label htmlFor="demo-contact">
-                    연락처 <span className="req">*</span>
+                    연락처 <span className={styles['req']}>*</span>
                   </label>
                   <input
                     id="demo-contact"
@@ -258,15 +270,17 @@ export function DemoRequestModal() {
                     disabled={submitting}
                   />
                   {fieldErrors.contact && (
-                    <p id="demo-contact-error" className="demo-field-error" role="alert">
+                    <p id="demo-contact-error" className={styles['demo-field-error']} role="alert">
                       {fieldErrors.contact}
                     </p>
                   )}
                 </div>
               </div>
 
-              <div className="demo-field">
-                <label htmlFor="demo-email">이메일</label>
+              <div className={styles['demo-field']}>
+                <label htmlFor="demo-email">
+                  이메일 <span className={styles['req']}>*</span>
+                </label>
                 <input
                   id="demo-email"
                   type="email"
@@ -280,14 +294,16 @@ export function DemoRequestModal() {
                   disabled={submitting}
                 />
                 {fieldErrors.email && (
-                  <p id="demo-email-error" className="demo-field-error" role="alert">
+                  <p id="demo-email-error" className={styles['demo-field-error']} role="alert">
                     {fieldErrors.email}
                   </p>
                 )}
               </div>
 
-              <div className="demo-field">
-                <label htmlFor="demo-message">문의 내용</label>
+              <div className={styles['demo-field']}>
+                <label htmlFor="demo-message">
+                  문의 내용 <span className={styles['req']}>*</span>
+                </label>
                 <textarea
                   id="demo-message"
                   rows={4}
@@ -300,21 +316,23 @@ export function DemoRequestModal() {
                   disabled={submitting}
                 />
                 {fieldErrors.message && (
-                  <p id="demo-message-error" className="demo-field-error" role="alert">
+                  <p id="demo-message-error" className={styles['demo-field-error']} role="alert">
                     {fieldErrors.message}
                   </p>
                 )}
               </div>
 
-              <div className="demo-consent-group">
-                <div className="demo-consent-title">
-                  개인정보 수집 및 이용 동의 <span className="req">*</span>
+              <div className={styles['demo-consent-group']}>
+                <div className={styles['demo-consent-title']}>
+                  개인정보 수집 및 이용 동의 <span className={styles['req']}>*</span>
                 </div>
-                <div className="demo-policy">{PRIVACY_CONSENT}</div>
-                <label className="demo-consent">
+                <div className={styles['demo-policy']}>{PRIVACY_CONSENT}</div>
+                <label className={styles['demo-consent']}>
                   <input
+                    id="demo-consent-check"
                     type="checkbox"
                     checked={agreePrivacy}
+                    aria-invalid={!!consentError}
                     onChange={(e) => {
                       setAgreePrivacy(e.target.checked);
                       if (e.target.checked) setConsentError('');
@@ -324,19 +342,23 @@ export function DemoRequestModal() {
                   <span>개인정보 수집 및 이용에 동의합니다.</span>
                 </label>
                 {consentError && (
-                  <p className="demo-field-error" role="alert">
+                  <p className={styles['demo-field-error']} role="alert">
                     {consentError}
                   </p>
                 )}
               </div>
 
               {status === 'error' && error && (
-                <p className="demo-form-error" role="alert">
+                <p className={styles['demo-form-error']} role="alert">
                   {error}
                 </p>
               )}
 
-              <button type="submit" className="btn btn-primary demo-submit" disabled={submitting}>
+              <button
+                type="submit"
+                className={cx('btn', 'btn-primary', styles['demo-submit'])}
+                disabled={submitting}
+              >
                 {submitting ? '전송 중…' : '전송'}
               </button>
             </form>

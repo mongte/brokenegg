@@ -1,0 +1,47 @@
+.use-case {
+  display: grid;
+  grid-template-columns: minmax(0, 320px) 1fr;
+  gap: 40px;
+  padding: 56px 40px;
+  border-top: 1px solid var(--border);
+}
+
+.use-case:first-child {
+  border-top: none;
+}
+
+.use-case-head {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.use-case-icon {
+  display: inline-flex;
+  color: var(--text-main);
+}
+
+.use-case-head h3 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.use-case-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 720px;
+}
+
+.use-case-body p {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+@media (max-width: 1024px) {
+  .use-case {
+    grid-template-columns: 1fr;
+  }
+}

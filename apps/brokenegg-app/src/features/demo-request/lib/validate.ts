@@ -33,7 +33,9 @@ export function validateDemoForm(form: DemoRequestForm): DemoFormErrors {
     errors.company = `회사명은 ${FIELD_LIMITS.company}자 이내로 입력해주세요.`;
   }
 
-  if (name.length > FIELD_LIMITS.name) {
+  if (!name) {
+    errors.name = '이름을 입력해주세요.';
+  } else if (name.length > FIELD_LIMITS.name) {
     errors.name = `이름은 ${FIELD_LIMITS.name}자 이내로 입력해주세요.`;
   }
 
@@ -49,15 +51,17 @@ export function validateDemoForm(form: DemoRequestForm): DemoFormErrors {
     }
   }
 
-  if (email) {
-    if (email.length > FIELD_LIMITS.email) {
-      errors.email = `이메일은 ${FIELD_LIMITS.email}자 이내로 입력해주세요.`;
-    } else if (!EMAIL_RE.test(email)) {
-      errors.email = '이메일 형식이 올바르지 않습니다.';
-    }
+  if (!email) {
+    errors.email = '이메일을 입력해주세요.';
+  } else if (email.length > FIELD_LIMITS.email) {
+    errors.email = `이메일은 ${FIELD_LIMITS.email}자 이내로 입력해주세요.`;
+  } else if (!EMAIL_RE.test(email)) {
+    errors.email = '이메일 형식이 올바르지 않습니다.';
   }
 
-  if (message.length > FIELD_LIMITS.message) {
+  if (!message) {
+    errors.message = '문의 내용을 입력해주세요.';
+  } else if (message.length > FIELD_LIMITS.message) {
     errors.message = `문의 내용은 ${FIELD_LIMITS.message}자 이내로 입력해주세요.`;
   }
 

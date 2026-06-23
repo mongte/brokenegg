@@ -1,3 +1,4 @@
+import styles from './problem-card.module.css';
 import type { Problem } from '../model/types';
 
 interface ProblemCardProps {
@@ -6,8 +7,8 @@ interface ProblemCardProps {
 
 export function ProblemCard({ problem }: ProblemCardProps) {
   return (
-    <div className="problem-card">
-      <span className="num">{problem.num}</span>
+    <div className={styles['problem-card']}>
+      <span className={styles['num']}>{problem.num}</span>
       <h3>{problem.title}</h3>
       <p>{problem.body}</p>
     </div>
