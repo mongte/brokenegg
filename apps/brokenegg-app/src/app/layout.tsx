@@ -1,5 +1,6 @@
 import './global.css';
 import { siteConfig } from '@/shared/config';
+import { DemoRequestModal } from '@/features/demo-request';
 
 export const metadata = {
   title: siteConfig.metadata.title,
@@ -25,7 +26,10 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <DemoRequestModal />
+      </body>
     </html>
   );
 }

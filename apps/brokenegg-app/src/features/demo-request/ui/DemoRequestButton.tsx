@@ -1,6 +1,7 @@
+'use client';
+
 import type { CSSProperties } from 'react';
-import { Button } from '@/shared/ui/button';
-import { siteConfig } from '@/shared/config';
+import { openDemoModal } from '../lib/events';
 
 type DemoRequestVariant = 'primary' | 'secondary' | 'badge';
 
@@ -11,25 +12,19 @@ interface DemoRequestButtonProps {
 }
 
 /**
- * The "데모 요청" call-to-action. Reused in the header, hero, and final CTA,
- * always pointing at the same demo anchor.
+ * The "데모 요청" call-to-action. Reused in the header, hero, and final CTA.
+ * Clicking opens the shared demo-request modal (via openDemoModal()).
  */
 export function DemoRequestButton({
   variant = 'primary',
   label = '데모 요청하기',
   style,
 }: DemoRequestButtonProps) {
-  if (variant === 'badge') {
-    return (
-      <a href={siteConfig.demoAnchor} className="badge">
-        {label}
-      </a>
-    );
-  }
+  const className = variant === 'badge' ? 'badge' : `btn btn-${variant}`;
 
   return (
-    <Button href={siteConfig.demoAnchor} variant={variant} style={style}>
+    <button type="button" className={className} style={style} onClick={openDemoModal}>
       {label}
-    </Button>
+    </button>
   );
 }
