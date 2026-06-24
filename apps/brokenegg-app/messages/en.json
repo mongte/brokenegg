@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "title": "Broken Egg — 3D Interactive Simulation",
+    "description": "Show the product that was trapped in blueprints — as if it could be touched. Broken Egg's 3D interactive simulation and XR industrial-safety training solutions.",
+    "keywords": [
+      "Broken Egg",
+      "3D simulation",
+      "interactive 3D",
+      "responsive 3D",
+      "3D product visualization",
+      "interactive catalog",
+      "3D manual",
+      "3D product demo",
+      "digital twin",
+      "XR",
+      "VR",
+      "AR",
+      "MR",
+      "metaverse",
+      "industrial safety training",
+      "VR safety training",
+      "XR training",
+      "web 3D",
+      "WebGL",
+      "3D web viewer",
+      "product simulation",
+      "virtual exhibition",
+      "3D content creation",
+      "3D solution",
+      "Egg One"
+    ],
+    "cases": {
+      "title": "Broken Egg — Case Studies",
+      "description": "Real customer deployments using Broken Egg's 3D simulation manuals and catalogs. Explore each case with its intro video and interactive 3D experience.",
+      "keywords": ["3D case studies", "customer cases", "3D product demo", "interactive 3D experience"]
+    },
+    "services": {
+      "title": "Broken Egg — Services",
+      "description": "From exhibitions and training manuals to web publishing, sales meetings, and presentations — how Broken Egg's 3D simulation is put to work.",
+      "keywords": ["3D use cases", "exhibition demo", "training manual", "sales presentation", "product catalog"]
+    },
+    "about": {
+      "title": "Broken Egg — Company",
+      "description": "About Broken Egg Inc. — overview, growth timeline, leadership, and academic-industry partners of a responsive 3D simulation and XR solutions company.",
+      "keywords": ["Broken Egg Inc", "company profile", "3D solution company", "XR company"]
+    }
+  },
+  "lang": {
+    "label": "Select language",
+    "ko": "한국어",
+    "en": "English",
+    "short": "EN"
+  },
+  "header": {
+    "demoRequest": "DEMO REQUEST",
+    "menu": {
+      "label": "Menu",
+      "open": "Open menu",
+      "close": "Close menu",
+      "home": "Home",
+      "services": "Services",
+      "cases": "Case Studies",
+      "about": "Company"
+    }
+  },
+  "common": {
+    "demoRequest": "Request a Demo",
+    "viewServices": "Explore Services"
+  },
+  "hero": {
+    "tag": "Intro",
+    "headlineLine1": "The product once trapped in blueprints —",
+    "headlineLine2": "show it as if it could be touched"
+  },
+  "problems": {
+    "sortBy": "Sort by",
+    "newest": "NEWEST",
+    "items": [
+      {
+        "num": "01 / LIMITATION",
+        "title": "Limits of explanation",
+        "body": "Complex equipment and precision parts can't convey a product's true value to customers through 2D images and text alone."
+      },
+      {
+        "num": "02 / SAFETY",
+        "title": "Gaps in safety training",
+        "body": "The risks and costs of hands-on field training make true-to-life, immersive training environments an urgent need."
+      },
+      {
+        "num": "03 / ESG",
+        "title": "Sustainable response",
+        "body": "Cutting paper manuals and physical samples while reducing carbon emissions through digital twins has become an essential corporate task."
+      }
+    ]
+  },
+  "testimonials": {
+    "items": [
+      {
+        "quote": "Thanks to Broken Egg's 3D simulation, we could perfectly demonstrate the internal structure of our product to overseas buyers. It's a core driver of our sales growth.",
+        "name": "Kim Jin-woo",
+        "role": "Marketing Lead, H-Industrial"
+      },
+      {
+        "quote": "After moving our hazardous chemical-process training to XR, the accident rate among new hires dropped 40%. It's the most innovative safety solution we've used.",
+        "name": "Lee Seo-yoon",
+        "role": "Safety Management Div., K-Energy"
+      }
+    ]
+  },
+  "servicePreview": {
+    "close": "Close ✕"
+  },
+  "cases": {
+    "tag": "Cases",
+    "headlineLine1": "Products shown as if they could be touched —",
+    "headlineLine2": "real-world deployments",
+    "sub": "We've gathered how our 3D simulation manuals and catalogs were used in the field. See each case's intro video and interactive 3D experience for yourself.",
+    "expBar": "Tap the image to experience BROKEN EGG's service",
+    "videoPlay": "Play {name} video",
+    "expStart": "Start {name} 3D experience",
+    "newTab": "(opens in a new tab)",
+    "phVideo": "URL coming soon",
+    "phLive": "URL coming soon",
+    "items": {
+      "sokool": {
+        "company": "SoKool Co., Ltd.",
+        "product": "Camping Refrigerator",
+        "description": "Equipped with a patented antibacterial aluminum chamber for efficient cooling transfer."
+      },
+      "cslab": {
+        "company": "CSLAB",
+        "product": "Automatic Cocktail Maker",
+        "description": "An automatic maker built for large-scale cocktail production."
+      },
+      "balance-brake": {
+        "company": "Samsung Reducer Co., Ltd.",
+        "product": "Balance Brake",
+        "description": "[To be confirmed — description pending]"
+      }
+    }
+  },
+  "servicesPage": {
+    "tag": "Service",
+    "headlineLine1": "From exhibitions to training, sales, and presentations —",
+    "headlineLine2": "putting 3D simulation to work",
+    "sub": "We've laid out where 3D simulation — which shows complex products and concepts as if they could be touched — is actually used.",
+    "useCases": {
+      "exhibition": {
+        "title": "Exhibition demos, at home and abroad",
+        "body": [
+          "Realistic 3D simulation visualizes complex systems and concepts vividly, making them easy to understand.",
+          "This lets stakeholders preview what a product or project will actually look like, in advance."
+        ]
+      },
+      "training": {
+        "title": "Training manuals",
+        "body": [
+          "For new-product training, and when developing new products or attracting investment, 3D simulation lets you review design and function before building a real prototype —",
+          "so design errors are caught and fixed early, saving significant time and cost."
+        ]
+      },
+      "website": {
+        "title": "Web publishing",
+        "body": [
+          "3D simulation can demonstrate various scenarios and products, conveying a product's explanation visually."
+        ]
+      },
+      "sales": {
+        "title": "In-person sales & investor meetings",
+        "body": [
+          "In face-to-face sales, 3D simulation builds shared understanding, enables better decisions, and drives purchases."
+        ]
+      },
+      "presentation": {
+        "title": "Presentations",
+        "body": [
+          "3D simulation is a powerful tool for presenting a product or project to investors effectively.",
+          "Visually persuasive demos earn investors' trust and make raising investment easier."
+        ]
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "tag": "About",
+      "headlineLine1": "Turning unseen value",
+      "headlineLine2": "into an experience you can touch",
+      "sub": "Broken Egg transforms the experience of products, training, and industrial safety with responsive 3D simulation and XR technology. Here's the path we've walked and the people who walked it with us."
+    },
+    "overview": {
+      "tag": "Company",
+      "headlineLine1": "The product trapped in blueprints,",
+      "headlineLine2": "shown as if it could be touched",
+      "lead": "Broken Egg builds responsive 3D simulation and XR solutions you experience right in the browser, so anyone can grasp complex products and concepts intuitively.",
+      "rows": {
+        "company": "Company",
+        "founded": "Founded",
+        "ceo": "CEO",
+        "industry": "Industry",
+        "business": "Business",
+        "service": "Service"
+      },
+      "values": {
+        "company": "Broken Egg Inc.",
+        "founded": "July 20, 2023",
+        "ceo": "Lee Sang-mun",
+        "industry": "Information & Communications",
+        "business": "Responsive 3D solutions · Interactive 3D media · XR (VR/AR/MR)",
+        "service": "Egg One — responsive 3D manuals, catalogs & guides"
+      }
+    },
+    "history": {
+      "tag": "History",
+      "title": "Growth Timeline",
+      "sub": "The milestones we've built through patents, certifications, and exhibitions since founding.",
+      "items": [
+        "Filed 1 technology patent",
+        "Exhibited at Smart Tech Korea",
+        "Exhibited at World IT Show · Registered 1 trademark",
+        "Registered 1 technology patent",
+        "Registered 1 technology patent",
+        "Software quality certification (GS Grade 1)",
+        "Selected as NVIDIA Inception member · ISO 9001:2015 certified",
+        "Filed 2 technology patents",
+        "Verified as an innovative-growth venture company",
+        "Selected for Youth Startup Academy (Ansan) · Honors graduate",
+        "Top award, youth startup track, Re-Challenge SME Association",
+        "Broken Egg Inc. incorporated",
+        "Selected for the Pre-Startup Package · Honors completion"
+      ]
+    },
+    "leadership": {
+      "tag": "Leadership",
+      "title": "XR · 3D expertise forged in the field",
+      "sub": "People proven on the front lines of automotive, appliances, and media design the solutions themselves.",
+      "backgroundLabel": "Background",
+      "background": [
+        "Hyundai Motor",
+        "Daedong Industrial",
+        "ALTEN Korea",
+        "Coway",
+        "POSCO",
+        "Bean Studio",
+        "The Pinkfong Company",
+        "SBS A&T",
+        "Dexter Studios",
+        "Daewon Media"
+      ],
+      "leaders": [
+        {
+          "name": "Lee Sang-mun",
+          "role": "CEO",
+          "focus": "VR showroom build & operation, vehicle VR design-review simulation, enterprise XR outsourcing PM"
+        },
+        {
+          "name": "Baek In-chil",
+          "role": "CTO",
+          "focus": "Real-time 3D engine & plugin development, responsive 3D media pipeline design"
+        }
+      ]
+    },
+    "partners": {
+      "tag": "Partners",
+      "title": "Academic & Support Partners",
+      "sub": "Government, startup-support agencies, and schools are growing alongside Broken Egg.",
+      "names": {
+        "mss": "Ministry of SMEs and Startups",
+        "kised": "KISED (Korea Institute of Startup & Entrepreneurship Development)",
+        "youth-startup-academy": "Youth Startup Academy",
+        "kosme": "KOSME",
+        "nvidia-inception": "NVIDIA Inception Program",
+        "sungil-hs": "Sungil Information High School",
+        "incheon-univ": "Incheon National University",
+        "sangmyung-univ": "Sangmyung University",
+        "korea-media-univ": "Korea University of Media Arts",
+        "suwon-univ": "University of Suwon"
+      }
+    }
+  },
+  "contact": {
+    "title1": "Have a question?",
+    "title2": "Reach us however suits you best.",
+    "sms": "Text",
+    "email": "Email",
+    "phone": "Call"
+  },
+  "finalCta": {
+    "title1": "Experience Broken Egg's",
+    "title2": "future-ready solutions today."
+  },
+  "footer": {
+    "copyright": "© 2024 Broken Egg Inc. All Rights Reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "ref": "[REF: BRK-EGG-2024-V1]"
+  },
+  "demo": {
+    "badge": "DEMO REQUEST",
+    "title": "Request a demo",
+    "desc": "Curious about the product or how to adopt it? Leave a note and we'll reply within 1–2 business days.",
+    "company": "Company",
+    "name": "Name",
+    "contact": "Contact",
+    "email": "Email",
+    "message": "Message",
+    "companyPh": "Broken Egg",
+    "namePh": "Jane Doe",
+    "contactPh": "+82 10-0000-0000",
+    "emailPh": "name@company.com",
+    "messagePh": "Tell us your goals, timeline, and any questions.",
+    "consentTitle": "Consent to collection & use of personal data",
+    "consentLabel": "I agree to the collection and use of my personal data.",
+    "policy": "Broken Egg collects and uses your personal data as follows, to confirm and respond to your demo request.\n\n1. Items collected: company, name, contact, email, message\n2. Purpose: confirming and responding to the demo request\n3. Retention: kept for 1 year after the inquiry is resolved, then destroyed\n4. You may decline consent; if you do, acceptance of your demo request may be limited.",
+    "submit": "Send",
+    "submitting": "Sending…",
+    "successBadge": "SENT",
+    "successTitle": "Your request has been received.",
+    "successBody1": "We'll get back to you within 1–2 business days",
+    "successBody2": "at the contact you provided.",
+    "close": "Close",
+    "errors": {
+      "company_required": "Please enter your company.",
+      "company_max": "Company must be {max} characters or fewer.",
+      "name_required": "Please enter your name.",
+      "name_max": "Name must be {max} characters or fewer.",
+      "contact_required": "Please enter a contact.",
+      "contact_max": "Contact must be {max} characters or fewer.",
+      "contact_invalid": "Please enter a valid contact (9–11 digits).",
+      "email_required": "Please enter your email.",
+      "email_max": "Email must be {max} characters or fewer.",
+      "email_invalid": "That email format isn't valid.",
+      "message_required": "Please enter your message.",
+      "message_max": "Message must be {max} characters or fewer.",
+      "consent": "Please agree to the collection and use of your personal data.",
+      "submitFailed": "Couldn't send. Please try again in a moment.",
+      "timeout": "The request timed out. Check your connection and try again.",
+      "network": "A network error prevented sending. Check your connection and try again."
+    }
+  }
+}

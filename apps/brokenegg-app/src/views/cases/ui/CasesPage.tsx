@@ -1,9 +1,11 @@
+import { useTranslations } from 'next-intl';
 import { SiteHeader } from '@/widgets/site-header';
 import { SiteFooter } from '@/widgets/site-footer';
 import { FinalCta } from '@/widgets/final-cta';
 import { CaseStudyCard, caseStudies } from '@/entities/case-study';
 
 export function CasesPage() {
+  const t = useTranslations('cases');
   return (
     <>
       <div className="grid-bg" />
@@ -12,21 +14,26 @@ export function CasesPage() {
         <SiteHeader />
 
         <section className="hero">
-          <span className="section-tag">Cases</span>
+          <span className="section-tag">{t('tag')}</span>
           <h1 className="hero-headline">
-            제품을 손으로 만지듯 보여준,
+            {t('headlineLine1')}
             <br />
-            실제 도입 사례
+            {t('headlineLine2')}
           </h1>
-          <p className="hero-sub">
-            3D 시뮬레이션 매뉴얼 · 카탈로그가 현장에서 어떻게 쓰였는지 모았습니다.
-            각 사례의 소개 영상과 인터랙티브 3D 체험을 직접 확인해 보세요.
-          </p>
+          <p className="hero-sub">{t('sub')}</p>
         </section>
 
         <section className="cases">
           {caseStudies.map((cs) => (
-            <CaseStudyCard key={cs.id} caseStudy={cs} />
+            <CaseStudyCard
+              key={cs.id}
+              caseStudy={{
+                ...cs,
+                company: t(`items.${cs.id}.company`),
+                product: t(`items.${cs.id}.product`),
+                description: t(`items.${cs.id}.description`),
+              }}
+            />
           ))}
         </section>
 

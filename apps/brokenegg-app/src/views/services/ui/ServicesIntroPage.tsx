@@ -1,9 +1,11 @@
+import { useTranslations } from 'next-intl';
 import { SiteHeader } from '@/widgets/site-header';
 import { SiteFooter } from '@/widgets/site-footer';
 import { FinalCta } from '@/widgets/final-cta';
 import { UseCaseRow, useCases } from '@/entities/use-case';
 
 export function ServicesIntroPage() {
+  const t = useTranslations('servicesPage');
   return (
     <>
       <div className="grid-bg" />
@@ -12,21 +14,25 @@ export function ServicesIntroPage() {
         <SiteHeader />
 
         <section className="hero">
-          <span className="section-tag">Service</span>
+          <span className="section-tag">{t('tag')}</span>
           <h1 className="hero-headline">
-            전시·교육·영업·발표까지,
+            {t('headlineLine1')}
             <br />
-            3D 시뮬레이션의 활용
+            {t('headlineLine2')}
           </h1>
-          <p className="hero-sub">
-            복잡한 제품과 개념을 손으로 만지듯 보여주는 3D 시뮬레이션이 실제로 어디에
-            쓰이는지 정리했습니다.
-          </p>
+          <p className="hero-sub">{t('sub')}</p>
         </section>
 
         <section className="use-cases">
           {useCases.map((uc) => (
-            <UseCaseRow key={uc.id} useCase={uc} />
+            <UseCaseRow
+              key={uc.id}
+              useCase={{
+                ...uc,
+                title: t(`useCases.${uc.id}.title`),
+                body: t.raw(`useCases.${uc.id}.body`) as string[],
+              }}
+            />
           ))}
         </section>
 

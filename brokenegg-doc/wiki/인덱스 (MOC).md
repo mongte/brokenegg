@@ -2,7 +2,7 @@
 title: 인덱스 (MOC)
 tags: [index, moc]
 status: draft
-updated: 2026-06-19
+updated: 2026-06-24
 ---
 
 # 📚 위키 인덱스 (Map of Content)
@@ -12,6 +12,7 @@ updated: 2026-06-19
 ## 🧩 제품 / 서비스
 - [[회사 개요]]
 - [[핵심 기술 - 3D 인터랙션 시뮬레이션 엔진]]
+- [[핵심 기술 - 3D 웹뷰어 배포 아키텍처]]  *(status: review — Godot×Next.js QR 뷰어 서빙)*
 - [[솔루션 - 3D 디지털제품여권 (DPP)]]
 - [[솔루션 - 산업안전위험 교육]]
 - [[디지털 생태계]]

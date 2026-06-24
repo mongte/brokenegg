@@ -18,3 +18,19 @@
   align-items: center;
   gap: 20px;
 }
+
+/* ≤1024px: 3분할 레이아웃이 깨지므로 로고를 위로 올려 가운데 정렬,
+   나머지 좌/우 그룹은 아래 줄에서 양끝 배치. */
+@media (max-width: 1024px) {
+  .header {
+    flex-wrap: wrap;
+    row-gap: 14px;
+    padding: 20px 24px;
+  }
+
+  .header .logo {
+    order: -1;
+    flex-basis: 100%;
+    justify-content: center;
+  }
+}

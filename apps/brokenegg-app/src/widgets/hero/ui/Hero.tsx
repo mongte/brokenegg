@@ -1,20 +1,22 @@
+import { useTranslations } from 'next-intl';
 import { Button } from '@/shared/ui/button';
 import { siteConfig } from '@/shared/config';
 import { DemoRequestButton } from '@/features/demo-request';
 
 export function Hero() {
+  const t = useTranslations();
   return (
     <section className="hero">
-      <span className="section-tag">Intro</span>
+      <span className="section-tag">{t('hero.tag')}</span>
       <h1 className="hero-headline">
-        도면 속에 갇혀 있던 제품을,
+        {t('hero.headlineLine1')}
         <br />
-        손으로 만지듯 보여주세요
+        {t('hero.headlineLine2')}
       </h1>
       <div className="hero-ctas">
         <DemoRequestButton variant="primary" />
         <Button href={siteConfig.servicesAnchor} variant="secondary">
-          서비스 살펴보기
+          {t('common.viewServices')}
         </Button>
       </div>
     </section>

@@ -3,6 +3,7 @@
 import styles from './service-preview.module.css';
 import { cx } from '@/shared/lib';
 import { useEffect, useRef, useState, type TransitionEvent } from 'react';
+import { useTranslations } from 'next-intl';
 
 interface ServicePreviewProps {
   /** 펼침 여부. true → slide down, false → slide up. */
@@ -26,6 +27,7 @@ interface ServicePreviewProps {
  * - 열릴 때: 높이 0 → 목표 높이로 slide down. **transition이 끝난 뒤에야** iframe을 노출(reveal).
  */
 export function ServicePreview({ open, url, title, kind = 'live3d', onClose }: ServicePreviewProps) {
+  const t = useTranslations('servicePreview');
   const kindLabel = kind === 'video' ? 'VIDEO' : 'LIVE 3D';
   const panelRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef(0);
@@ -81,7 +83,7 @@ export function ServicePreview({ open, url, title, kind = 'live3d', onClose }: S
             {title ? `${title} · ${kindLabel}` : kindLabel}
           </span>
           <button type="button" className={styles['service-preview-close']} onClick={onClose}>
-            닫기 ✕
+            {t('close')}
           </button>
         </div>
         <div

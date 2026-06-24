@@ -1,4 +1,5 @@
 import styles from './partner-marquee.module.css';
+import { useTranslations } from 'next-intl';
 import { partners, PartnerLogo } from '@/entities/partner';
 
 /**
@@ -11,18 +12,21 @@ import { partners, PartnerLogo } from '@/entities/partner';
  * - 두 번째 벌은 스크린리더 중복 방지를 위해 decorative 처리.
  */
 export function PartnerMarquee() {
+  const t = useTranslations('about.partners');
+  // 로고/분류는 모델에서, 표시 이름은 로케일 메시지(names.<id>)에서 가져온다.
+  const items = partners.map((p) => ({ ...p, name: t(`names.${p.id}`) }));
   return (
-    <div className={styles['marquee']} role="region" aria-label="산학협력 및 지원기관">
+    <div className={styles['marquee']} role="region" aria-label={t('title')}>
       <div className={styles['marquee-track']}>
         <ul className={styles['marquee-set']}>
-          {partners.map((p) => (
+          {items.map((p) => (
             <li key={p.id}>
               <PartnerLogo partner={p} />
             </li>
           ))}
         </ul>
         <ul className={styles['marquee-set']} aria-hidden="true">
-          {partners.map((p) => (
+          {items.map((p) => (
             <li key={`dup-${p.id}`}>
               <PartnerLogo partner={p} decorative />
             </li>

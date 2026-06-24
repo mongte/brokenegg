@@ -9,15 +9,16 @@ export const FIELD_LIMITS = {
   message: 2000,
 } as const;
 
-/** 필드명 → 에러 메시지 맵. 에러가 없으면 빈 객체. */
+/**
+ * 필드명 → 에러 *코드* 맵. 에러가 없으면 빈 객체.
+ * 값은 로케일 독립적인 코드(예: 'company_required')이며,
+ * 화면 표시는 UI(useTranslations)가 `demo.errors.<code>`로 번역한다.
+ * 클라이언트와 서버 라우트가 같은 검증기를 공유한다.
+ */
 export type DemoFormErrors = Partial<Record<keyof DemoRequestForm, string>>;
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-/**
- * 데모 요청 폼 검증. 클라이언트(즉시 피드백)와 서버(방어) 양쪽에서 사용한다.
- * 빈 객체를 반환하면 유효.
- */
 export function validateDemoForm(form: DemoRequestForm): DemoFormErrors {
   const errors: DemoFormErrors = {};
 
@@ -28,41 +29,41 @@ export function validateDemoForm(form: DemoRequestForm): DemoFormErrors {
   const message = form.message.trim();
 
   if (!company) {
-    errors.company = '회사명을 입력해주세요.';
+    errors.company = 'company_required';
   } else if (company.length > FIELD_LIMITS.company) {
-    errors.company = `회사명은 ${FIELD_LIMITS.company}자 이내로 입력해주세요.`;
+    errors.company = 'company_max';
   }
 
   if (!name) {
-    errors.name = '이름을 입력해주세요.';
+    errors.name = 'name_required';
   } else if (name.length > FIELD_LIMITS.name) {
-    errors.name = `이름은 ${FIELD_LIMITS.name}자 이내로 입력해주세요.`;
+    errors.name = 'name_max';
   }
 
   if (!contact) {
-    errors.contact = '연락처를 입력해주세요.';
+    errors.contact = 'contact_required';
   } else if (contact.length > FIELD_LIMITS.contact) {
-    errors.contact = `연락처는 ${FIELD_LIMITS.contact}자 이내로 입력해주세요.`;
+    errors.contact = 'contact_max';
   } else {
-    // 하이픈·공백·+ 등 표기는 허용하되, 숫자만 추려 자릿수로 판단한다(국내 유선/휴대폰 9~11자리).
+    // 하이픈·공백·+ 등 표기는 허용하되, 숫자만 추려 자릿수로 판단(국내 유선/휴대폰 9~11자리).
     const digits = contact.replace(/\D/g, '');
     if (digits.length < 9 || digits.length > 11) {
-      errors.contact = '연락처를 정확히 입력해주세요. (숫자 9~11자리)';
+      errors.contact = 'contact_invalid';
     }
   }
 
   if (!email) {
-    errors.email = '이메일을 입력해주세요.';
+    errors.email = 'email_required';
   } else if (email.length > FIELD_LIMITS.email) {
-    errors.email = `이메일은 ${FIELD_LIMITS.email}자 이내로 입력해주세요.`;
+    errors.email = 'email_max';
   } else if (!EMAIL_RE.test(email)) {
-    errors.email = '이메일 형식이 올바르지 않습니다.';
+    errors.email = 'email_invalid';
   }
 
   if (!message) {
-    errors.message = '문의 내용을 입력해주세요.';
+    errors.message = 'message_required';
   } else if (message.length > FIELD_LIMITS.message) {
-    errors.message = `문의 내용은 ${FIELD_LIMITS.message}자 이내로 입력해주세요.`;
+    errors.message = 'message_max';
   }
 
   return errors;

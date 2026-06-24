@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "title": "Broken Egg — 3D Interactive Simulation",
+    "description": "도면 속에 갇혀 있던 제품을, 손으로 만지듯 보여주세요. 브로큰에그의 3D 인터랙션 시뮬레이션 · XR 산업안전 교육 솔루션.",
+    "keywords": [
+      "브로큰에그",
+      "Broken Egg",
+      "3D 시뮬레이션",
+      "3D 인터랙티브",
+      "반응형 3D",
+      "3D 제품 시각화",
+      "인터랙티브 카탈로그",
+      "3D 매뉴얼",
+      "3D 제품 데모",
+      "디지털 트윈",
+      "XR",
+      "VR",
+      "AR",
+      "MR",
+      "메타버스",
+      "산업안전 교육",
+      "VR 안전교육",
+      "XR 교육",
+      "웹 3D",
+      "WebGL",
+      "3D 웹뷰어",
+      "제품 시뮬레이션",
+      "가상 전시",
+      "3D 콘텐츠 제작",
+      "3D 솔루션",
+      "Egg One"
+    ],
+    "cases": {
+      "title": "Broken Egg — 고객 사례",
+      "description": "브로큰에그의 3D 시뮬레이션 매뉴얼·카탈로그가 적용된 실제 고객 도입 사례. 소개 영상과 인터랙티브 3D 체험으로 확인하세요.",
+      "keywords": ["3D 도입 사례", "고객 사례", "3D 제품 데모", "인터랙티브 3D 체험", "3D 시연"]
+    },
+    "services": {
+      "title": "Broken Egg — 서비스 소개",
+      "description": "전시 시연, 교육 매뉴얼, 홈페이지 게시, 대면 영업·투자 미팅, PPT 발표까지 — 브로큰에그 3D 시뮬레이션의 활용 용도.",
+      "keywords": ["3D 활용", "전시 시연", "교육 매뉴얼", "영업 프레젠테이션", "3D PPT", "제품 카탈로그"]
+    },
+    "about": {
+      "title": "Broken Egg — 회사 소개",
+      "description": "주식회사 브로큰에그 회사 소개 — 반응형 3D 시뮬레이션·XR 솔루션 기업의 개요, 성장 연혁, 리더십, 산학협력 및 지원기관.",
+      "keywords": ["주식회사 브로큰에그", "회사 소개", "이상문", "3D 솔루션 기업", "XR 기업"]
+    }
+  },
+  "lang": {
+    "label": "언어 선택",
+    "ko": "한국어",
+    "en": "English",
+    "short": "KO"
+  },
+  "header": {
+    "demoRequest": "DEMO REQUEST",
+    "menu": {
+      "label": "메뉴",
+      "open": "메뉴 열기",
+      "close": "메뉴 닫기",
+      "home": "홈",
+      "services": "서비스 소개",
+      "cases": "고객 사례",
+      "about": "회사 소개"
+    }
+  },
+  "common": {
+    "demoRequest": "데모 요청하기",
+    "viewServices": "서비스 살펴보기"
+  },
+  "hero": {
+    "tag": "Intro",
+    "headlineLine1": "도면 속에 갇혀 있던 제품을,",
+    "headlineLine2": "손으로 만지듯 보여주세요"
+  },
+  "problems": {
+    "sortBy": "Sort by",
+    "newest": "NEWEST",
+    "items": [
+      {
+        "num": "01 / LIMITATION",
+        "title": "설명의 한계",
+        "body": "복잡한 설비와 정밀 부품, 2D 이미지와 텍스트만으로는 고객에게 제품의 진정한 가치를 전달하기 어렵습니다."
+      },
+      {
+        "num": "02 / SAFETY",
+        "title": "안전 교육의 공백",
+        "body": "현장 실습의 위험성과 비용 문제로 인해 실제와 같은 몰입형 교육 환경 구축이 시급합니다."
+      },
+      {
+        "num": "03 / ESG",
+        "title": "지속 가능한 대응",
+        "body": "종이 매뉴얼과 물리적 샘플 제작을 줄이고, 디지털 트윈을 통한 탄소 배출 저감이 기업의 필수 과제가 되었습니다."
+      }
+    ]
+  },
+  "testimonials": {
+    "items": [
+      {
+        "quote": "브로큰에그의 3D 시뮬레이션 덕분에 해외 바이어들에게 우리 제품의 내부 구조를 완벽하게 시연할 수 있었습니다. 매출 성장의 핵심 도구입니다.",
+        "name": "김진우",
+        "role": "H-Industrial 마케팅 팀장"
+      },
+      {
+        "quote": "위험 요소가 많은 화학 공정 교육을 XR로 전환한 후 신입 사원 사고율이 40% 감소했습니다. 가장 혁신적인 안전 솔루션입니다.",
+        "name": "이서윤",
+        "role": "K-Energy 안전관리본부"
+      }
+    ]
+  },
+  "servicePreview": {
+    "close": "닫기 ✕"
+  },
+  "cases": {
+    "tag": "Cases",
+    "headlineLine1": "제품을 손으로 만지듯 보여준,",
+    "headlineLine2": "실제 도입 사례",
+    "sub": "3D 시뮬레이션 매뉴얼 · 카탈로그가 현장에서 어떻게 쓰였는지 모았습니다. 각 사례의 소개 영상과 인터랙티브 3D 체험을 직접 확인해 보세요.",
+    "expBar": "사진을 눌러서 BROKEN EGG의 서비스를 체험해 보세요",
+    "videoPlay": "{name} 영상 재생",
+    "expStart": "{name} 3D 체험 시작",
+    "newTab": "(새 탭에서 열림)",
+    "phVideo": "URL 연결 예정",
+    "phLive": "URL 연결 예정",
+    "items": {
+      "sokool": {
+        "company": "주식회사 쏘쿨",
+        "product": "캠핑용 냉장고",
+        "description": "특허받은 항균소재 알루미늄 챔버를 탑재하여 효과적인 냉각전달의 기능"
+      },
+      "cslab": {
+        "company": "CSLAB",
+        "product": "칵테일 자동제조장비",
+        "description": "칵테일 대량생산을 위한 자동제조장비"
+      },
+      "balance-brake": {
+        "company": "(주)삼성감속기",
+        "product": "균형제동",
+        "description": "[확인 필요 — 설명 입력 예정]"
+      }
+    }
+  },
+  "servicesPage": {
+    "tag": "Service",
+    "headlineLine1": "전시·교육·영업·발표까지,",
+    "headlineLine2": "3D 시뮬레이션의 활용",
+    "sub": "복잡한 제품과 개념을 손으로 만지듯 보여주는 3D 시뮬레이션이 실제로 어디에 쓰이는지 정리했습니다.",
+    "useCases": {
+      "exhibition": {
+        "title": "국내외 전시회 시연용",
+        "body": [
+          "현실감 있는 시각화 3D 시뮬레이션으로 복잡한 시스템과 개념을 현실감 있게 시각화하여 이해하기 쉽게 만들어줍니다.",
+          "이를 통해 이해 관계자들은 제품이나 프로젝트의 실제 모습을 사전에 확인할 수 있습니다."
+        ]
+      },
+      "training": {
+        "title": "교육 매뉴얼",
+        "body": [
+          "새 제품 교육시, 미리 제품에 대한 정보를 전달하고 신제품 개발 및 투자유치 시에 실제 프로토타입 제작 전에 3D 시뮬레이션을 통해 디자인, 기능을 검토함으로서",
+          "설계 오류를 조기에 발견하고 수정할 수 있어 시간과 비용을 크게 절감할 수 있습니다."
+        ]
+      },
+      "website": {
+        "title": "홈페이지 게시용",
+        "body": [
+          "3D 시뮬레이션을 통해 다양한 시나리오와 제품을 시연 할 수 있어, 프로덕트의 설명을 시각적으로 전달 할 수 있습니다."
+        ]
+      },
+      "sales": {
+        "title": "대면 영업 & 투자자 미팅용",
+        "body": [
+          "대면 영업시에, 3D 시뮬레이션을 통해서 공동의 이해를 바탕으로 한, 더 나은 의사결정을 내릴 수 있고, 구매를 촉진합니다."
+        ]
+      },
+      "presentation": {
+        "title": "PPT 발표용",
+        "body": [
+          "3D 시뮬레이션은 제품이나 프로젝트를 투자자들에게 효과적으로 프레젠테이션할 수 있는 강력한 도구입니다.",
+          "시각적으로 설득력 있는 시연을 통해서 투자자들의 신뢰를 얻고, 투자 유치를 용이하게 합니다."
+        ]
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "tag": "About",
+      "headlineLine1": "보이지 않던 가치를,",
+      "headlineLine2": "만질 수 있는 경험으로",
+      "sub": "브로큰에그는 반응형 3D 시뮬레이션과 XR 기술로 제품·교육·산업안전의 경험을 바꿉니다. 우리가 걸어온 길과 함께한 사람들을 소개합니다."
+    },
+    "overview": {
+      "tag": "Company",
+      "headlineLine1": "도면 속에 갇힌 제품을",
+      "headlineLine2": "손으로 만지듯 보여줍니다",
+      "lead": "브로큰에그는 복잡한 제품과 개념을 누구나 직관적으로 이해할 수 있도록, 웹에서 바로 체험하는 반응형 3D 시뮬레이션과 XR 솔루션을 만듭니다.",
+      "rows": {
+        "company": "회사명",
+        "founded": "설립일",
+        "ceo": "대표자",
+        "industry": "업종",
+        "business": "사업",
+        "service": "서비스"
+      },
+      "values": {
+        "company": "주식회사 브로큰에그",
+        "founded": "2023년 07월 20일",
+        "ceo": "이상문",
+        "industry": "정보통신업",
+        "business": "반응형 3D 입체 솔루션 · 3D 반응형 미디어 · XR (VR/AR/MR)",
+        "service": "Egg One — 반응형 3D 입체 매뉴얼 · 카탈로그 · 교본"
+      }
+    },
+    "history": {
+      "tag": "History",
+      "title": "성장 연혁",
+      "sub": "설립 이후 특허 · 인증 · 전시로 쌓아온 발자취입니다.",
+      "items": [
+        "기술특허 출원 1건",
+        "스마트테크코리아 전시회 참가",
+        "월드 IT쇼 전시회 참가 · 상표 등록 1건",
+        "기술특허 등록 1건",
+        "기술특허 등록 1건",
+        "소프트웨어 품질인증 (GS 1등급)",
+        "NVIDIA 인셉션 멤버기업 선정 · ISO 9001:2015 인증",
+        "기술특허 출원 2건",
+        "혁신성장유형 벤처기업 확인",
+        "청년창업사관학교 안산 선정 · 우수 졸업",
+        "재도전중소기업협회 청년 창업반 최우수 표창",
+        "주식회사 브로큰에그 법인 설립",
+        "예비창업패키지 선정 · 우수 수료"
+      ]
+    },
+    "leadership": {
+      "tag": "Leadership",
+      "title": "현장에서 쌓은 XR · 3D 전문성",
+      "sub": "완성차 · 가전 · 미디어 현장에서 검증된 인력이 직접 솔루션을 설계합니다.",
+      "backgroundLabel": "주요 경력",
+      "background": [
+        "현대자동차",
+        "대동공업",
+        "알텐코리아",
+        "코웨이",
+        "POSCO",
+        "빈스튜디오",
+        "The Pinkfong Company",
+        "SBS A&T",
+        "덱스터스튜디오",
+        "대원미디어"
+      ],
+      "leaders": [
+        {
+          "name": "이상문",
+          "role": "CEO",
+          "focus": "VR 전시관 설치·운영, 차량 VR 품평 시뮬레이션, 대기업 XR 외주개발 PM"
+        },
+        {
+          "name": "백인칠",
+          "role": "CTO",
+          "focus": "실시간 3D 엔진·플러그인 개발, 반응형 3D 미디어 파이프라인 설계"
+        }
+      ]
+    },
+    "partners": {
+      "tag": "Partners",
+      "title": "산학협력 & 지원기관",
+      "sub": "정부·창업지원기관과 학교가 브로큰에그의 성장에 함께하고 있습니다.",
+      "names": {
+        "mss": "중소벤처기업부",
+        "kised": "창업진흥원",
+        "youth-startup-academy": "청년창업사관학교",
+        "kosme": "중소벤처기업진흥공단 (KOSME)",
+        "nvidia-inception": "NVIDIA Inception Program",
+        "sungil-hs": "성일정보고등학교",
+        "incheon-univ": "인천대학교",
+        "sangmyung-univ": "상명대학교",
+        "korea-media-univ": "한국영상대학교",
+        "suwon-univ": "수원대학교"
+      }
+    }
+  },
+  "contact": {
+    "title1": "궁금한 점이 있으신가요?",
+    "title2": "편하신 방법으로 문의해 주세요.",
+    "sms": "문자",
+    "email": "이메일",
+    "phone": "전화"
+  },
+  "finalCta": {
+    "title1": "지금 브로큰에그의",
+    "title2": "미래형 솔루션을 경험하세요."
+  },
+  "footer": {
+    "copyright": "© 2024 Broken Egg Inc. All Rights Reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "ref": "[REF: BRK-EGG-2024-V1]"
+  },
+  "demo": {
+    "badge": "DEMO REQUEST",
+    "title": "데모를 요청하세요",
+    "desc": "제품과 도입 방식이 궁금하시면 남겨주세요. 영업일 기준 1–2일 내 회신드립니다.",
+    "company": "회사명",
+    "name": "이름",
+    "contact": "연락처",
+    "email": "이메일",
+    "message": "문의 내용",
+    "companyPh": "브로큰에그",
+    "namePh": "홍길동",
+    "contactPh": "010-0000-0000",
+    "emailPh": "name@company.com",
+    "messagePh": "도입 목적, 일정, 궁금한 점을 자유롭게 적어주세요.",
+    "consentTitle": "개인정보 수집 및 이용 동의",
+    "consentLabel": "개인정보 수집 및 이용에 동의합니다.",
+    "policy": "브로큰에그는 데모 요청 확인 및 회신을 위해 아래와 같이 개인정보를 수집·이용합니다.\n\n1. 수집 항목 : 회사명, 이름, 연락처, 이메일, 문의 내용\n2. 수집·이용 목적 : 데모 요청 접수 확인 및 회신\n3. 보유·이용 기간 : 문의 응대 완료 후 1년간 보관 후 파기\n4. 동의를 거부하실 권리가 있으며, 거부 시 데모 요청 접수가 제한될 수 있습니다.",
+    "submit": "전송",
+    "submitting": "전송 중…",
+    "successBadge": "SENT",
+    "successTitle": "요청이 접수되었습니다.",
+    "successBody1": "영업일 기준 1–2일 내에",
+    "successBody2": "남겨주신 연락처로 회신드리겠습니다.",
+    "close": "닫기",
+    "errors": {
+      "company_required": "회사명을 입력해주세요.",
+      "company_max": "회사명은 {max}자 이내로 입력해주세요.",
+      "name_required": "이름을 입력해주세요.",
+      "name_max": "이름은 {max}자 이내로 입력해주세요.",
+      "contact_required": "연락처를 입력해주세요.",
+      "contact_max": "연락처는 {max}자 이내로 입력해주세요.",
+      "contact_invalid": "연락처를 정확히 입력해주세요. (숫자 9~11자리)",
+      "email_required": "이메일을 입력해주세요.",
+      "email_max": "이메일은 {max}자 이내로 입력해주세요.",
+      "email_invalid": "이메일 형식이 올바르지 않습니다.",
+      "message_required": "문의 내용을 입력해주세요.",
+      "message_max": "문의 내용은 {max}자 이내로 입력해주세요.",
+      "consent": "개인정보 수집 및 이용에 동의해주세요.",
+      "submitFailed": "전송에 실패했습니다. 잠시 후 다시 시도해주세요.",
+      "timeout": "요청 시간이 초과되었습니다. 네트워크 상태를 확인하고 다시 시도해주세요.",
+      "network": "네트워크 오류로 전송하지 못했습니다. 연결을 확인한 뒤 다시 시도해주세요."
+    }
+  }
+}

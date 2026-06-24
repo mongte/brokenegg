@@ -99,10 +99,9 @@ export async function POST(request: Request) {
     message: asString(body.message).trim(),
   };
 
-  const errors = validateDemoForm(form);
-  if (hasErrors(errors)) {
-    const first = Object.values(errors)[0];
-    return json({ ok: false, error: first ?? '입력값을 확인해주세요.' }, 400);
+  // 서버 방어 검증(우회 요청 대비). 정상 사용자는 클라이언트에서 먼저 막힌다.
+  if (hasErrors(validateDemoForm(form))) {
+    return json({ ok: false, error: 'invalid_input' }, 400);
   }
 
   // Resend 호출 (네트워크 행/지연 가드)

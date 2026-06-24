@@ -3,6 +3,7 @@
 import styles from './case-study.module.css';
 import { cx } from '@/shared/lib';
 import { useEffect, useRef, useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { Play, ExternalLink, Mail } from 'lucide-react';
 import type { CaseStudy } from '../model/types';
 import { buildAutoplaySrc, getYouTubeThumbnail } from '../lib/youtube';
@@ -29,6 +30,8 @@ type ExpStage = 'idle' | 'rotating' | 'loaded';
  */
 export function CaseStudyCard({ caseStudy }: CaseStudyCardProps) {
   const { company, product, description, link, videoUrl, experienceUrl, posterUrl } = caseStudy;
+  const t = useTranslations('cases');
+  const label = `${company} ${product}`;
 
   // 좌: YouTube
   const [videoPlaying, setVideoPlaying] = useState(false);
@@ -45,10 +48,10 @@ export function CaseStudyCard({ caseStudy }: CaseStudyCardProps) {
   // 회전 완료 → iframe 로드. animationend가 누락돼도 타임아웃으로 안전하게 진행.
   useEffect(() => {
     if (expStage !== 'rotating') return;
-    const t = setTimeout(() => {
+    const timer = setTimeout(() => {
       setExpStage((s) => (s === 'rotating' ? 'loaded' : s));
     }, 1100);
-    return () => clearTimeout(t);
+    return () => clearTimeout(timer);
   }, [expStage]);
 
   // iframe 마운트 후: 뷰포트 밖이면 park(display:none)로 렌더 정지, 다시 보이면 복귀.
@@ -76,7 +79,7 @@ export function CaseStudyCard({ caseStudy }: CaseStudyCardProps) {
           {videoPlaying && videoUrl ? (
             <iframe
               src={buildAutoplaySrc(videoUrl)}
-              title={`${company} ${product} 영상`}
+              title={label}
               loading="lazy"
               allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
               allowFullScreen
@@ -87,7 +90,7 @@ export function CaseStudyCard({ caseStudy }: CaseStudyCardProps) {
               className={cx(styles['case-poster'], 'case-poster--video')}
               style={videoPoster ? { backgroundImage: `url(${videoPoster})` } : undefined}
               onClick={() => setVideoPlaying(true)}
-              aria-label={`${company} ${product} 영상 재생`}
+              aria-label={t('videoPlay', { name: label })}
             >
               <span className={styles['case-play-btn']} aria-hidden="true">
                 <Play size={26} strokeWidth={2} fill="currentColor" />
@@ -96,20 +99,20 @@ export function CaseStudyCard({ caseStudy }: CaseStudyCardProps) {
           ) : (
             <div className={styles['case-media-placeholder']}>
               <span className={styles['case-media-ph-label']}>Video</span>
-              <span className={styles['case-media-ph-note']}>URL 연결 예정</span>
+              <span className={styles['case-media-ph-note']}>{t('phVideo')}</span>
             </div>
           )}
         </div>
 
         {/* 우: 인터랙티브 3D 체험 */}
         <div className={cx(styles['case-media'], styles['case-media--experience'])} ref={expRef}>
-          <div className={styles['case-exp-bar']}>사진을 눌러서 BROKEN EGG의 서비스를 체험해 보세요</div>
+          <div className={styles['case-exp-bar']}>{t('expBar')}</div>
 
           {expStage === 'loaded' && experienceUrl ? (
             <div className={cx(styles['case-exp-stage'], expParked && styles['is-parked'])}>
               <iframe
                 src={experienceUrl}
-                title={`${company} ${product} 3D 체험`}
+                title={label}
                 loading="lazy"
                 allow="autoplay; fullscreen; xr-spatial-tracking; accelerometer; gyroscope"
                 allowFullScreen
@@ -127,7 +130,7 @@ export function CaseStudyCard({ caseStudy }: CaseStudyCardProps) {
               onClick={() => setExpStage((s) => (s === 'idle' ? 'rotating' : s))}
               onAnimationEnd={handleRotateEnd}
               disabled={expStage === 'rotating'}
-              aria-label={`${company} ${product} 3D 체험 시작`}
+              aria-label={t('expStart', { name: label })}
             >
               <span className={cx(styles['case-play-btn'], 'case-play-btn--exp')} aria-hidden="true">
                 <Play size={26} strokeWidth={2} fill="currentColor" />
@@ -136,7 +139,7 @@ export function CaseStudyCard({ caseStudy }: CaseStudyCardProps) {
           ) : (
             <div className={styles['case-media-placeholder']}>
               <span className={styles['case-media-ph-label']}>Live 3D</span>
-              <span className={styles['case-media-ph-note']}>URL 연결 예정</span>
+              <span className={styles['case-media-ph-note']}>{t('phLive')}</span>
             </div>
           )}
         </div>
@@ -160,6 +163,7 @@ export function CaseStudyCard({ caseStudy }: CaseStudyCardProps) {
  * - 이메일: `mailto:`로 연결하고 메일 아이콘 표기.
  */
 function CaseLink({ value }: { value: string }) {
+  const t = useTranslations('cases');
   const isUrl = /^https?:\/\//i.test(value);
   const isEmail = !isUrl && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 
@@ -168,7 +172,7 @@ function CaseLink({ value }: { value: string }) {
       <a className={styles['case-link']} href={value} target="_blank" rel="noopener noreferrer">
         <span>{value}</span>
         <ExternalLink size={14} strokeWidth={2} aria-hidden="true" />
-        <span className="sr-only">(새 탭에서 열림)</span>
+        <span className="sr-only">{t('newTab')}</span>
       </a>
     );
   }

@@ -1,0 +1,41 @@
+.wrap {
+	position: fixed;
+	inset: 0;
+	background: #000;
+	overflow: hidden;
+}
+
+.canvas {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	outline: none;
+	touch-action: none;
+}
+
+.status {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	color: #fff;
+	font-family: sans-serif;
+	pointer-events: none;
+}
+
+.progress {
+	width: 240px;
+	height: 6px;
+}
+
+.notice {
+	white-space: pre-line;
+	text-align: center;
+	max-width: 90vw;
+	font-size: 14px;
+	line-height: 1.5;
+}

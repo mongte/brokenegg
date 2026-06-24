@@ -1,0 +1,10 @@
+
+# Godot 웹뷰어 로컬 테스트 에셋 (대용량 바이너리)
+godot-assets/
+
+# Playwright e2e 산출물
+/test-results/
+/playwright-report/
+/blob-report/
+/.last-run.json
+e2e/*.png

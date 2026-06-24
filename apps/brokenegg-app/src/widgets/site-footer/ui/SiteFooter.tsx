@@ -1,16 +1,17 @@
-import { siteConfig } from '@/shared/config';
+import { useTranslations } from 'next-intl';
 
 export function SiteFooter() {
-  const { footer } = siteConfig;
+  const t = useTranslations('footer');
+  const links = [t('privacy'), t('terms'), t('contact')];
   return (
     <footer>
-      <div>{footer.copyright}</div>
+      <div>{t('copyright')}</div>
       <div style={{ display: 'flex', gap: '24px' }}>
-        {footer.links.map((link) => (
+        {links.map((link) => (
           <span key={link}>{link}</span>
         ))}
       </div>
-      <div>{footer.ref}</div>
+      <div>{t('ref')}</div>
     </footer>
   );
 }

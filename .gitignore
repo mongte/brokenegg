@@ -53,3 +53,6 @@ Thumbs.db
 out
 .vercel
 .env*
+
+# Godot raw export 덤프(대용량 바이너리) — 앱은 godot-assets 복사본 사용
+3d-viewer-test/

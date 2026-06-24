@@ -1,11 +1,11 @@
 ---
 source_file: "brokenegg-doc/CLAUDE.md"
 type: "document"
-community: "위키 운영 & 인덱스"
+community: "위키 운영·MOC"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/___
+  - community/_MOC
 ---
 
 # LLM Wiki + Graphify 운영 방식
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[인덱스 (MOC)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/___
+#graphify/document #graphify/EXTRACTED #community/_MOC

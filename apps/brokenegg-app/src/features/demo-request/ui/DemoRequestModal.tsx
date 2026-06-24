@@ -4,8 +4,8 @@ import styles from './demo-request.module.css';
 import { cx } from '@/shared/lib';
 import { useEffect, useState } from 'react';
 import type { ChangeEvent, FormEvent } from 'react';
+import { useTranslations } from 'next-intl';
 import { DEMO_MODAL_OPEN_EVENT } from '../lib/events';
-import { PRIVACY_CONSENT } from '../model/policy';
 import { EMPTY_FORM, type DemoRequestForm, type DemoRequestResponse } from '../model/types';
 import { FIELD_LIMITS, hasErrors, validateDemoForm, type DemoFormErrors } from '../lib/validate';
 
@@ -17,35 +17,32 @@ const REQUEST_TIMEOUT_MS = 15_000;
 /**
  * 입력 단계 제약(constrain): 허용되지 않는 문자를 타이핑/붙여넣기 즉시 제거한다.
  * onKeyDown이 아니라 onChange에서 처리해야 붙여넣기·자동완성·IME 우회까지 막힌다.
- * 어디까지나 UX 보정이며, 실제 방어는 validate(클라이언트+서버)가 담당한다.
  */
 const SANITIZERS: Partial<Record<keyof DemoRequestForm, (v: string) => string>> = {
-  // 연락처: 숫자와 전화번호 표기 문자(+, -, 공백)만 남긴다.
   contact: (v) => v.replace(/[^\d+\-\s]/g, ''),
-  // 이메일: 공백 불가.
   email: (v) => v.replace(/\s/g, ''),
 };
 
 /**
  * 데모 요청 모달. layout에 한 번만 마운트되고, 어디서든 openDemoModal() 신호를 받아 열린다.
- * 전송 시 /api/demo-request 로 POST → 서버가 메일 발송.
+ * 전송 시 /api/demo-request 로 POST → 서버가 메일 발송. 카피는 next-intl로 다국어 처리.
  */
 export function DemoRequestModal() {
+  const t = useTranslations('demo');
   const [open, setOpen] = useState(false);
   const [status, setStatus] = useState<Status>('idle');
   const [error, setError] = useState('');
   const [fieldErrors, setFieldErrors] = useState<DemoFormErrors>({});
   const [agreePrivacy, setAgreePrivacy] = useState(false);
-  const [consentError, setConsentError] = useState('');
+  const [consentInvalid, setConsentInvalid] = useState(false);
   const [form, setForm] = useState<DemoRequestForm>(EMPTY_FORM);
 
-  // 외부 CTA → 모달 열기. 닫았다 다시 열면 항상 이전 입력을 초기화한다.
   useEffect(() => {
     const handler = () => {
       setForm(EMPTY_FORM);
       setAgreePrivacy(false);
       setFieldErrors({});
-      setConsentError('');
+      setConsentInvalid(false);
       setError('');
       setStatus('idle');
       setOpen(true);
@@ -54,7 +51,6 @@ export function DemoRequestModal() {
     return () => window.removeEventListener(DEMO_MODAL_OPEN_EVENT, handler);
   }, []);
 
-  // 열려 있을 때 배경 스크롤 잠금 + Esc 닫기(전송 중에는 막지 않음)
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => {
@@ -70,14 +66,12 @@ export function DemoRequestModal() {
   }, [open, status]);
 
   function close() {
-    // 전송 중에는 닫지 않는다(중복/유실 방지).
     if (status === 'submitting') return;
     setOpen(false);
     setError('');
-    setConsentError('');
+    setConsentInvalid(false);
     setFieldErrors({});
     setStatus('idle');
-    // 입력 초기화는 다시 열 때 일괄 처리한다(닫는 경로와 무관하게 항상 초기화).
   }
 
   const update =
@@ -86,13 +80,19 @@ export function DemoRequestModal() {
       const sanitize = SANITIZERS[field];
       const value = sanitize ? sanitize(e.target.value) : e.target.value;
       setForm((prev) => ({ ...prev, [field]: value }));
-      // 입력을 고치면 해당 필드 에러와 직전 전송 에러를 즉시 해제
       setFieldErrors((prev) => (prev[field] ? { ...prev, [field]: undefined } : prev));
       if (status === 'error') {
         setStatus('idle');
         setError('');
       }
     };
+
+  /** 검증 에러 코드 → 현재 로케일 메시지. (필드별 최대 길이를 {max}로 주입) */
+  const fieldErrorText = (field: keyof DemoRequestForm) => {
+    const code = fieldErrors[field];
+    if (!code) return null;
+    return t(`errors.${code}`, { max: FIELD_LIMITS[field] });
+  };
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault();
@@ -102,11 +102,11 @@ export function DemoRequestModal() {
     const errors = validateDemoForm(form);
     setFieldErrors(errors);
     const consentMissing = !agreePrivacy;
-    setConsentError(consentMissing ? '개인정보 수집 및 이용에 동의해주세요.' : '');
+    setConsentInvalid(consentMissing);
     if (hasErrors(errors) || consentMissing) {
       setStatus('idle');
       setError('');
-      // 예외처리 안 된(검증 실패) 첫 항목으로 포커스 이동 → 어디가 문제인지 강조.
+      // 검증 실패한 첫 항목으로 포커스 이동 → 어디가 문제인지 강조.
       const order: (keyof DemoRequestForm)[] = ['company', 'name', 'contact', 'email', 'message'];
       const firstInvalid = order.find((field) => errors[field]);
       const target = firstInvalid
@@ -134,21 +134,20 @@ export function DemoRequestModal() {
       try {
         json = (await res.json()) as DemoRequestResponse;
       } catch {
-        throw new Error('서버 응답을 처리할 수 없습니다. 잠시 후 다시 시도해주세요.');
+        throw new Error('submitFailed');
       }
-
       if (!res.ok || !json.ok) {
-        throw new Error(json.error || '전송에 실패했습니다. 잠시 후 다시 시도해주세요.');
+        throw new Error('submitFailed');
       }
       setStatus('success');
     } catch (err) {
       setStatus('error');
       if (err instanceof DOMException && err.name === 'AbortError') {
-        setError('요청 시간이 초과되었습니다. 네트워크 상태를 확인하고 다시 시도해주세요.');
+        setError(t('errors.timeout'));
       } else if (err instanceof TypeError) {
-        setError('네트워크 오류로 전송하지 못했습니다. 연결을 확인한 뒤 다시 시도해주세요.');
+        setError(t('errors.network'));
       } else {
-        setError(err instanceof Error ? err.message : '전송에 실패했습니다.');
+        setError(t('errors.submitFailed'));
       }
     } finally {
       clearTimeout(timer);
@@ -166,40 +165,39 @@ export function DemoRequestModal() {
         if (e.target === e.currentTarget) close();
       }}
     >
-      <div className={styles['demo-modal']} role="dialog" aria-modal="true" aria-label="데모 요청">
+      <div className={styles['demo-modal']} role="dialog" aria-modal="true" aria-label={t('title')}>
         <button
           type="button"
           className={styles['demo-modal-close']}
           onClick={close}
           disabled={submitting}
-          aria-label="닫기"
+          aria-label={t('close')}
         >
           ✕
         </button>
 
         {status === 'success' ? (
           <div className={styles['demo-modal-success']}>
-            <span className="badge">SENT</span>
-            <h2>요청이 접수되었습니다.</h2>
+            <span className="badge">{t('successBadge')}</span>
+            <h2>{t('successTitle')}</h2>
             <p>
-              영업일 기준 1–2일 내에
+              {t('successBody1')}
               <br />
-              남겨주신 연락처로 회신드리겠습니다.
+              {t('successBody2')}
             </p>
             <button type="button" className="btn btn-primary" onClick={close}>
-              닫기
+              {t('close')}
             </button>
           </div>
         ) : (
           <>
             <div className={styles['demo-modal-head']}>
-              <span className="badge">DEMO REQUEST</span>
-              <h2>데모를 요청하세요</h2>
-              <p>제품과 도입 방식이 궁금하시면 남겨주세요. 영업일 기준 1–2일 내 회신드립니다.</p>
+              <span className="badge">{t('badge')}</span>
+              <h2>{t('title')}</h2>
+              <p>{t('desc')}</p>
             </div>
 
             <form className={styles['demo-form']} onSubmit={onSubmit} noValidate>
-              {/* 허니팟: 화면에 안 보이고 봇만 채움 */}
               <input
                 type="text"
                 name="botcheck"
@@ -211,7 +209,7 @@ export function DemoRequestModal() {
 
               <div className={styles['demo-field']}>
                 <label htmlFor="demo-company">
-                  회사명 <span className={styles['req']}>*</span>
+                  {t('company')} <span className={styles['req']}>*</span>
                 </label>
                 <input
                   id="demo-company"
@@ -219,14 +217,14 @@ export function DemoRequestModal() {
                   maxLength={FIELD_LIMITS.company}
                   value={form.company}
                   onChange={update('company')}
-                  placeholder="브로큰에그"
+                  placeholder={t('companyPh')}
                   aria-invalid={!!fieldErrors.company}
                   aria-describedby={fieldErrors.company ? 'demo-company-error' : undefined}
                   disabled={submitting}
                 />
                 {fieldErrors.company && (
                   <p id="demo-company-error" className={styles['demo-field-error']} role="alert">
-                    {fieldErrors.company}
+                    {fieldErrorText('company')}
                   </p>
                 )}
               </div>
@@ -234,7 +232,7 @@ export function DemoRequestModal() {
               <div className={styles['demo-field-row']}>
                 <div className={styles['demo-field']}>
                   <label htmlFor="demo-name">
-                    이름 <span className={styles['req']}>*</span>
+                    {t('name')} <span className={styles['req']}>*</span>
                   </label>
                   <input
                     id="demo-name"
@@ -242,20 +240,20 @@ export function DemoRequestModal() {
                     maxLength={FIELD_LIMITS.name}
                     value={form.name}
                     onChange={update('name')}
-                    placeholder="홍길동"
+                    placeholder={t('namePh')}
                     aria-invalid={!!fieldErrors.name}
                     aria-describedby={fieldErrors.name ? 'demo-name-error' : undefined}
                     disabled={submitting}
                   />
                   {fieldErrors.name && (
                     <p id="demo-name-error" className={styles['demo-field-error']} role="alert">
-                      {fieldErrors.name}
+                      {fieldErrorText('name')}
                     </p>
                   )}
                 </div>
                 <div className={styles['demo-field']}>
                   <label htmlFor="demo-contact">
-                    연락처 <span className={styles['req']}>*</span>
+                    {t('contact')} <span className={styles['req']}>*</span>
                   </label>
                   <input
                     id="demo-contact"
@@ -263,7 +261,7 @@ export function DemoRequestModal() {
                     maxLength={FIELD_LIMITS.contact}
                     value={form.contact}
                     onChange={update('contact')}
-                    placeholder="010-0000-0000"
+                    placeholder={t('contactPh')}
                     inputMode="tel"
                     aria-invalid={!!fieldErrors.contact}
                     aria-describedby={fieldErrors.contact ? 'demo-contact-error' : undefined}
@@ -271,7 +269,7 @@ export function DemoRequestModal() {
                   />
                   {fieldErrors.contact && (
                     <p id="demo-contact-error" className={styles['demo-field-error']} role="alert">
-                      {fieldErrors.contact}
+                      {fieldErrorText('contact')}
                     </p>
                   )}
                 </div>
@@ -279,7 +277,7 @@ export function DemoRequestModal() {
 
               <div className={styles['demo-field']}>
                 <label htmlFor="demo-email">
-                  이메일 <span className={styles['req']}>*</span>
+                  {t('email')} <span className={styles['req']}>*</span>
                 </label>
                 <input
                   id="demo-email"
@@ -287,7 +285,7 @@ export function DemoRequestModal() {
                   maxLength={FIELD_LIMITS.email}
                   value={form.email}
                   onChange={update('email')}
-                  placeholder="name@company.com"
+                  placeholder={t('emailPh')}
                   inputMode="email"
                   aria-invalid={!!fieldErrors.email}
                   aria-describedby={fieldErrors.email ? 'demo-email-error' : undefined}
@@ -295,14 +293,14 @@ export function DemoRequestModal() {
                 />
                 {fieldErrors.email && (
                   <p id="demo-email-error" className={styles['demo-field-error']} role="alert">
-                    {fieldErrors.email}
+                    {fieldErrorText('email')}
                   </p>
                 )}
               </div>
 
               <div className={styles['demo-field']}>
                 <label htmlFor="demo-message">
-                  문의 내용 <span className={styles['req']}>*</span>
+                  {t('message')} <span className={styles['req']}>*</span>
                 </label>
                 <textarea
                   id="demo-message"
@@ -310,40 +308,40 @@ export function DemoRequestModal() {
                   maxLength={FIELD_LIMITS.message}
                   value={form.message}
                   onChange={update('message')}
-                  placeholder="도입 목적, 일정, 궁금한 점을 자유롭게 적어주세요."
+                  placeholder={t('messagePh')}
                   aria-invalid={!!fieldErrors.message}
                   aria-describedby={fieldErrors.message ? 'demo-message-error' : undefined}
                   disabled={submitting}
                 />
                 {fieldErrors.message && (
                   <p id="demo-message-error" className={styles['demo-field-error']} role="alert">
-                    {fieldErrors.message}
+                    {fieldErrorText('message')}
                   </p>
                 )}
               </div>
 
               <div className={styles['demo-consent-group']}>
                 <div className={styles['demo-consent-title']}>
-                  개인정보 수집 및 이용 동의 <span className={styles['req']}>*</span>
+                  {t('consentTitle')} <span className={styles['req']}>*</span>
                 </div>
-                <div className={styles['demo-policy']}>{PRIVACY_CONSENT}</div>
+                <div className={styles['demo-policy']}>{t('policy')}</div>
                 <label className={styles['demo-consent']}>
                   <input
                     id="demo-consent-check"
                     type="checkbox"
                     checked={agreePrivacy}
-                    aria-invalid={!!consentError}
+                    aria-invalid={consentInvalid}
                     onChange={(e) => {
                       setAgreePrivacy(e.target.checked);
-                      if (e.target.checked) setConsentError('');
+                      if (e.target.checked) setConsentInvalid(false);
                     }}
                     disabled={submitting}
                   />
-                  <span>개인정보 수집 및 이용에 동의합니다.</span>
+                  <span>{t('consentLabel')}</span>
                 </label>
-                {consentError && (
+                {consentInvalid && (
                   <p className={styles['demo-field-error']} role="alert">
-                    {consentError}
+                    {t('errors.consent')}
                   </p>
                 )}
               </div>
@@ -359,7 +357,7 @@ export function DemoRequestModal() {
                 className={cx('btn', 'btn-primary', styles['demo-submit'])}
                 disabled={submitting}
               >
-                {submitting ? '전송 중…' : '전송'}
+                {submitting ? t('submitting') : t('submit')}
               </button>
             </form>
           </>

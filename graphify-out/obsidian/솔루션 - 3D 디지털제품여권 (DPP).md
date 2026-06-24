@@ -1,11 +1,11 @@
 ---
 source_file: "brokenegg-doc/wiki/솔루션 - 3D 디지털제품여권 (DPP).md"
 type: "concept"
-community: "3D 디지털제품여권 (DPP)"
+community: "3D 엔진·XR·솔루션"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/3D__DPP
+  - community/3D_XR
 ---
 
 # 솔루션 - 3D 디지털제품여권 (DPP)
@@ -22,4 +22,4 @@ tags:
 - [[핵심 기술 - 3D 인터랙션 시뮬레이션 엔진]] - `references` [EXTRACTED]
 - [[회사 개요 (브로큰에그)]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/3D__DPP
+#graphify/concept #graphify/EXTRACTED #community/3D_XR

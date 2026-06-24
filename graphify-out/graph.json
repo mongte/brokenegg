@@ -4,47 +4,18 @@
   "graph": {
     "hyperedges": [
       {
-        "id": "design_system_four_notes",
-        "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c 4\ubd80\uc791 \ub178\ud2b8 (\uac1c\uc694\u00b7\ud1a0\ud070\u00b7\ucef4\ud3ec\ub10c\ud2b8\u00b7\ub808\uc774\uc544\uc6c3)",
+        "id": "viewer_cost_optimization_levers",
+        "label": "3D \ubdf0\uc5b4 \ube44\uc6a9/\ub85c\ub529 \ucd5c\uc801\ud654 \ub808\ubc84 (single-thread + R2 + wasm\uacf5\uc720 + Brotli)",
         "nodes": [
-          "wiki_design_system_overview",
-          "wiki_design_system_tokens",
-          "wiki_design_system_components",
-          "wiki_design_system_layout_patterns"
-        ],
-        "relation": "form",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.9,
-        "source_file": "wiki/\uc778\ub371\uc2a4 (MOC).md"
-      },
-      {
-        "id": "page_shell_composition",
-        "label": "\ud398\uc774\uc9c0 \uc178 \uad6c\uc131 (grid-bg + canvas + SiteHeader/Footer)",
-        "nodes": [
-          "wiki_design_system_tokens_grid_bg",
-          "wiki_design_system_tokens_canvas",
-          "wiki_design_system_components_site_header",
-          "wiki_design_system_components_site_footer"
-        ],
-        "relation": "participate_in",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.9,
-        "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md"
-      },
-      {
-        "id": "section_building_blocks",
-        "label": "\uc139\uc158 \ube4c\ub529\ube14\ub85d \uc870\ud569 (Hero/Problems/Services/Testimonials/FinalCta)",
-        "nodes": [
-          "wiki_design_system_components_hero",
-          "wiki_design_system_components_problems",
-          "wiki_design_system_components_services",
-          "wiki_design_system_components_testimonials",
-          "wiki_design_system_components_final_cta"
+          "wiki____________3d__________________________single_thread______",
+          "wiki____________3d__________________________cloudflare_r2",
+          "wiki____________3d__________________________wasm__________",
+          "wiki____________3d__________________________brotli____"
         ],
         "relation": "participate_in",
         "confidence": "EXTRACTED",
         "confidence_score": 0.85,
-        "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md"
+        "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md"
       }
     ]
   },
@@ -55,7 +26,7 @@
       "source_file": "brokenegg-doc/.obsidian/app.json",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 11,
+      "community": 6,
       "norm_label": "app.json",
       "id": "obsidian_app"
     },
@@ -68,7 +39,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 5,
       "norm_label": "brokenegg-doc claude.md (llm wiki \u110b\u116e\u11ab\u110b\u1167\u11bc \u1100\u1161\u110b\u1175\u1103\u1173)",
       "id": "brokenegg_doc_claude_wiki_guide"
     },
@@ -81,7 +52,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 2,
       "norm_label": "3d \u110b\u1175\u11ab\u1110\u1165\u1105\u1162\u11a8\u1109\u1167\u11ab \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab \u110b\u1166\u11ab\u110c\u1175\u11ab",
       "id": "raw_____________________________engine"
     },
@@ -94,7 +65,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 2,
       "norm_label": "\u1112\u1162\u11a8\u1109\u1175\u11b7 \u1100\u1175\u1109\u116e\u11af - 3d \u110b\u1175\u11ab\u1110\u1165\u1105\u1162\u11a8\u1109\u1167\u11ab \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab \u110b\u1166\u11ab\u110c\u1175\u11ab",
       "id": "wiki____________3d_____________________engine"
     },
@@ -107,7 +78,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 2,
       "norm_label": "\u1102\u1166\u110b\u1175\u1110\u1175\u1107\u1173 xr \u1112\u116a\u11a8\u110c\u1161\u11bc\u1109\u1165\u11bc",
       "id": "wiki____________native_xr"
     },
@@ -120,7 +91,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 2,
       "norm_label": "\u1103\u1161\u1100\u1161\u11a8\u1103\u1169 \u1109\u1175\u110c\u1165\u11b7 \u110c\u1166\u110b\u1165 (global view / detail view)",
       "id": "wiki____________viewpoint_control"
     },
@@ -133,7 +104,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - 3d \u1103\u1175\u110c\u1175\u1110\u1165\u11af\u110c\u1166\u1111\u116e\u11b7\u110b\u1167\u1100\u116f\u11ab (dpp)",
       "id": "wiki____________dpp"
     },
@@ -146,7 +117,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - \u1109\u1161\u11ab\u110b\u1165\u11b8\u110b\u1161\u11ab\u110c\u1165\u11ab\u110b\u1171\u1112\u1165\u11b7 \u1100\u116d\u110b\u1172\u11a8",
       "id": "wiki____________safety_education"
     },
@@ -159,7 +130,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 2,
       "norm_label": "\u1103\u1175\u110c\u1175\u1110\u1165\u11af \u1109\u1162\u11bc\u1110\u1162\u1100\u1168",
       "id": "wiki____________digital_ecosystem"
     },
@@ -172,7 +143,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 2,
       "norm_label": "\u1112\u116c\u1109\u1161 \u1100\u1162\u110b\u116d (\u1107\u1173\u1105\u1169\u110f\u1173\u11ab\u110b\u1166\u1100\u1173)",
       "id": "wiki____________company_overview"
     },
@@ -185,7 +156,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 2,
       "norm_label": "core-to-edge \u1109\u1161\u110b\u1165\u11b8 \u1100\u116e\u110c\u1169",
       "id": "wiki____________core_to_edge"
     },
@@ -198,7 +169,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "\u1106\u116e\u11af\u1105\u1175 \u110b\u1166\u11ab\u110c\u1175\u11ab \u1100\u1175\u1107\u1161\u11ab \u1102\u1173\u11bc\u1103\u1169\u11bc\u110c\u1165\u11a8 \u1109\u1161\u1100\u1169 \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab",
       "id": "wiki____________physics_engine"
     },
@@ -211,7 +182,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "\u110e\u1166\u1112\u116a\u1112\u1167\u11bc \u1107\u1161\u11ab\u1107\u1169\u11a8 \u1112\u116e\u11ab\u1105\u1167\u11ab (muscle memory)",
       "id": "wiki____________muscle_memory"
     },
@@ -224,7 +195,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 2,
       "norm_label": "\u110c\u116e\u110b\u116d \u1112\u116e\u11ab\u1105\u1167\u11ab \u1109\u1175\u1102\u1161\u1105\u1175\u110b\u1169 (\u110c\u1175\u1100\u1166\u110e\u1161/\u1112\u1167\u11b8\u110e\u1161\u11a8/\u110e\u116e\u1105\u1161\u11a8)",
       "id": "wiki____________training_scenarios"
     },
@@ -237,7 +208,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "esg \u1100\u1172\u110c\u1166 \u110c\u116e\u11ab\u1109\u116e / \u110c\u1166\u1111\u116e\u11b7\u110b\u1167\u1100\u116f\u11ab \u1100\u1172\u110c\u1166",
       "id": "wiki____________esg_regulation"
     },
@@ -250,7 +221,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "\u1103\u1166\u110b\u1175\u1110\u1165\u110b\u1174 \u1109\u1175\u1100\u1161\u11a8\u1112\u116a (\u1100\u1169\u11bc\u1100\u1173\u11b8\u1106\u1161\u11bc \u110c\u1165\u11bc\u1107\u1169)",
       "id": "wiki____________data_visualization"
     },
@@ -263,7 +234,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 2,
       "norm_label": "\u1109\u1175\u11af\u1109\u1175\u1100\u1161\u11ab \u1103\u1166\u110b\u1175\u1110\u1165 \u110b\u1167\u11ab\u1103\u1169\u11bc",
       "id": "wiki____________realtime_data_link"
     },
@@ -276,7 +247,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 2,
       "norm_label": "\u1106\u1166\u110b\u1175\u11ab \u110f\u1161\u1111\u1175",
       "id": "wiki____________main_copy"
     },
@@ -289,7 +260,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 2,
       "norm_label": "\u1105\u1162\u11ab\u1103\u1175\u11bc \u1111\u1166\u110b\u1175\u110c\u1175 \u110f\u1161\u1111\u1175",
       "id": "wiki____________landing_copy"
     },
@@ -302,7 +273,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 2,
       "norm_label": "egg one \u2014 \u1107\u1161\u11ab\u110b\u1173\u11bc\u1112\u1167\u11bc 3d \u110c\u1166\u1111\u116e\u11b7 \u1109\u1175\u1100\u1161\u11a8\u1112\u116a",
       "id": "wiki____________egg_one"
     },
@@ -315,7 +286,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 2,
       "norm_label": "egg two \u2014 3d \u1107\u1161\u11ab\u110b\u1173\u11bc\u1112\u1167\u11bc \u1106\u1175\u1103\u1175\u110b\u1165",
       "id": "wiki____________egg_two"
     },
@@ -328,7 +299,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 2,
       "norm_label": "xr \u1109\u1161\u11ab\u110b\u1165\u11b8\u110b\u1161\u11ab\u110c\u1165\u11ab \u1100\u116d\u110b\u1172\u11a8 (vr/ar/mr)",
       "id": "wiki____________xr_safety_training"
     },
@@ -341,7 +312,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 4,
       "norm_label": "\u110b\u1175\u11ab\u1103\u1166\u11a8\u1109\u1173 (moc)",
       "id": "wiki____________index_moc"
     },
@@ -354,7 +325,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 2,
       "norm_label": "\u1109\u1165\u1107\u1175\u1109\u1173 \u1100\u1175\u1112\u116c\u11a8\u1109\u1165 (\u110c\u1165\u11bc\u1105\u1175\u1107\u1169\u11ab)",
       "id": "raw____________service_plan"
     },
@@ -367,7 +338,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 2,
       "norm_label": "\u1109\u1165\u1107\u1175\u1109\u1173 \u1109\u1169\u1100\u1162\u1109\u1165 (\u110b\u116f\u11ab\u1107\u1169\u11ab \u1109\u1173\u11af\u1105\u1161\u110b\u1175\u1103\u1173 \u1107\u1167\u11ab\u1112\u116a\u11ab)",
       "id": "raw____________service_intro"
     },
@@ -380,7 +351,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 4,
       "norm_label": "llm wiki + graphify \u110b\u116e\u11ab\u110b\u1167\u11bc \u1107\u1161\u11bc\u1109\u1175\u11a8",
       "id": "brokenegg_doc_claude_llm_wiki"
     },
@@ -393,9 +364,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_overview",
       "community": 0,
-      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u1100\u1162\u110b\u116d"
+      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u1100\u1162\u110b\u116d",
+      "id": "wiki_design_system_overview"
     },
     {
       "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070",
@@ -406,9 +377,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_tokens",
-      "community": 1,
-      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1110\u1169\u110f\u1173\u11ab"
+      "community": 0,
+      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1110\u1169\u110f\u1173\u11ab",
+      "id": "wiki_design_system_tokens"
     },
     {
       "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8",
@@ -419,9 +390,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components",
-      "community": 2,
-      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173"
+      "community": 1,
+      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173",
+      "id": "wiki_design_system_components"
     },
     {
       "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134",
@@ -432,9 +403,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_layout_patterns",
-      "community": 0,
-      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u1111\u1166\u110b\u1175\u110c\u1175 \u1105\u1166\u110b\u1175\u110b\u1161\u110b\u116e\u11ba \u1111\u1162\u1110\u1165\u11ab"
+      "community": 1,
+      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u1111\u1166\u110b\u1175\u110c\u1175 \u1105\u1166\u110b\u1175\u110b\u1161\u110b\u116e\u11ba \u1111\u1162\u1110\u1165\u11ab",
+      "id": "wiki_design_system_layout_patterns"
     },
     {
       "label": "\uc778\ub371\uc2a4 (MOC)",
@@ -445,9 +416,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_index_moc",
-      "community": 0,
-      "norm_label": "\u110b\u1175\u11ab\u1103\u1166\u11a8\u1109\u1173 (moc)"
+      "community": 1,
+      "norm_label": "\u110b\u1175\u11ab\u1103\u1166\u11a8\u1109\u1173 (moc)",
+      "id": "wiki_index_moc"
     },
     {
       "label": "\ud504\ub808\uc784-\uc778-\uce94\ubc84\uc2a4 \uc6d0\uce59",
@@ -458,9 +429,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_overview_frame_in_canvas",
-      "community": 4,
-      "norm_label": "\u1111\u1173\u1105\u1166\u110b\u1175\u11b7-\u110b\u1175\u11ab-\u110f\u1162\u11ab\u1107\u1165\u1109\u1173 \u110b\u116f\u11ab\u110e\u1175\u11a8"
+      "community": 0,
+      "norm_label": "\u1111\u1173\u1105\u1166\u110b\u1175\u11b7-\u110b\u1175\u11ab-\u110f\u1162\u11ab\u1107\u1165\u1109\u1173 \u110b\u116f\u11ab\u110e\u1175\u11a8",
+      "id": "wiki_design_system_overview_frame_in_canvas"
     },
     {
       "label": "\ubaa8\ub178\ud06c\ub86c \uc6b0\uc120 \uc6d0\uce59",
@@ -471,9 +442,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_overview_monochrome_first",
       "community": 0,
-      "norm_label": "\u1106\u1169\u1102\u1169\u110f\u1173\u1105\u1169\u11b7 \u110b\u116e\u1109\u1165\u11ab \u110b\u116f\u11ab\u110e\u1175\u11a8"
+      "norm_label": "\u1106\u1169\u1102\u1169\u110f\u1173\u1105\u1169\u11b7 \u110b\u116e\u1109\u1165\u11ab \u110b\u116f\u11ab\u110e\u1175\u11a8",
+      "id": "wiki_design_system_overview_monochrome_first"
     },
     {
       "label": "\ub450 \uc11c\uccb4\uc758 \uc5ed\ud560 \ubd84\ub2f4 \uc6d0\uce59",
@@ -484,9 +455,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_overview_two_typefaces",
-      "community": 1,
-      "norm_label": "\u1103\u116e \u1109\u1165\u110e\u1166\u110b\u1174 \u110b\u1167\u11a8\u1112\u1161\u11af \u1107\u116e\u11ab\u1103\u1161\u11b7 \u110b\u116f\u11ab\u110e\u1175\u11a8"
+      "community": 0,
+      "norm_label": "\u1103\u116e \u1109\u1165\u110e\u1166\u110b\u1174 \u110b\u1167\u11a8\u1112\u1161\u11af \u1107\u116e\u11ab\u1103\u1161\u11b7 \u110b\u116f\u11ab\u110e\u1175\u11a8",
+      "id": "wiki_design_system_overview_two_typefaces"
     },
     {
       "label": "\ub9c8\uc774\ud06c\ub85c \ud0c0\uc774\ud3ec \ub77c\ubca8 \uc6d0\uce59",
@@ -497,9 +468,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_overview_micro_typo_label",
-      "community": 6,
-      "norm_label": "\u1106\u1161\u110b\u1175\u110f\u1173\u1105\u1169 \u1110\u1161\u110b\u1175\u1111\u1169 \u1105\u1161\u1107\u1166\u11af \u110b\u116f\u11ab\u110e\u1175\u11a8"
+      "community": 0,
+      "norm_label": "\u1106\u1161\u110b\u1175\u110f\u1173\u1105\u1169 \u1110\u1161\u110b\u1175\u1111\u1169 \u1105\u1161\u1107\u1166\u11af \u110b\u116f\u11ab\u110e\u1175\u11a8",
+      "id": "wiki_design_system_overview_micro_typo_label"
     },
     {
       "label": "\uc5d0\ub514\ud1a0\ub9ac\uc5bc \uadf8\ub9ac\ub4dc \uc6d0\uce59",
@@ -510,9 +481,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_overview_editorial_grid",
-      "community": 1,
-      "norm_label": "\u110b\u1166\u1103\u1175\u1110\u1169\u1105\u1175\u110b\u1165\u11af \u1100\u1173\u1105\u1175\u1103\u1173 \u110b\u116f\u11ab\u110e\u1175\u11a8"
+      "community": 0,
+      "norm_label": "\u110b\u1166\u1103\u1175\u1110\u1169\u1105\u1175\u110b\u1165\u11af \u1100\u1173\u1105\u1175\u1103\u1173 \u110b\u116f\u11ab\u110e\u1175\u11a8",
+      "id": "wiki_design_system_overview_editorial_grid"
     },
     {
       "label": "\ud55c \ubc88\uc758 \ub300\ube44 \uba74 \uc6d0\uce59",
@@ -523,9 +494,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_overview_single_contrast_plane",
-      "community": 0,
-      "norm_label": "\u1112\u1161\u11ab \u1107\u1165\u11ab\u110b\u1174 \u1103\u1162\u1107\u1175 \u1106\u1167\u11ab \u110b\u116f\u11ab\u110e\u1175\u11a8"
+      "community": 1,
+      "norm_label": "\u1112\u1161\u11ab \u1107\u1165\u11ab\u110b\u1174 \u1103\u1162\u1107\u1175 \u1106\u1167\u11ab \u110b\u116f\u11ab\u110e\u1175\u11a8",
+      "id": "wiki_design_system_overview_single_contrast_plane"
     },
     {
       "label": "\uc54c\uc57d \ud615\ud0dc \uc6d0\uce59",
@@ -536,9 +507,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_overview_pill_shape",
-      "community": 6,
-      "norm_label": "\u110b\u1161\u11af\u110b\u1163\u11a8 \u1112\u1167\u11bc\u1110\u1162 \u110b\u116f\u11ab\u110e\u1175\u11a8"
+      "community": 0,
+      "norm_label": "\u110b\u1161\u11af\u110b\u1163\u11a8 \u1112\u1167\u11bc\u1110\u1162 \u110b\u116f\u11ab\u110e\u1175\u11a8",
+      "id": "wiki_design_system_overview_pill_shape"
     },
     {
       "label": "Variant \ub808\ud37c\ub7f0\uc2a4 \ub514\uc790\uc778 (BRK-EGG-2024-V1)",
@@ -549,9 +520,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_overview_variant_reference",
       "community": 0,
-      "norm_label": "variant \u1105\u1166\u1111\u1165\u1105\u1165\u11ab\u1109\u1173 \u1103\u1175\u110c\u1161\u110b\u1175\u11ab (brk-egg-2024-v1)"
+      "norm_label": "variant \u1105\u1166\u1111\u1165\u1105\u1165\u11ab\u1109\u1173 \u1103\u1175\u110c\u1161\u110b\u1175\u11ab (brk-egg-2024-v1)",
+      "id": "wiki_design_system_overview_variant_reference"
     },
     {
       "label": "global.css (\uad6c\ud604 \ub2e8\uc77c \ucd9c\ucc98)",
@@ -562,9 +533,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_overview_global_css",
-      "community": 1,
-      "norm_label": "global.css (\u1100\u116e\u1112\u1167\u11ab \u1103\u1161\u11ab\u110b\u1175\u11af \u110e\u116e\u11af\u110e\u1165)"
+      "community": 0,
+      "norm_label": "global.css (\u1100\u116e\u1112\u1167\u11ab \u1103\u1161\u11ab\u110b\u1175\u11af \u110e\u116e\u11af\u110e\u1165)",
+      "id": "wiki_design_system_overview_global_css"
     },
     {
       "label": "/brokenegg-page \uc2a4\ud0ac",
@@ -575,9 +546,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_overview_brokenegg_page_skill",
       "community": 0,
-      "norm_label": "/brokenegg-page \u1109\u1173\u110f\u1175\u11af"
+      "norm_label": "/brokenegg-page \u1109\u1173\u110f\u1175\u11af",
+      "id": "wiki_design_system_overview_brokenegg_page_skill"
     },
     {
       "label": "\uc0c9 \ud1a0\ud070 (Color)",
@@ -588,9 +559,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_tokens_color_token",
-      "community": 1,
-      "norm_label": "\u1109\u1162\u11a8 \u1110\u1169\u110f\u1173\u11ab (color)"
+      "community": 0,
+      "norm_label": "\u1109\u1162\u11a8 \u1110\u1169\u110f\u1173\u11ab (color)",
+      "id": "wiki_design_system_tokens_color_token"
     },
     {
       "label": "\ubc18\uacbd \ud1a0\ud070 (Radius)",
@@ -601,9 +572,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_tokens_radius_token",
-      "community": 6,
-      "norm_label": "\u1107\u1161\u11ab\u1100\u1167\u11bc \u1110\u1169\u110f\u1173\u11ab (radius)"
+      "community": 0,
+      "norm_label": "\u1107\u1161\u11ab\u1100\u1167\u11bc \u1110\u1169\u110f\u1173\u11ab (radius)",
+      "id": "wiki_design_system_tokens_radius_token"
     },
     {
       "label": "\uc11c\uccb4 \ud1a0\ud070 (Typography)",
@@ -614,9 +585,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_tokens_typography_token",
-      "community": 1,
-      "norm_label": "\u1109\u1165\u110e\u1166 \u1110\u1169\u110f\u1173\u11ab (typography)"
+      "community": 0,
+      "norm_label": "\u1109\u1165\u110e\u1166 \u1110\u1169\u110f\u1173\u11ab (typography)",
+      "id": "wiki_design_system_tokens_typography_token"
     },
     {
       "label": "\ud0c0\uc785 \uc2a4\ucf00\uc77c",
@@ -627,9 +598,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_tokens_type_scale",
-      "community": 1,
-      "norm_label": "\u1110\u1161\u110b\u1175\u11b8 \u1109\u1173\u110f\u1166\u110b\u1175\u11af"
+      "community": 0,
+      "norm_label": "\u1110\u1161\u110b\u1175\u11b8 \u1109\u1173\u110f\u1166\u110b\u1175\u11af",
+      "id": "wiki_design_system_tokens_type_scale"
     },
     {
       "label": "\uac04\uaca9 (Spacing)",
@@ -640,9 +611,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_tokens_spacing",
-      "community": 1,
-      "norm_label": "\u1100\u1161\u11ab\u1100\u1167\u11a8 (spacing)"
+      "community": 0,
+      "norm_label": "\u1100\u1161\u11ab\u1100\u1167\u11a8 (spacing)",
+      "id": "wiki_design_system_tokens_spacing"
     },
     {
       "label": "\ubaa8\uc158 (Motion)",
@@ -653,9 +624,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_tokens_motion",
-      "community": 1,
-      "norm_label": "\u1106\u1169\u1109\u1167\u11ab (motion)"
+      "community": 0,
+      "norm_label": "\u1106\u1169\u1109\u1167\u11ab (motion)",
+      "id": "wiki_design_system_tokens_motion"
     },
     {
       "label": "\ubc18\uc751\ud615 \ube0c\ub808\uc774\ud06c\ud3ec\uc778\ud2b8 (1024px)",
@@ -666,9 +637,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_tokens_breakpoint",
-      "community": 1,
-      "norm_label": "\u1107\u1161\u11ab\u110b\u1173\u11bc\u1112\u1167\u11bc \u1107\u1173\u1105\u1166\u110b\u1175\u110f\u1173\u1111\u1169\u110b\u1175\u11ab\u1110\u1173 (1024px)"
+      "community": 0,
+      "norm_label": "\u1107\u1161\u11ab\u110b\u1173\u11bc\u1112\u1167\u11bc \u1107\u1173\u1105\u1166\u110b\u1175\u110f\u1173\u1111\u1169\u110b\u1175\u11ab\u1110\u1173 (1024px)",
+      "id": "wiki_design_system_tokens_breakpoint"
     },
     {
       "label": "grid-bg (\uaca9\uc790 \ubc30\uacbd)",
@@ -679,9 +650,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_tokens_grid_bg",
-      "community": 4,
-      "norm_label": "grid-bg (\u1100\u1167\u11a8\u110c\u1161 \u1107\u1162\u1100\u1167\u11bc)"
+      "community": 0,
+      "norm_label": "grid-bg (\u1100\u1167\u11a8\u110c\u1161 \u1107\u1162\u1100\u1167\u11bc)",
+      "id": "wiki_design_system_tokens_grid_bg"
     },
     {
       "label": "canvas (\uce94\ubc84\uc2a4 \uce74\ub4dc)",
@@ -692,9 +663,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_tokens_canvas",
-      "community": 4,
-      "norm_label": "canvas (\u110f\u1162\u11ab\u1107\u1165\u1109\u1173 \u110f\u1161\u1103\u1173)"
+      "community": 0,
+      "norm_label": "canvas (\u110f\u1162\u11ab\u1107\u1165\u1109\u1173 \u110f\u1161\u1103\u1173)",
+      "id": "wiki_design_system_tokens_canvas"
     },
     {
       "label": "Pretendard (\uc0b0\uc138\ub9ac\ud504)",
@@ -705,9 +676,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_tokens_pretendard",
-      "community": 1,
-      "norm_label": "pretendard (\u1109\u1161\u11ab\u1109\u1166\u1105\u1175\u1111\u1173)"
+      "community": 0,
+      "norm_label": "pretendard (\u1109\u1161\u11ab\u1109\u1166\u1105\u1175\u1111\u1173)",
+      "id": "wiki_design_system_tokens_pretendard"
     },
     {
       "label": "Noto Serif KR (\uc138\ub9ac\ud504)",
@@ -718,9 +689,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_tokens_noto_serif_kr",
-      "community": 1,
-      "norm_label": "noto serif kr (\u1109\u1166\u1105\u1175\u1111\u1173)"
+      "community": 0,
+      "norm_label": "noto serif kr (\u1109\u1166\u1105\u1175\u1111\u1173)",
+      "id": "wiki_design_system_tokens_noto_serif_kr"
     },
     {
       "label": "Badge \ucef4\ud3ec\ub10c\ud2b8",
@@ -731,9 +702,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components_badge",
-      "community": 6,
-      "norm_label": "badge \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173"
+      "community": 0,
+      "norm_label": "badge \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173",
+      "id": "wiki_design_system_components_badge"
     },
     {
       "label": "Button \ucef4\ud3ec\ub10c\ud2b8",
@@ -744,9 +715,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components_button",
-      "community": 6,
-      "norm_label": "button \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173"
+      "community": 0,
+      "norm_label": "button \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173",
+      "id": "wiki_design_system_components_button"
     },
     {
       "label": "Logo \ucef4\ud3ec\ub10c\ud2b8",
@@ -757,9 +728,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components_logo",
-      "community": 2,
-      "norm_label": "logo \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173"
+      "community": 1,
+      "norm_label": "logo \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173",
+      "id": "wiki_design_system_components_logo"
     },
     {
       "label": "SiteHeader \uc704\uc82f",
@@ -770,9 +741,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components_site_header",
-      "community": 4,
-      "norm_label": "siteheader \u110b\u1171\u110c\u1166\u11ba"
+      "community": 1,
+      "norm_label": "siteheader \u110b\u1171\u110c\u1166\u11ba",
+      "id": "wiki_design_system_components_site_header"
     },
     {
       "label": "SiteFooter \uc704\uc82f",
@@ -783,9 +754,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components_site_footer",
-      "community": 4,
-      "norm_label": "sitefooter \u110b\u1171\u110c\u1166\u11ba"
+      "community": 1,
+      "norm_label": "sitefooter \u110b\u1171\u110c\u1166\u11ba",
+      "id": "wiki_design_system_components_site_footer"
     },
     {
       "label": "Hero \uc704\uc82f",
@@ -796,9 +767,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components_hero",
-      "community": 2,
-      "norm_label": "hero \u110b\u1171\u110c\u1166\u11ba"
+      "community": 1,
+      "norm_label": "hero \u110b\u1171\u110c\u1166\u11ba",
+      "id": "wiki_design_system_components_hero"
     },
     {
       "label": "Problems \uc704\uc82f",
@@ -809,9 +780,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components_problems",
-      "community": 2,
-      "norm_label": "problems \u110b\u1171\u110c\u1166\u11ba"
+      "community": 1,
+      "norm_label": "problems \u110b\u1171\u110c\u1166\u11ba",
+      "id": "wiki_design_system_components_problems"
     },
     {
       "label": "Services \uc704\uc82f (\ubbf8\ub514\uc5b4 \uac24\ub7ec\ub9ac)",
@@ -822,9 +793,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components_services",
-      "community": 2,
-      "norm_label": "services \u110b\u1171\u110c\u1166\u11ba (\u1106\u1175\u1103\u1175\u110b\u1165 \u1100\u1162\u11af\u1105\u1165\u1105\u1175)"
+      "community": 1,
+      "norm_label": "services \u110b\u1171\u110c\u1166\u11ba (\u1106\u1175\u1103\u1175\u110b\u1165 \u1100\u1162\u11af\u1105\u1165\u1105\u1175)",
+      "id": "wiki_design_system_components_services"
     },
     {
       "label": "Testimonials \uc704\uc82f",
@@ -835,9 +806,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components_testimonials",
-      "community": 2,
-      "norm_label": "testimonials \u110b\u1171\u110c\u1166\u11ba"
+      "community": 1,
+      "norm_label": "testimonials \u110b\u1171\u110c\u1166\u11ba",
+      "id": "wiki_design_system_components_testimonials"
     },
     {
       "label": "FinalCta \uc704\uc82f",
@@ -848,9 +819,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components_final_cta",
-      "community": 4,
-      "norm_label": "finalcta \u110b\u1171\u110c\u1166\u11ba"
+      "community": 1,
+      "norm_label": "finalcta \u110b\u1171\u110c\u1166\u11ba",
+      "id": "wiki_design_system_components_final_cta"
     },
     {
       "label": "service-preview \uc778\ub77c\uc778 \ud504\ub9ac\ubdf0 \ud53c\ucc98",
@@ -861,9 +832,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components_service_preview",
-      "community": 2,
-      "norm_label": "service-preview \u110b\u1175\u11ab\u1105\u1161\u110b\u1175\u11ab \u1111\u1173\u1105\u1175\u1107\u1172 \u1111\u1175\u110e\u1165"
+      "community": 1,
+      "norm_label": "service-preview \u110b\u1175\u11ab\u1105\u1161\u110b\u1175\u11ab \u1111\u1173\u1105\u1175\u1107\u1172 \u1111\u1175\u110e\u1165",
+      "id": "wiki_design_system_components_service_preview"
     },
     {
       "label": "\ubaa9\uc801 \uae30\ubc18 \uc138\uadf8\uba3c\ud2b8 \uba85\uba85 \uaddc\uce59",
@@ -874,9 +845,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_components_fsd_segment_rule",
-      "community": 2,
-      "norm_label": "\u1106\u1169\u11a8\u110c\u1165\u11a8 \u1100\u1175\u1107\u1161\u11ab \u1109\u1166\u1100\u1173\u1106\u1165\u11ab\u1110\u1173 \u1106\u1167\u11bc\u1106\u1167\u11bc \u1100\u1172\u110e\u1175\u11a8"
+      "community": 1,
+      "norm_label": "\u1106\u1169\u11a8\u110c\u1165\u11a8 \u1100\u1175\u1107\u1161\u11ab \u1109\u1166\u1100\u1173\u1106\u1165\u11ab\u1110\u1173 \u1106\u1167\u11bc\u1106\u1167\u11bc \u1100\u1172\u110e\u1175\u11a8",
+      "id": "wiki_design_system_components_fsd_segment_rule"
     },
     {
       "label": "fsd-feature-sliced-design",
@@ -887,9 +858,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_fsd_feature_sliced_design",
-      "community": 2,
-      "norm_label": "fsd-feature-sliced-design"
+      "community": 1,
+      "norm_label": "fsd-feature-sliced-design",
+      "id": "wiki_fsd_feature_sliced_design"
     },
     {
       "label": "fsd-public-api",
@@ -900,9 +871,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_fsd_public_api",
-      "community": 0,
-      "norm_label": "fsd-public-api"
+      "community": 1,
+      "norm_label": "fsd-public-api",
+      "id": "wiki_fsd_public_api"
     },
     {
       "label": "\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c",
@@ -913,9 +884,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_landing_page_copy",
-      "community": 0,
-      "norm_label": "\u1105\u1162\u11ab\u1103\u1175\u11bc \u1111\u1166\u110b\u1175\u110c\u1175 \u110f\u1161\u1111\u1175"
+      "community": 1,
+      "norm_label": "\u1105\u1162\u11ab\u1103\u1175\u11bc \u1111\u1166\u110b\u1175\u110c\u1175 \u110f\u1161\u1111\u1175",
+      "id": "wiki_landing_page_copy"
     },
     {
       "label": "\uba54\uc778 \uce74\ud53c",
@@ -926,9 +897,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_main_copy",
-      "community": 0,
-      "norm_label": "\u1106\u1166\u110b\u1175\u11ab \u110f\u1161\u1111\u1175"
+      "community": 1,
+      "norm_label": "\u1106\u1166\u110b\u1175\u11ab \u110f\u1161\u1111\u1175",
+      "id": "wiki_main_copy"
     },
     {
       "label": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP)",
@@ -939,9 +910,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_solution_3d_dpp",
-      "community": 0,
-      "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - 3d \u1103\u1175\u110c\u1175\u1110\u1165\u11af\u110c\u1166\u1111\u116e\u11b7\u110b\u1167\u1100\u116f\u11ab (dpp)"
+      "community": 1,
+      "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - 3d \u1103\u1175\u110c\u1175\u1110\u1165\u11af\u110c\u1166\u1111\u116e\u11b7\u110b\u1167\u1100\u116f\u11ab (dpp)",
+      "id": "wiki_solution_3d_dpp"
     },
     {
       "label": "\ud398\uc774\uc9c0 \uace8\uaca9 (\uc178)",
@@ -952,9 +923,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_layout_patterns_page_shell",
-      "community": 4,
-      "norm_label": "\u1111\u1166\u110b\u1175\u110c\u1175 \u1100\u1169\u11af\u1100\u1167\u11a8 (\u1109\u1168\u11af)"
+      "community": 1,
+      "norm_label": "\u1111\u1166\u110b\u1175\u110c\u1175 \u1100\u1169\u11af\u1100\u1167\u11a8 (\u1109\u1168\u11af)",
+      "id": "wiki_design_system_layout_patterns_page_shell"
     },
     {
       "label": "\uc139\uc158 \ube4c\ub529\ube14\ub85d",
@@ -965,9 +936,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_layout_patterns_section_blocks",
-      "community": 2,
-      "norm_label": "\u1109\u1166\u11a8\u1109\u1167\u11ab \u1107\u1175\u11af\u1103\u1175\u11bc\u1107\u1173\u11af\u1105\u1169\u11a8"
+      "community": 1,
+      "norm_label": "\u1109\u1166\u11a8\u1109\u1167\u11ab \u1107\u1175\u11af\u1103\u1175\u11bc\u1107\u1173\u11af\u1105\u1169\u11a8",
+      "id": "wiki_design_system_layout_patterns_section_blocks"
     },
     {
       "label": "\ub9ac\ub4ec \uaddc\uce59 (\ubc1d\uc74c\u2192\uac80\uc815 \uac24\ub7ec\ub9ac\u2192\ubc1d\uc74c)",
@@ -978,9 +949,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_layout_patterns_rhythm_rule",
-      "community": 0,
-      "norm_label": "\u1105\u1175\u1103\u1173\u11b7 \u1100\u1172\u110e\u1175\u11a8 (\u1107\u1161\u11b0\u110b\u1173\u11b7\u2192\u1100\u1165\u11b7\u110c\u1165\u11bc \u1100\u1162\u11af\u1105\u1165\u1105\u1175\u2192\u1107\u1161\u11b0\u110b\u1173\u11b7)"
+      "community": 1,
+      "norm_label": "\u1105\u1175\u1103\u1173\u11b7 \u1100\u1172\u110e\u1175\u11a8 (\u1107\u1161\u11b0\u110b\u1173\u11b7\u2192\u1100\u1165\u11b7\u110c\u1165\u11bc \u1100\u1162\u11af\u1105\u1165\u1105\u1175\u2192\u1107\u1161\u11b0\u110b\u1173\u11b7)",
+      "id": "wiki_design_system_layout_patterns_rhythm_rule"
     },
     {
       "label": "FSD import \ubc29\ud5a5 \uaddc\uce59",
@@ -991,9 +962,373 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_design_system_layout_patterns_fsd_import_direction",
-      "community": 0,
-      "norm_label": "fsd import \u1107\u1161\u11bc\u1112\u1163\u11bc \u1100\u1172\u110e\u1175\u11a8"
+      "community": 1,
+      "norm_label": "fsd import \u1107\u1161\u11bc\u1112\u1163\u11bc \u1100\u1172\u110e\u1175\u11a8",
+      "id": "wiki_design_system_layout_patterns_fsd_import_direction"
+    },
+    {
+      "label": "\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d__________________________3d_______________________________",
+      "community": 3,
+      "norm_label": "\u1112\u1162\u11a8\u1109\u1175\u11b7 \u1100\u1175\u1109\u116e\u11af - 3d \u110b\u1170\u11b8\u1107\u1172\u110b\u1165 \u1107\u1162\u1111\u1169 \u110b\u1161\u110f\u1175\u1110\u1166\u11a8\u110e\u1165"
+    },
+    {
+      "label": "\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d______________________________________",
+      "community": 3,
+      "norm_label": "\u1112\u1162\u11a8\u1109\u1175\u11b7 \u1100\u1175\u1109\u116e\u11af - 3d \u110b\u1175\u11ab\u1110\u1165\u1105\u1162\u11a8\u1109\u1167\u11ab \u1109\u1175\u1106\u1172\u11af\u1105\u1166\u110b\u1175\u1109\u1167\u11ab \u110b\u1166\u11ab\u110c\u1175\u11ab"
+    },
+    {
+      "label": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP)",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki___________3d______________________dpp__",
+      "community": 3,
+      "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - 3d \u1103\u1175\u110c\u1175\u1110\u1165\u11af\u110c\u1166\u1111\u116e\u11b7\u110b\u1167\u1100\u116f\u11ab (dpp)"
+    },
+    {
+      "label": "\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki________________________",
+      "community": 3,
+      "norm_label": "\u1103\u1175\u110c\u1175\u1110\u1165\u11af \u1109\u1162\u11bc\u1110\u1162\u1100\u1168"
+    },
+    {
+      "label": "Godot 4 \uc6f9(HTML5/WASM) \uc775\uc2a4\ud3ec\ud2b8",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d__________________________godot_4_____html5_wasm______",
+      "community": 3,
+      "norm_label": "godot 4 \u110b\u1170\u11b8(html5/wasm) \u110b\u1175\u11a8\u1109\u1173\u1111\u1169\u1110\u1173"
+    },
+    {
+      "label": "Single-thread \uc6f9 \uc775\uc2a4\ud3ec\ud2b8",
+      "file_type": "rationale",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d__________________________single_thread______",
+      "community": 3,
+      "norm_label": "single-thread \u110b\u1170\u11b8 \u110b\u1175\u11a8\u1109\u1173\u1111\u1169\u1110\u1173"
+    },
+    {
+      "label": "Cloudflare R2",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d__________________________cloudflare_r2",
+      "community": 3,
+      "norm_label": "cloudflare r2"
+    },
+    {
+      "label": "Egress \ube44\uc6a9 (\uc774\uadf8\ub808\uc2a4)",
+      "file_type": "rationale",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d__________________________egress______",
+      "community": 3,
+      "norm_label": "egress \u1107\u1175\u110b\u116d\u11bc (\u110b\u1175\u1100\u1173\u1105\u1166\u1109\u1173)"
+    },
+    {
+      "label": "wasm \uacf5\uc720 \ud2b8\ub9ad (pck \uad50\uccb4)",
+      "file_type": "rationale",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d__________________________wasm__________",
+      "community": 3,
+      "norm_label": "wasm \u1100\u1169\u11bc\u110b\u1172 \u1110\u1173\u1105\u1175\u11a8 (pck \u1100\u116d\u110e\u1166)"
+    },
+    {
+      "label": "Canvas \uc9c1\uc811 \ub9c8\uc6b4\ud2b8 \uc784\ubca0\ub4dc",
+      "file_type": "rationale",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d__________________________canvas________",
+      "community": 3,
+      "norm_label": "canvas \u110c\u1175\u11a8\u110c\u1165\u11b8 \u1106\u1161\u110b\u116e\u11ab\u1110\u1173 \u110b\u1175\u11b7\u1107\u1166\u1103\u1173"
+    },
+    {
+      "label": "COOP/COEP cross-origin isolation",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d__________________________coop_coep______",
+      "community": 3,
+      "norm_label": "coop/coep cross-origin isolation"
+    },
+    {
+      "label": "Brotli \uc555\ucd95",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d__________________________brotli____",
+      "community": 3,
+      "norm_label": "brotli \u110b\u1161\u11b8\u110e\u116e\u11a8"
+    },
+    {
+      "label": "PCK \ud30c\uc77c (Godot \ub9ac\uc18c\uc2a4 \ubb36\uc74c)",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d__________________________pck____",
+      "community": 3,
+      "norm_label": "pck \u1111\u1161\u110b\u1175\u11af (godot \u1105\u1175\u1109\u1169\u1109\u1173 \u1106\u116e\u11a9\u110b\u1173\u11b7)"
+    },
+    {
+      "label": "brokenegg-app (Next.js 16, Vercel)",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d__________________________brokenegg_app__next_js_16_",
+      "community": 3,
+      "norm_label": "brokenegg-app (next.js 16, vercel)"
+    },
+    {
+      "label": "QR\ubcc4 \uac1c\ubcc4 \ub77c\uc6b0\ud2b8 \uc11c\ube59",
+      "file_type": "rationale",
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________3d__________________________qr_____________________",
+      "community": 3,
+      "norm_label": "qr\u1107\u1167\u11af \u1100\u1162\u1107\u1167\u11af \u1105\u1161\u110b\u116e\u1110\u1173 \u1109\u1165\u1107\u1175\u11bc"
+    },
+    {
+      "label": "\ud68c\uc0ac \uac1c\uc694",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________________",
+      "community": 4,
+      "norm_label": "\u1112\u116c\u1109\u1161 \u1100\u1162\u110b\u116d"
+    },
+    {
+      "label": "\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________________________________",
+      "community": 4,
+      "norm_label": "\u1109\u1169\u11af\u1105\u116e\u1109\u1167\u11ab - \u1109\u1161\u11ab\u110b\u1165\u11b8\u110b\u1161\u11ab\u110c\u1165\u11ab\u110b\u1171\u1112\u1165\u11b7 \u1100\u116d\u110b\u1172\u11a8"
+    },
+    {
+      "label": "\uba54\uc778 \uce74\ud53c",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki____________",
+      "community": 4,
+      "norm_label": "\u1106\u1166\u110b\u1175\u11ab \u110f\u1161\u1111\u1175"
+    },
+    {
+      "label": "\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki________________________cta",
+      "community": 4,
+      "norm_label": "\u1105\u1162\u11ab\u1103\u1175\u11bc \u1111\u1166\u110b\u1175\u110c\u1175 \u110f\u1161\u1111\u1175"
+    },
+    {
+      "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki___________________________",
+      "community": 4,
+      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u1100\u1162\u110b\u116d"
+    },
+    {
+      "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki________________________________",
+      "community": 4,
+      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1110\u1169\u110f\u1173\u11ab"
+    },
+    {
+      "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-19",
+      "author": null,
+      "contributor": null,
+      "id": "wiki_____________________________",
+      "community": 4,
+      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u110f\u1165\u11b7\u1111\u1169\u1102\u1165\u11ab\u1110\u1173"
+    },
+    {
+      "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki________________________________________",
+      "community": 4,
+      "norm_label": "\u1103\u1175\u110c\u1161\u110b\u1175\u11ab \u1109\u1175\u1109\u1173\u1110\u1166\u11b7 - \u1111\u1166\u110b\u1175\u110c\u1175 \u1105\u1166\u110b\u1175\u110b\u1161\u110b\u116e\u11ba \u1111\u1162\u1110\u1165\u11ab"
+    },
+    {
+      "label": "\uc11c\ube44\uc2a4 \uc18c\uac1c\uc11c (\uc6d0\ubcf8 \uc2ac\ub77c\uc774\ub4dc \ubcc0\ud658)",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki___________moc______________________________________",
+      "community": 4,
+      "norm_label": "\u1109\u1165\u1107\u1175\u1109\u1173 \u1109\u1169\u1100\u1162\u1109\u1165 (\u110b\u116f\u11ab\u1107\u1169\u11ab \u1109\u1173\u11af\u1105\u1161\u110b\u1175\u1103\u1173 \u1107\u1167\u11ab\u1112\u116a\u11ab)"
+    },
+    {
+      "label": "\uc11c\ube44\uc2a4 \uae30\ud68d\uc11c (\uc815\ub9ac\ubcf8)",
+      "file_type": "document",
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-24",
+      "author": null,
+      "contributor": null,
+      "id": "wiki___________moc____________________",
+      "community": 4,
+      "norm_label": "\u1109\u1165\u1107\u1175\u1109\u1173 \u1100\u1175\u1112\u116c\u11a8\u1109\u1165 (\u110c\u1165\u11bc\u1105\u1175\u1107\u1169\u11ab)"
+    },
+    {
+      "label": "\uc778\ub77c\uc778 \ud504\ub9ac\ubdf0 (service-preview)",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-19",
+      "author": null,
+      "contributor": null,
+      "id": "wiki_____________________________service_preview",
+      "community": 3,
+      "norm_label": "\u110b\u1175\u11ab\u1105\u1161\u110b\u1175\u11ab \u1111\u1173\u1105\u1175\u1107\u1172 (service-preview)"
+    },
+    {
+      "label": "\ub370\ubaa8 \uc694\uccad \ubaa8\ub2ec (demo-request)",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-19",
+      "author": null,
+      "contributor": null,
+      "id": "wiki_____________________________demo_request",
+      "community": 4,
+      "norm_label": "\u1103\u1166\u1106\u1169 \u110b\u116d\u110e\u1165\u11bc \u1106\u1169\u1103\u1161\u11af (demo-request)"
+    },
+    {
+      "label": "fsd-feature-sliced-design",
+      "file_type": "concept",
+      "source_file": "brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-06-19",
+      "author": null,
+      "contributor": null,
+      "id": "wiki_____________________________fsd_feature_sliced_design",
+      "community": 4,
+      "norm_label": "fsd-feature-sliced-design"
     }
   ],
   "links": [
@@ -1456,6 +1791,146 @@
       "weight": 1.0,
       "source": "wiki____________index_moc",
       "target": "raw____________service_plan"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki___________3d______________________dpp__"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki____________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki____________3d__________________________3d_______________________________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki____________3d______________________________________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki____________________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki________________________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki___________________________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki_____________________________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki________________________________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki____________________________________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki________________________________________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki________________________cta"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki___________moc____________________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\uc778\ub371\uc2a4 (MOC).md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________index_moc",
+      "target": "wiki___________moc______________________________________"
     },
     {
       "relation": "references",
@@ -2276,52 +2751,293 @@
       "weight": 1.0,
       "source": "wiki_design_system_layout_patterns_fsd_import_direction",
       "target": "wiki_fsd_public_api"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________3d_______________________________",
+      "target": "wiki___________3d______________________dpp__"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________3d_______________________________",
+      "target": "wiki____________3d______________________________________"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________3d_______________________________",
+      "target": "wiki____________3d__________________________brokenegg_app__next_js_16_"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________3d_______________________________",
+      "target": "wiki____________3d__________________________brotli____"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________3d_______________________________",
+      "target": "wiki____________3d__________________________canvas________"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________3d_______________________________",
+      "target": "wiki____________3d__________________________cloudflare_r2"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________3d_______________________________",
+      "target": "wiki____________3d__________________________godot_4_____html5_wasm______"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________3d_______________________________",
+      "target": "wiki____________3d__________________________qr_____________________"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________3d_______________________________",
+      "target": "wiki____________3d__________________________single_thread______"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________3d_______________________________",
+      "target": "wiki____________3d__________________________wasm__________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________3d_______________________________",
+      "target": "wiki________________________"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki___________3d______________________dpp__",
+      "target": "wiki____________3d__________________________qr_____________________"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________godot_4_____html5_wasm______",
+      "target": "wiki____________3d__________________________pck____"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________single_thread______",
+      "target": "wiki____________3d__________________________coop_coep______"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________cloudflare_r2",
+      "target": "wiki____________3d__________________________egress______"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________wasm__________",
+      "target": "wiki____________3d__________________________cloudflare_r2"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________brotli____",
+      "target": "wiki____________3d__________________________egress______"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________wasm__________",
+      "target": "wiki____________3d__________________________pck____"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________canvas________",
+      "target": "wiki____________3d__________________________coop_coep______"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_____________________________service_preview",
+      "target": "wiki____________3d__________________________canvas________"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki____________3d__________________________qr_____________________",
+      "target": "wiki____________3d__________________________brokenegg_app__next_js_16_"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_____________________________",
+      "target": "wiki___________________________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_____________________________",
+      "target": "wiki________________________________"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_____________________________",
+      "target": "wiki________________________________________"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_____________________________",
+      "target": "wiki_____________________________demo_request"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_____________________________",
+      "target": "wiki_____________________________fsd_feature_sliced_design"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "brokenegg-doc/wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "wiki_____________________________",
+      "target": "wiki_____________________________service_preview"
     }
   ],
   "hyperedges": [
     {
-      "id": "design_system_four_notes",
-      "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c 4\ubd80\uc791 \ub178\ud2b8 (\uac1c\uc694\u00b7\ud1a0\ud070\u00b7\ucef4\ud3ec\ub10c\ud2b8\u00b7\ub808\uc774\uc544\uc6c3)",
+      "id": "viewer_cost_optimization_levers",
+      "label": "3D \ubdf0\uc5b4 \ube44\uc6a9/\ub85c\ub529 \ucd5c\uc801\ud654 \ub808\ubc84 (single-thread + R2 + wasm\uacf5\uc720 + Brotli)",
       "nodes": [
-        "wiki_design_system_overview",
-        "wiki_design_system_tokens",
-        "wiki_design_system_components",
-        "wiki_design_system_layout_patterns"
-      ],
-      "relation": "form",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "wiki/\uc778\ub371\uc2a4 (MOC).md"
-    },
-    {
-      "id": "page_shell_composition",
-      "label": "\ud398\uc774\uc9c0 \uc178 \uad6c\uc131 (grid-bg + canvas + SiteHeader/Footer)",
-      "nodes": [
-        "wiki_design_system_tokens_grid_bg",
-        "wiki_design_system_tokens_canvas",
-        "wiki_design_system_components_site_header",
-        "wiki_design_system_components_site_footer"
-      ],
-      "relation": "participate_in",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md"
-    },
-    {
-      "id": "section_building_blocks",
-      "label": "\uc139\uc158 \ube4c\ub529\ube14\ub85d \uc870\ud569 (Hero/Problems/Services/Testimonials/FinalCta)",
-      "nodes": [
-        "wiki_design_system_components_hero",
-        "wiki_design_system_components_problems",
-        "wiki_design_system_components_services",
-        "wiki_design_system_components_testimonials",
-        "wiki_design_system_components_final_cta"
+        "wiki____________3d__________________________single_thread______",
+        "wiki____________3d__________________________cloudflare_r2",
+        "wiki____________3d__________________________wasm__________",
+        "wiki____________3d__________________________brotli____"
       ],
       "relation": "participate_in",
       "confidence": "EXTRACTED",
       "confidence_score": 0.85,
-      "source_file": "wiki/\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md"
+      "source_file": "brokenegg-doc/wiki/\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md"
     }
   ],
-  "built_at_commit": "e2b0dbb781fd9a1753ffcf88a6b187c635bf4c2e"
+  "built_at_commit": "c5d120806fc64d0ef734d51893ea3b8b693d93aa"
 }
