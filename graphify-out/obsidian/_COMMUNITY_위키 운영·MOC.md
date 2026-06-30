@@ -19,8 +19,8 @@ members: 14
 - [[메인 카피_2]] - document - brokenegg-doc/wiki/인덱스 (MOC).md
 - [[서비스 기획서 (정리본)_1]] - document - brokenegg-doc/wiki/인덱스 (MOC).md
 - [[서비스 소개서 (원본 슬라이드 변환)_1]] - document - brokenegg-doc/wiki/인덱스 (MOC).md
-- [[솔루션 - 산업안전위험 교육_1]] - document - brokenegg-doc/wiki/인덱스 (MOC).md
-- [[인덱스 (MOC)]] - document - brokenegg-doc/wiki/인덱스 (MOC).md
+- [[솔루션 - 산업안전위험 교육]] - document - brokenegg-doc/wiki/인덱스 (MOC).md
+- [[인덱스 (MOC)_1]] - document - brokenegg-doc/wiki/인덱스 (MOC).md
 - [[회사 개요]] - document - brokenegg-doc/wiki/인덱스 (MOC).md
 
 ## Live Query (requires Dataview plugin)
@@ -31,9 +31,13 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 9 edges to [[_COMMUNITY_3D 엔진·XR·솔루션]]
+- 5 edges to [[_COMMUNITY_회사·솔루션·포트폴리오 3]]
 - 5 edges to [[_COMMUNITY_3D 웹뷰어 배포 아키텍처]]
+- 3 edges to [[_COMMUNITY_회사·솔루션·포트폴리오 5]]
+- 3 edges to [[_COMMUNITY_회사·솔루션·포트폴리오 2]]
+- 1 edge to [[_COMMUNITY_회사·솔루션·포트폴리오 4]]
+- 1 edge to [[_COMMUNITY_회사·솔루션·포트폴리오]]
 
 ## Top bridge nodes
-- [[인덱스 (MOC)]] - degree 24, connects to 2 communities
+- [[인덱스 (MOC)_1]] - degree 28, connects to 6 communities
 - [[디자인 시스템 - 컴포넌트_1]] - degree 7, connects to 1 community

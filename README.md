@@ -1,106 +1,117 @@
-# New Nx Repository
+# Brokenegg 홈페이지
 
-<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
+[주식회사 브로큰에그(Brokenegg Inc.)](https://www.brokenegg.co.kr)의 공식 홈페이지 모노레포입니다.
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) is ready ✨.
+> 정적인 3D 설계 데이터를 **살아 숨 쉬는 현실**로 전환하는 3D 그래픽스 소프트웨어 기업.
+> 3D 설계 파일에 물리 법칙과 상호작용 논리를 부여해 실제처럼 작동하는 가상 환경(XR·실시간 인터랙션)을 구축합니다.
 
-[Learn more about this workspace setup and its capabilities](https://nx.dev/nx-api/js?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
-## Finish your Nx platform setup
+- **다국어**: 한국어(기본) · 영어
+- **핵심 콘텐츠**: 회사 소개, 솔루션(3D 디지털제품여권 / 산업안전위험 교육), 포트폴리오, QR 기반 3D 웹뷰어
 
-🚀 [Finish setting up your workspace](https://cloud.nx.app/connect/40MHOkUZZi) to get faster builds with remote caching, distributed task execution, and self-healing CI. [Learn more about Nx Cloud](https://nx.dev/ci/intro/why-nx-cloud).
-## Generate a library
+---
 
-```sh
-npx nx g @nx/js:lib packages/pkg1 --publishable --importPath=@my-org/pkg1
-```
+## 기술 스택
 
-## Run tasks
+| 영역 | 사용 기술 |
+|---|---|
+| 모노레포 | [Nx](https://nx.dev) 22 · [pnpm](https://pnpm.io) workspace |
+| 웹 앱 | [Next.js](https://nextjs.org) 16 (App Router) · React 19 · TypeScript 5.9 |
+| 스타일 | Tailwind CSS 3.4 · CSS Modules · `global.css` 디자인 토큰 |
+| 국제화 | [next-intl](https://next-intl-docs.vercel.app) 4 (`ko` 기본, `en`) |
+| 아키텍처 | Feature-Sliced Design (FSD) |
+| 3D 뷰어 | Godot 4 웹(HTML5/WASM) export · Cloudflare R2 + Worker 에셋 호스팅 |
+| 테스트 | Playwright (E2E) |
+| 배포 | Vercel (웹 앱) · Cloudflare Workers (3D 에셋 엣지 서버) |
 
-To build the library use:
+---
 
-```sh
-npx nx build pkg1
-```
-
-To run any task with Nx use:
-
-```sh
-npx nx <target> <project-name>
-```
-
-These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
-
-[More about running tasks in the docs &raquo;](https://nx.dev/features/run-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Versioning and releasing
-
-To version and release the library use
+## 디렉터리 구조
 
 ```
-npx nx release
+brokenegg/
+├── apps/
+│   └── brokenegg-app/        # Next.js 홈페이지 (FSD 구조)
+├── packages/                 # 공유 패키지 (예약)
+├── workers/
+│   └── godot-viewer/         # Godot 3D 에셋 엣지 서버 (Cloudflare Worker × R2)
+├── brokenegg-doc/            # 지식 위키 (Single Source of Truth, Graphify)
+├── graphify-out/             # Graphify가 생성한 지식 그래프 산출물
+├── nx.json · pnpm-workspace.yaml
 ```
 
-Pass `--dry-run` to see what would happen without actually releasing the library.
+### `apps/brokenegg-app` (FSD 레이어)
 
-[Learn more about Nx release &raquo;](https://nx.dev/features/manage-releases?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Keep TypeScript project references up to date
-
-Nx automatically updates TypeScript [project references](https://www.typescriptlang.org/docs/handbook/project-references.html) in `tsconfig.json` files to ensure they remain accurate based on your project dependencies (`import` or `require` statements). This sync is automatically done when running tasks such as `build` or `typecheck`, which require updated references to function correctly.
-
-To manually trigger the process to sync the project graph dependencies information to the TypeScript project references, run the following command:
-
-```sh
-npx nx sync
+```
+src/
+├── app/                      # Next.js App Router (라우트·API·SEO)
+│   ├── [locale]/             # 로케일별 페이지: / · /about · /cases · /viewer/[id]
+│   ├── godot/[...path]/      # Godot 에셋 프록시 라우트 핸들러
+│   └── api/                  # demo-request, hello
+├── views/                    # 페이지 조합 (home · about · cases)
+├── widgets/                  # 독립 UI 블록 (hero · services · trust · site-header ...)
+├── features/                 # 사용자 인터랙션 (demo-request · lang-switch · nav-menu ...)
+├── entities/                 # 도메인 모델 (service · case-study · partner ...)
+├── shared/                   # config · lib · seo · ui
+└── i18n/                     # next-intl routing · navigation · request
 ```
 
-You can enforce that the TypeScript project references are always in the correct state when running in CI by adding a step to your CI job configuration that runs the following command:
+> FSD 레이어/명명 규칙과 디자인 시스템의 단일 출처는 `brokenegg-doc/wiki/`입니다.
 
-```sh
-npx nx sync:check
+---
+
+## 시작하기
+
+### 요구 사항
+- Node.js 20+ · pnpm
+
+### 설치 & 개발 서버
+
+```bash
+pnpm install
+pnpm dev          # nx dev @brokenegg/brokenegg-app → http://localhost:3000
 ```
 
-[Learn more about nx sync](https://nx.dev/reference/nx-commands#sync)
+### 주요 스크립트 (루트)
 
-## Nx Cloud
-
-Nx Cloud ensures a [fast and scalable CI](https://nx.dev/ci/intro/why-nx-cloud?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) pipeline. It includes features such as:
-
-- [Remote caching](https://nx.dev/ci/features/remote-cache?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Task distribution across multiple machines](https://nx.dev/ci/features/distribute-task-execution?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Automated e2e test splitting](https://nx.dev/ci/features/split-e2e-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Task flakiness detection and rerunning](https://nx.dev/ci/features/flaky-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-### Set up CI (non-Github Actions CI)
-
-**Note:** This is only required if your CI provider is not GitHub Actions.
-
-Use the following command to configure a CI workflow for your workspace:
-
-```sh
-npx nx g ci-workflow
+```bash
+pnpm dev          # 개발 서버
+pnpm build        # 프로덕션 빌드
+pnpm start        # 프로덕션 서버
+pnpm lint         # 전체 lint
+pnpm test         # 전체 test
+pnpm typecheck    # 전체 타입 검사
+pnpm graph        # Nx 프로젝트 그래프 시각화
 ```
 
-[Learn more about Nx on CI](https://nx.dev/ci/intro/ci-with-nx#ready-get-started-with-your-provider?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+### E2E 테스트
 
-## Install Nx Console
+```bash
+cd apps/brokenegg-app
+pnpm test:e2e            # Playwright
+pnpm test:e2e:headed     # 브라우저 표시 모드
+```
 
-Nx Console is an editor extension that enriches your developer experience. It lets you run tasks, generate code, and improves code autocompletion in your IDE. It is available for VSCode and IntelliJ.
+---
 
-[Install Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+## 3D 웹뷰어 (Godot × Cloudflare R2)
 
-## Useful links
+QR 스캔 → `/[locale]/viewer/[id]` 라우트에서 Godot 4 웹 export(WASM)를 직접 canvas에 마운트해 3D 모델을 렌더합니다.
+에셋(wasm/pck/br)은 Cloudflare R2에 두고, `workers/godot-viewer` 엣지 Worker가 egress $0으로 서빙합니다.
 
-Learn more:
+- 로컬 개발 시에는 `apps/brokenegg-app/src/app/godot/[...path]/route.ts` 핸들러가 에셋을 프록시합니다.
+- 배포·업로드 절차는 [`workers/godot-viewer/README.md`](workers/godot-viewer/README.md) 참고.
+- 아키텍처 단일 출처: `brokenegg-doc/wiki/핵심 기술 - 3D 웹뷰어 배포 아키텍처.md`
 
-- [Learn more about this workspace setup](https://nx.dev/nx-api/js?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Learn about Nx on CI](https://nx.dev/ci/intro/ci-with-nx?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Releasing Packages with Nx release](https://nx.dev/features/manage-releases?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [What are Nx plugins?](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+---
 
-And join the Nx community:
+## 지식 위키 (brokenegg-doc)
 
-- [Discord](https://go.nx.dev/community)
-- [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
-- [Our Youtube channel](https://www.youtube.com/@nxdevtools)
-- [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+이 저장소의 **카피·디자인 시스템·솔루션 사실 정보의 단일 출처**는 `brokenegg-doc/`입니다.
+Graphify로 생성한 지식 그래프가 `graphify-out/`에 있으며, 작업 전 `graphify-out/GRAPH_REPORT.md`를
+먼저 참고하면 토큰을 절약하며 맥락을 파악할 수 있습니다. (자세한 운영 규칙은 [`CLAUDE.md`](CLAUDE.md) 참고.)
+
+---
+
+## 라이선스
+
+MIT

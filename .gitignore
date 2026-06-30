@@ -56,3 +56,6 @@ out
 
 # Godot raw export 덤프(대용량 바이너리) — 앱은 godot-assets 복사본 사용
 3d-viewer-test/
+
+# brokenegg-doc raw — 대용량 PPTX 원본만 제외(83MB). PDF(6MB)는 추적: graphify 코퍼스에 필요 + 가벼움.
+brokenegg-doc/raw/*.pptx

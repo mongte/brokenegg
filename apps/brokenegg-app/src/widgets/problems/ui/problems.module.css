@@ -1,7 +1,7 @@
 /* --- Section header --- */
 
 .section-header {
-  padding: 20px 40px;
+  padding: 24px 40px;
   border-top: 1px solid var(--border);
   display: flex;
   justify-content: space-between;

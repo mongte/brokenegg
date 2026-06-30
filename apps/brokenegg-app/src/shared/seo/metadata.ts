@@ -13,13 +13,13 @@ export const OG_IMAGE = '/og.png';
 export const NAVER_SITE_VERIFICATION = '43f621b651200f20111fe3fa0bceac86f7b7652d';
 
 /** meta.json의 페이지별 키. ''(빈 문자열)이면 홈(meta.title/description). */
-export type MetaKey = '' | 'cases' | 'services' | 'about';
+export type MetaKey = '' | 'cases' | 'about';
 
 const OG_LOCALE: Record<string, string> = { ko: 'ko_KR', en: 'en_US' };
 
 /**
  * 페이지별 메타데이터 생성 — 제목·설명·canonical·hreflang(ko/en/x-default)·OpenGraph·Twitter.
- * @param path 로케일 뒤 경로 (예: '' | '/about' | '/cases' | '/services')
+ * @param path 로케일 뒤 경로 (예: '' | '/about' | '/cases')
  */
 export async function buildMetadata(
   locale: string,

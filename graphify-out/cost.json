@@ -23,8 +23,27 @@
       "input_tokens": 30000,
       "output_tokens": 3000,
       "files": 5
+    },
+    {
+      "date": "2026-06-24T13:54:57.110505+00:00",
+      "input_tokens": 40000,
+      "output_tokens": 4000,
+      "files": 7
+    },
+    {
+      "date": "2026-06-24T14:10:09.863563+00:00",
+      "input_tokens": 20000,
+      "output_tokens": 2500,
+      "files": 3
+    },
+    {
+      "date": "2026-06-24T14:20:34.051684+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 0,
+      "note": "no-op (gitignore된 PDF 삭제 감지, 변경 없음)"
     }
   ],
-  "total_input_tokens": 159000,
-  "total_output_tokens": 16509
+  "total_input_tokens": 219000,
+  "total_output_tokens": 23009
 }

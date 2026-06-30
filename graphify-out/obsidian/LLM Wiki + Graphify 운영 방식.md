@@ -11,6 +11,6 @@ tags:
 # LLM Wiki + Graphify 운영 방식
 
 ## Connections
-- [[인덱스 (MOC)]] - `references` [EXTRACTED]
+- [[인덱스 (MOC)_1]] - `references` [EXTRACTED]
 
 #graphify/document #graphify/EXTRACTED #community/_MOC

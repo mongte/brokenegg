@@ -12,7 +12,7 @@ tags:
 
 ## Connections
 - [[QR별 개별 라우트 서빙]] - `conceptually_related_to` [EXTRACTED]
-- [[인덱스 (MOC)]] - `references` [EXTRACTED]
+- [[인덱스 (MOC)_1]] - `references` [EXTRACTED]
 - [[핵심 기술 - 3D 웹뷰어 배포 아키텍처]] - `references` [EXTRACTED]
 
 #graphify/document #graphify/EXTRACTED #community/3D___

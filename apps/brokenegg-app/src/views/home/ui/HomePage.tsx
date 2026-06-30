@@ -2,6 +2,8 @@ import { SiteHeader } from '@/widgets/site-header';
 import { Hero } from '@/widgets/hero';
 import { Problems } from '@/widgets/problems';
 import { Services } from '@/widgets/services';
+import { UseCases } from '@/widgets/use-cases';
+import { Trust } from '@/widgets/trust';
 import { Testimonials } from '@/widgets/testimonials';
 import { FinalCta } from '@/widgets/final-cta';
 import { SiteFooter } from '@/widgets/site-footer';
@@ -16,6 +18,8 @@ export function HomePage() {
         <Hero />
         <Problems />
         <Services />
+        <UseCases />
+        <Trust />
         <Testimonials />
         <FinalCta />
         <SiteFooter />

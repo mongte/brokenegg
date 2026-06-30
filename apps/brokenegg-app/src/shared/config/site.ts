@@ -16,7 +16,7 @@ export const siteConfig = {
   /** 햄버거(오버레이) 메뉴. 랜딩은 "홈"으로 표기. */
   menu: [
     { label: '홈', href: '/' },
-    { label: '서비스 소개', href: '/services' },
+    { label: '서비스 소개', href: '/#use-cases' },
     { label: '고객 사례', href: '/cases' },
     { label: '회사 소개', href: '/about' },
   ],

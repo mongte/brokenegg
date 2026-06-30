@@ -3,13 +3,12 @@
 import styles from './nav-menu.module.css';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { Home, Boxes, Briefcase, Building2, type LucideIcon } from 'lucide-react';
+import { Home, Briefcase, Building2, type LucideIcon } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 
 /** 메뉴 항목 — href + 경로별 아이콘. 라벨은 로케일별로 t('header.menu.*')에서. */
 const MENU_ITEMS: { key: string; href: string; Icon: LucideIcon }[] = [
   { key: 'home', href: '/', Icon: Home },
-  { key: 'services', href: '/services', Icon: Boxes },
   { key: 'cases', href: '/cases', Icon: Briefcase },
   { key: 'about', href: '/about', Icon: Building2 },
 ];

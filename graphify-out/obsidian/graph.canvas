@@ -3,7 +3,7 @@
     {
       "id": "g0",
       "type": "group",
-      "label": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c \ud1a0\ud070\u00b7\uac1c\uc694",
+      "label": "\ud68c\uc0ac\u00b7\uc194\ub8e8\uc158\u00b7\ud3ec\ud2b8\ud3f4\ub9ac\uc624",
       "x": 0,
       "y": 0,
       "width": 1100,
@@ -11,74 +11,1108 @@
       "color": "1"
     },
     {
-      "id": "n_wiki_design_system_overview_brokenegg_page_skill",
+      "id": "n_wiki_____customer_dexter_studio",
       "type": "file",
-      "file": "brokenegg-page \uc2a4\ud0ac.md",
+      "file": "Dexter Studio (\uace0\uac1d).md",
       "x": 20,
       "y": 80,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_wiki_design_system_components_badge",
+      "id": "n_wiki____cert_iso_9001",
       "type": "file",
-      "file": "Badge \ucef4\ud3ec\ub10c\ud2b8.md",
+      "file": "ISO 90012015 \uc778\uc99d.md",
       "x": 220,
       "y": 80,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_wiki_design_system_components_button",
+      "id": "n_wiki____nvidia_inception",
       "type": "file",
-      "file": "Button \ucef4\ud3ec\ub10c\ud2b8.md",
+      "file": "NVIDIA Inception Program.md",
       "x": 420,
       "y": 80,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_wiki_design_system_tokens_noto_serif_kr",
+      "id": "n_wiki____customer_sbs_ant",
       "type": "file",
-      "file": "Noto Serif KR (\uc138\ub9ac\ud504).md",
+      "file": "SBS A&T.md",
       "x": 20,
       "y": 160,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_wiki_design_system_tokens_pretendard",
+      "id": "n_wiki_____customer_sbs_ant",
       "type": "file",
-      "file": "Pretendard (\uc0b0\uc138\ub9ac\ud504).md",
+      "file": "SBS A&T (\uace0\uac1d).md",
       "x": 220,
       "y": 160,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_wiki_design_system_overview_variant_reference",
+      "id": "n_wiki_____customer_daewon_media",
       "type": "file",
-      "file": "Variant \ub808\ud37c\ub7f0\uc2a4 \ub514\uc790\uc778 (BRK-EGG-2024-V1).md",
+      "file": "\ub300\uc6d0\ubbf8\ub514\uc5b4 (\uace0\uac1d).md",
       "x": 420,
       "y": 160,
       "width": 180,
       "height": 60
+    },
+    {
+      "id": "n_wiki____customer_pinkfong",
+      "type": "file",
+      "file": "\ub354\ud551\ud06c\ud401\ucef4\ud37c\ub2c8.md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____customer_pinkfong",
+      "type": "file",
+      "file": "\ub354\ud551\ud06c\ud401\ucef4\ud37c\ub2c8 (\uace0\uac1d).md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____cto_baek_inchil",
+      "type": "file",
+      "file": "\ubc31\uc778\uce60 (CTO).md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____cert_venture_confirmation",
+      "type": "file",
+      "file": "\ubca4\ucc98\uae30\uc5c5\ud655\uc778\uc11c.md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____concept_industrial_safety_education",
+      "type": "file",
+      "file": "\uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721.md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____partner_sangmyung_univ",
+      "type": "file",
+      "file": "\uc0c1\uba85\ub300\ud559\uad50 (\uae30\uc220\ud611\ub825).md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____cert_sw_quality",
+      "type": "file",
+      "file": "\uc18c\ud504\ud2b8\uc6e8\uc5b4 \ud488\uc9c8\uc778\uc99d\uc11c 1\ub4f1\uae09.md",
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____________",
+      "type": "file",
+      "file": "\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721_2.md",
+      "x": 220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____customer_orato",
+      "type": "file",
+      "file": "\uc624\ub77c\ud1a0\uac74 (\uac74\uc124).md",
+      "x": 420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____ceo_lee_sangmun",
+      "type": "file",
+      "file": "\uc774\uc0c1\ubb38 (CEO).md",
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____partner_incheon_univ",
+      "type": "file",
+      "file": "\uc778\ucc9c\ub300\ud559\uad50 (\uae30\uc220\ud611\ub825).md",
+      "x": 220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____brokenegg_inc",
+      "type": "file",
+      "file": "\uc8fc\uc2dd\ud68c\uc0ac \ube0c\ub85c\ud070\uc5d0\uadf8 (Brokenegg Inc).md",
+      "x": 420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____patent_3d_modeling_matching",
+      "type": "file",
+      "file": "\ud2b9\ud5c8 \uace0\uac1d \uc694\uad6c\uc0ac\ud56d \ub9e4\uce6d 3D \ubaa8\ub378\ub9c1.md",
+      "x": 20,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____patent_requirement_matching_3d_modeling",
+      "type": "file",
+      "file": "\ud2b9\ud5c8 \uace0\uac1d \uc694\uad6c\uc0ac\ud56d \ub9e4\uce6d 3D \ubaa8\ub378\ub9c1 \uc7a5\uce58 \ubc0f \ubc29\ubc95.md",
+      "x": 220,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____patent_facility_simulation",
+      "type": "file",
+      "file": "\ud2b9\ud5c8 \uc2dc\uc124\ubb3c \uc2dc\ubbac\ub808\uc774\uc158 \uc81c\uacf5 \ubc29\ubc95.md",
+      "x": 420,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____patent_risk_prediction_maintenance",
+      "type": "file",
+      "file": "\ud2b9\ud5c8 \uc2e4\uc2dc\uac04 \uc704\ud5d8\uc608\uce21\u00b7\uc720\uc9c0\ubcf4\uc218 \uc870\uc815 3D \uc2dc\ubbac\ub808\uc774\uc158 \uc2dc\uc2a4\ud15c (\ud2b9\ud5c8-2025-0096009).md",
+      "x": 20,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____patent_3d_modeling_info",
+      "type": "file",
+      "file": "\ud2b9\ud5c8 \uc81c\ud488 3D \ubaa8\ub378\ub9c1 \uc815\ubcf4 \uc81c\uacf5 \ubc29\ubc95 \ubc0f \ub514\ubc14\uc774\uc2a4 (\ud2b9\ud5c8-2023-0148722).md",
+      "x": 220,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98",
+      "x": 1180,
+      "y": 0,
+      "width": 1100,
+      "height": 920,
+      "color": "2"
+    },
+    {
+      "id": "n_wiki___________3d_brotli_chunked",
+      "type": "file",
+      "file": "Brotli chunked \uc2a4\ud2b8\ub9ac\ubc0d (Content-Length \uc0dd\ub7b5).md",
+      "x": 1200,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d__________________________brotli____",
+      "type": "file",
+      "file": "Brotli \uc555\ucd95.md",
+      "x": 1400,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d__________________________coop_coep______",
+      "type": "file",
+      "file": "COOPCOEP cross-origin isolation.md",
+      "x": 1600,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d__________________________canvas________",
+      "type": "file",
+      "file": "Canvas \uc9c1\uc811 \ub9c8\uc6b4\ud2b8 \uc784\ubca0\ub4dc.md",
+      "x": 1200,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d__________________________cloudflare_r2",
+      "type": "file",
+      "file": "Cloudflare R2.md",
+      "x": 1400,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki___________3d_cloudflare_r2",
+      "type": "file",
+      "file": "Cloudflare R2 (egress $0 \uc5d0\uc14b \ud638\uc2a4\ud305).md",
+      "x": 1600,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d__________________________egress______",
+      "type": "file",
+      "file": "Egress \ube44\uc6a9 (\uc774\uadf8\ub808\uc2a4).md",
+      "x": 1200,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki___________3d_godot_export",
+      "type": "file",
+      "file": "Godot 4 \uc6f9(HTML5WASM) \uc775\uc2a4\ud3ec\ud2b8.md",
+      "x": 1400,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d__________________________pck____",
+      "type": "file",
+      "file": "PCK \ud30c\uc77c (Godot \ub9ac\uc18c\uc2a4 \ubb36\uc74c).md",
+      "x": 1600,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki___________3d_qr_route",
+      "type": "file",
+      "file": "QR\ubcc4 \uac1c\ubcc4 \ub77c\uc6b0\ud2b8 (localeviewerid).md",
+      "x": 1200,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d__________________________qr_____________________",
+      "type": "file",
+      "file": "QR\ubcc4 \uac1c\ubcc4 \ub77c\uc6b0\ud2b8 \uc11c\ube59.md",
+      "x": 1400,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d__________________________single_thread______",
+      "type": "file",
+      "file": "Single-thread \uc6f9 \uc775\uc2a4\ud3ec\ud2b8.md",
+      "x": 1600,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki___________3d_single_thread",
+      "type": "file",
+      "file": "Single-thread \uc6f9 \uc775\uc2a4\ud3ec\ud2b8 (COOPCOEP \ubd88\ud544\uc694).md",
+      "x": 1200,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d__________________________brokenegg_app__next_js_16_",
+      "type": "file",
+      "file": "brokenegg-app (Next.js 16, Vercel).md",
+      "x": 1400,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki___________3d_canvas_mount",
+      "type": "file",
+      "file": "canvas \uc9c1\uc811 \ub9c8\uc6b4\ud2b8 \uc784\ubca0\ub4dc (iframe \ubbf8\uc0ac\uc6a9).md",
+      "x": 1600,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki___________3d_route_handler",
+      "type": "file",
+      "file": "godot...pathroute.ts \uc11c\ubc84 \ud578\ub4e4\ub7ec.md",
+      "x": 1200,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d__________________________wasm__________",
+      "type": "file",
+      "file": "wasm \uacf5\uc720 \ud2b8\ub9ad (pck \uad50\uccb4).md",
+      "x": 1400,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki________________________",
+      "type": "file",
+      "file": "\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4_1.md",
+      "x": 1600,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki___________3d______________________dpp__",
+      "type": "file",
+      "file": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP)_2.md",
+      "x": 1200,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____________________________service_preview",
+      "type": "file",
+      "file": "\uc778\ub77c\uc778 \ud504\ub9ac\ubdf0 (service-preview).md",
+      "x": 1400,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki___________3d",
+      "type": "file",
+      "file": "\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
+      "x": 1600,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d______________________________________",
+      "type": "file",
+      "file": "\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4_1.md",
+      "x": 1200,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "\uc704\ud0a4 \uc6b4\uc601\u00b7MOC",
+      "x": 2360,
+      "y": 0,
+      "width": 880,
+      "height": 620,
+      "color": "3"
+    },
+    {
+      "id": "n_brokenegg_doc_claude_llm_wiki",
+      "type": "file",
+      "file": "LLM Wiki + Graphify \uc6b4\uc601 \ubc29\uc2dd.md",
+      "x": 2380,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____________________________fsd_feature_sliced_design",
+      "type": "file",
+      "file": "fsd-feature-sliced-design_1.md",
+      "x": 2580,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____________________________demo_request",
+      "type": "file",
+      "file": "\ub370\ubaa8 \uc694\uccad \ubaa8\ub2ec (demo-request).md",
+      "x": 2780,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki___________________________",
+      "type": "file",
+      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694_1.md",
+      "x": 2380,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki________________________________",
+      "type": "file",
+      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070_1.md",
+      "x": 2580,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____________________________",
+      "type": "file",
+      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8_1.md",
+      "x": 2780,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki________________________________________",
+      "type": "file",
+      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134_1.md",
+      "x": 2380,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki________________________cta",
+      "type": "file",
+      "file": "\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c_2.md",
+      "x": 2580,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________",
+      "type": "file",
+      "file": "\uba54\uc778 \uce74\ud53c_2.md",
+      "x": 2780,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki___________moc____________________",
+      "type": "file",
+      "file": "\uc11c\ube44\uc2a4 \uae30\ud68d\uc11c (\uc815\ub9ac\ubcf8)_1.md",
+      "x": 2380,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki___________moc______________________________________",
+      "type": "file",
+      "file": "\uc11c\ube44\uc2a4 \uc18c\uac1c\uc11c (\uc6d0\ubcf8 \uc2ac\ub77c\uc774\ub4dc \ubcc0\ud658)_1.md",
+      "x": 2580,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________________________________",
+      "type": "file",
+      "file": "\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721.md",
+      "x": 2780,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____moc_",
+      "type": "file",
+      "file": "\uc778\ub371\uc2a4 (MOC)_1.md",
+      "x": 2380,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________________",
+      "type": "file",
+      "file": "\ud68c\uc0ac \uac1c\uc694.md",
+      "x": 2580,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "\ud68c\uc0ac\u00b7\uc194\ub8e8\uc158\u00b7\ud3ec\ud2b8\ud3f4\ub9ac\uc624 2",
+      "x": 3320,
+      "y": 0,
+      "width": 880,
+      "height": 520,
+      "color": "4"
+    },
+    {
+      "id": "n_wiki_____concept_3d_dpp",
+      "type": "file",
+      "file": "3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c(DPP).md",
+      "x": 3340,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____concept_3d_responsive_media",
+      "type": "file",
+      "file": "3D \ubc18\uc751\ud615 \ubbf8\ub514\uc5b4.md",
+      "x": 3540,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____concept_3d_simulation_manual",
+      "type": "file",
+      "file": "3D \uc2dc\ubbac\ub808\uc774\uc158 \ub9e4\ub274\uc5bc.md",
+      "x": 3740,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____concept_3d_simulation_catalog",
+      "type": "file",
+      "file": "3D \uc2dc\ubbac\ub808\uc774\uc158 \uce74\ub2ec\ub85c\uadf8.md",
+      "x": 3340,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____concept_single_core_engine",
+      "type": "file",
+      "file": "\ub2e8\uc77c \ucf54\uc5b4 \uc5d4\uc9c4.md",
+      "x": 3540,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____single_core_engine",
+      "type": "file",
+      "file": "\ub2e8\uc77c \ucf54\uc5b4 \uc5d4\uc9c4 (Core-to-Edge).md",
+      "x": 3740,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_raw__________",
+      "type": "file",
+      "file": "\ube0c\ub85c\ud070\uc5d0\uadf8 \ud68c\uc0ac\uc18c\uac1c\uc11c.md",
+      "x": 3340,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____3d_dpp_",
+      "type": "file",
+      "file": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP)_3.md",
+      "x": 3540,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_____concept_interaction_simulation_programming",
+      "type": "file",
+      "file": "\uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \ud504\ub85c\uadf8\ub798\ubc0d.md",
+      "x": 3740,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki________tablet_3d_interaction",
+      "type": "file",
+      "file": "\ud0dc\ube14\ub9bf 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158.md",
+      "x": 3340,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki______3d_____________",
+      "type": "file",
+      "file": "\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4_2.md",
+      "x": 3540,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____",
+      "type": "file",
+      "file": "\ud68c\uc0ac \uac1c\uc694_1.md",
+      "x": 3740,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "\ub514\uc790\uc778 \ucef4\ud3ec\ub10c\ud2b8\u00b7\uce74\ud53c",
+      "x": 0,
+      "y": 1000,
+      "width": 880,
+      "height": 520,
+      "color": "5"
+    },
+    {
+      "id": "n_wiki_design_system_components_final_cta",
+      "type": "file",
+      "file": "FinalCta \uc704\uc82f.md",
+      "x": 20,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_components_hero",
+      "type": "file",
+      "file": "Hero \uc704\uc82f.md",
+      "x": 220,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_components_logo",
+      "type": "file",
+      "file": "Logo \ucef4\ud3ec\ub10c\ud2b8.md",
+      "x": 420,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_components_problems",
+      "type": "file",
+      "file": "Problems \uc704\uc82f.md",
+      "x": 20,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_components_services",
+      "type": "file",
+      "file": "Services \uc704\uc82f (\ubbf8\ub514\uc5b4 \uac24\ub7ec\ub9ac).md",
+      "x": 220,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_components_site_footer",
+      "type": "file",
+      "file": "SiteFooter \uc704\uc82f.md",
+      "x": 420,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_components_site_header",
+      "type": "file",
+      "file": "SiteHeader \uc704\uc82f.md",
+      "x": 20,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_components_testimonials",
+      "type": "file",
+      "file": "Testimonials \uc704\uc82f.md",
+      "x": 220,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_components_service_preview",
+      "type": "file",
+      "file": "service-preview \uc778\ub77c\uc778 \ud504\ub9ac\ubdf0 \ud53c\ucc98.md",
+      "x": 420,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_components",
+      "type": "file",
+      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
+      "x": 20,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_layout_patterns_section_blocks",
+      "type": "file",
+      "file": "\uc139\uc158 \ube4c\ub529\ube14\ub85d.md",
+      "x": 220,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_layout_patterns_page_shell",
+      "type": "file",
+      "file": "\ud398\uc774\uc9c0 \uace8\uaca9 (\uc178).md",
+      "x": 420,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "\ud68c\uc0ac\u00b7\uc194\ub8e8\uc158\u00b7\ud3ec\ud2b8\ud3f4\ub9ac\uc624 3",
+      "x": 1180,
+      "y": 1000,
+      "width": 880,
+      "height": 520,
+      "color": "6"
+    },
+    {
+      "id": "n_wiki____________core_to_edge",
+      "type": "file",
+      "file": "Core-to-Edge \uc0ac\uc5c5 \uad6c\uc870.md",
+      "x": 1200,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________esg_regulation",
+      "type": "file",
+      "file": "ESG \uaddc\uc81c \uc900\uc218  \uc81c\ud488\uc5ec\uad8c \uaddc\uc81c.md",
+      "x": 1400,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________native_xr",
+      "type": "file",
+      "file": "\ub124\uc774\ud2f0\ube0c XR \ud655\uc7a5\uc131.md",
+      "x": 1600,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________viewpoint_control",
+      "type": "file",
+      "file": "\ub2e4\uac01\ub3c4 \uc2dc\uc810 \uc81c\uc5b4 (Global View  Detail View).md",
+      "x": 1200,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________data_visualization",
+      "type": "file",
+      "file": "\ub370\uc774\ud130\uc758 \uc2dc\uac01\ud654 (\uacf5\uae09\ub9dd \uc815\ubcf4).md",
+      "x": 1400,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________digital_ecosystem",
+      "type": "file",
+      "file": "\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4.md",
+      "x": 1600,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________main_copy",
+      "type": "file",
+      "file": "\uba54\uc778 \uce74\ud53c.md",
+      "x": 1200,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________dpp",
+      "type": "file",
+      "file": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP).md",
+      "x": 1400,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________realtime_data_link",
+      "type": "file",
+      "file": "\uc2e4\uc2dc\uac04 \ub370\uc774\ud130 \uc5f0\ub3d9.md",
+      "x": 1600,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________3d_____________________engine",
+      "type": "file",
+      "file": "\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
+      "x": 1200,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________company_overview",
+      "type": "file",
+      "file": "\ud68c\uc0ac \uac1c\uc694 (\ube0c\ub85c\ud070\uc5d0\uadf8).md",
+      "x": 1400,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "\ud68c\uc0ac\u00b7\uc194\ub8e8\uc158\u00b7\ud3ec\ud2b8\ud3f4\ub9ac\uc624 4",
+      "x": 2360,
+      "y": 1000,
+      "width": 880,
+      "height": 520,
+      "color": "1"
+    },
+    {
+      "id": "n_wiki________mdot_2024",
+      "type": "file",
+      "file": "MDOT 2024 VR \uc548\uc804\ud6c8\ub828 \uc5f0\uad6c.md",
+      "x": 2380,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________physics_engine",
+      "type": "file",
+      "file": "\ubb3c\ub9ac \uc5d4\uc9c4 \uae30\ubc18 \ub2a5\ub3d9\uc801 \uc0ac\uace0 \uc2dc\ubbac\ub808\uc774\uc158.md",
+      "x": 2580,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_raw___________",
+      "type": "file",
+      "file": "\uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721 \ud504\ub808\uc820\ud14c\uc774\uc158.md",
+      "x": 2780,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki________leading_indicator",
+      "type": "file",
+      "file": "\uc120\ud589\uc9c0\ud45c \uad00\ub9ac (Leading KPI).md",
+      "x": 2380,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki________",
+      "type": "file",
+      "file": "\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721_1.md",
+      "x": 2580,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________training_scenarios",
+      "type": "file",
+      "file": "\uc8fc\uc694 \ud6c8\ub828 \uc2dc\ub098\ub9ac\uc624 (\uc9c0\uac8c\ucc28\ud611\ucc29\ucd94\ub77d).md",
+      "x": 2780,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____________muscle_memory",
+      "type": "file",
+      "file": "\uccb4\ud654\ud615 \ubc18\ubcf5 \ud6c8\ub828 (Muscle Memory).md",
+      "x": 2380,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki____patent_realtime_risk_prediction",
+      "type": "file",
+      "file": "\ud2b9\ud5c8 \uc2e4\uc2dc\uac04 \uc704\ud5d8\uc608\uce21 \ubc0f \uc720\uc9c0\ubcf4\uc218 \uc870\uc815 3D \uc2dc\ubbac\ub808\uc774\uc158 \uc2dc\uc2a4\ud15c.md",
+      "x": 2580,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki________learning_flow",
+      "type": "file",
+      "file": "\ud575\uc2ec \ud559\uc2b5 \ud50c\ub85c\uc6b0 (\uc704\ud5d8\uc608\uce21\u00b7\uc0ac\uace0 \uc2dc\ub098\ub9ac\uc624\u00b7\uc0ac\uace0 \uc7ac\ud604\u00b7\ubc18\ubcf5 \uc219\ub2ec).md",
+      "x": 2780,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki________behavior_correction",
+      "type": "file",
+      "file": "\ud589\ub3d9 \uad50\uc815 (As-Is\u2192To-Be \ud328\ub7ec\ub2e4\uc784 \uc804\ud658).md",
+      "x": 2380,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "\uc704\ud0a4 \uc6b4\uc601\u00b7MOC 2",
+      "x": 3320,
+      "y": 1000,
+      "width": 660,
+      "height": 420,
+      "color": "2"
+    },
+    {
+      "id": "n_wiki_design_system_layout_patterns_fsd_import_direction",
+      "type": "file",
+      "file": "FSD import \ubc29\ud5a5 \uaddc\uce59.md",
+      "x": 3340,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_fsd_feature_sliced_design",
+      "type": "file",
+      "file": "fsd-feature-sliced-design.md",
+      "x": 3540,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_fsd_public_api",
+      "type": "file",
+      "file": "fsd-public-api.md",
+      "x": 3740,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_layout_patterns",
+      "type": "file",
+      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
+      "x": 3340,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_landing_page_copy",
+      "type": "file",
+      "file": "\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c_1.md",
+      "x": 3540,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_main_copy",
+      "type": "file",
+      "file": "\uba54\uc778 \uce74\ud53c_1.md",
+      "x": 3740,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_components_fsd_segment_rule",
+      "type": "file",
+      "file": "\ubaa9\uc801 \uae30\ubc18 \uc138\uadf8\uba3c\ud2b8 \uba85\uba85 \uaddc\uce59.md",
+      "x": 3340,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_solution_3d_dpp",
+      "type": "file",
+      "file": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP)_1.md",
+      "x": 3540,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_index_moc",
+      "type": "file",
+      "file": "\uc778\ub371\uc2a4 (MOC).md",
+      "x": 3740,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "\ub514\uc790\uc778 \ud1a0\ud070\u00b7\uac1c\uc694",
+      "x": 0,
+      "y": 1600,
+      "width": 660,
+      "height": 420,
+      "color": "3"
     },
     {
       "id": "n_wiki_design_system_tokens_canvas",
       "type": "file",
       "file": "canvas (\uce94\ubc84\uc2a4 \uce74\ub4dc).md",
       "x": 20,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_overview_global_css",
-      "type": "file",
-      "file": "global.css (\uad6c\ud604 \ub2e8\uc77c \ucd9c\ucc98).md",
-      "x": 220,
-      "y": 240,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -86,8 +1120,8 @@
       "id": "n_wiki_design_system_tokens_grid_bg",
       "type": "file",
       "file": "grid-bg (\uaca9\uc790 \ubc30\uacbd).md",
-      "x": 420,
-      "y": 240,
+      "x": 220,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -95,26 +1129,8 @@
       "id": "n_wiki_design_system_tokens_spacing",
       "type": "file",
       "file": "\uac04\uaca9 (Spacing).md",
-      "x": 20,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_overview_two_typefaces",
-      "type": "file",
-      "file": "\ub450 \uc11c\uccb4\uc758 \uc5ed\ud560 \ubd84\ub2f4 \uc6d0\uce59.md",
-      "x": 220,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_overview",
-      "type": "file",
-      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
       "x": 420,
-      "y": 320,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -123,25 +1139,7 @@
       "type": "file",
       "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070.md",
       "x": 20,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_overview_micro_typo_label",
-      "type": "file",
-      "file": "\ub9c8\uc774\ud06c\ub85c \ud0c0\uc774\ud3ec \ub77c\ubca8 \uc6d0\uce59.md",
-      "x": 220,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_overview_monochrome_first",
-      "type": "file",
-      "file": "\ubaa8\ub178\ud06c\ub86c \uc6b0\uc120 \uc6d0\uce59.md",
-      "x": 420,
-      "y": 400,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -149,17 +1147,8 @@
       "id": "n_wiki_design_system_tokens_motion",
       "type": "file",
       "file": "\ubaa8\uc158 (Motion).md",
-      "x": 20,
-      "y": 480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_tokens_radius_token",
-      "type": "file",
-      "file": "\ubc18\uacbd \ud1a0\ud070 (Radius).md",
       "x": 220,
-      "y": 480,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -168,34 +1157,7 @@
       "type": "file",
       "file": "\ubc18\uc751\ud615 \ube0c\ub808\uc774\ud06c\ud3ec\uc778\ud2b8 (1024px).md",
       "x": 420,
-      "y": 480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_tokens_color_token",
-      "type": "file",
-      "file": "\uc0c9 \ud1a0\ud070 (Color).md",
-      "x": 20,
-      "y": 560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_tokens_typography_token",
-      "type": "file",
-      "file": "\uc11c\uccb4 \ud1a0\ud070 (Typography).md",
-      "x": 220,
-      "y": 560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_overview_pill_shape",
-      "type": "file",
-      "file": "\uc54c\uc57d \ud615\ud0dc \uc6d0\uce59.md",
-      "x": 420,
-      "y": 560,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -204,7 +1166,7 @@
       "type": "file",
       "file": "\uc5d0\ub514\ud1a0\ub9ac\uc5bc \uadf8\ub9ac\ub4dc \uc6d0\uce59.md",
       "x": 20,
-      "y": 640,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -213,7 +1175,7 @@
       "type": "file",
       "file": "\ud0c0\uc785 \uc2a4\ucf00\uc77c.md",
       "x": 220,
-      "y": 640,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -222,152 +1184,53 @@
       "type": "file",
       "file": "\ud504\ub808\uc784-\uc778-\uce94\ubc84\uc2a4 \uc6d0\uce59.md",
       "x": 420,
-      "y": 640,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
     {
-      "id": "g1",
+      "id": "g9",
       "type": "group",
-      "label": "\ub514\uc790\uc778 \ucef4\ud3ec\ub10c\ud2b8\u00b7\ub808\uc774\uc544\uc6c3\u00b7\uce74\ud53c",
+      "label": "\ub514\uc790\uc778 \ud1a0\ud070\u00b7\uac1c\uc694 2",
       "x": 1180,
-      "y": 0,
-      "width": 1100,
-      "height": 920,
-      "color": "2"
+      "y": 1600,
+      "width": 660,
+      "height": 420,
+      "color": "4"
     },
     {
-      "id": "n_wiki_design_system_layout_patterns_fsd_import_direction",
+      "id": "n_wiki_design_system_overview_brokenegg_page_skill",
       "type": "file",
-      "file": "FSD import \ubc29\ud5a5 \uaddc\uce59.md",
+      "file": "brokenegg-page \uc2a4\ud0ac.md",
       "x": 1200,
-      "y": 80,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_wiki_design_system_components_final_cta",
+      "id": "n_wiki_design_system_overview_variant_reference",
       "type": "file",
-      "file": "FinalCta \uc704\uc82f.md",
+      "file": "Variant \ub808\ud37c\ub7f0\uc2a4 \ub514\uc790\uc778 (BRK-EGG-2024-V1).md",
       "x": 1400,
-      "y": 80,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_wiki_design_system_components_hero",
+      "id": "n_wiki_design_system_overview_global_css",
       "type": "file",
-      "file": "Hero \uc704\uc82f.md",
+      "file": "global.css (\uad6c\ud604 \ub2e8\uc77c \ucd9c\ucc98).md",
       "x": 1600,
-      "y": 80,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_wiki_design_system_components_logo",
+      "id": "n_wiki_design_system_overview",
       "type": "file",
-      "file": "Logo \ucef4\ud3ec\ub10c\ud2b8.md",
+      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694.md",
       "x": 1200,
-      "y": 160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_components_problems",
-      "type": "file",
-      "file": "Problems \uc704\uc82f.md",
-      "x": 1400,
-      "y": 160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_components_services",
-      "type": "file",
-      "file": "Services \uc704\uc82f (\ubbf8\ub514\uc5b4 \uac24\ub7ec\ub9ac).md",
-      "x": 1600,
-      "y": 160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_components_site_footer",
-      "type": "file",
-      "file": "SiteFooter \uc704\uc82f.md",
-      "x": 1200,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_components_site_header",
-      "type": "file",
-      "file": "SiteHeader \uc704\uc82f.md",
-      "x": 1400,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_components_testimonials",
-      "type": "file",
-      "file": "Testimonials \uc704\uc82f.md",
-      "x": 1600,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_fsd_feature_sliced_design",
-      "type": "file",
-      "file": "fsd-feature-sliced-design.md",
-      "x": 1200,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_fsd_public_api",
-      "type": "file",
-      "file": "fsd-public-api.md",
-      "x": 1400,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_components_service_preview",
-      "type": "file",
-      "file": "service-preview \uc778\ub77c\uc778 \ud504\ub9ac\ubdf0 \ud53c\ucc98.md",
-      "x": 1600,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_components",
-      "type": "file",
-      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8.md",
-      "x": 1200,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_layout_patterns",
-      "type": "file",
-      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134.md",
-      "x": 1400,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_landing_page_copy",
-      "type": "file",
-      "file": "\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c_1.md",
-      "x": 1600,
-      "y": 400,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -375,62 +1238,26 @@
       "id": "n_wiki_design_system_layout_patterns_rhythm_rule",
       "type": "file",
       "file": "\ub9ac\ub4ec \uaddc\uce59 (\ubc1d\uc74c\u2192\uac80\uc815 \uac24\ub7ec\ub9ac\u2192\ubc1d\uc74c).md",
-      "x": 1200,
-      "y": 480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_main_copy",
-      "type": "file",
-      "file": "\uba54\uc778 \uce74\ud53c_1.md",
       "x": 1400,
-      "y": 480,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_wiki_design_system_components_fsd_segment_rule",
+      "id": "n_wiki_design_system_overview_monochrome_first",
       "type": "file",
-      "file": "\ubaa9\uc801 \uae30\ubc18 \uc138\uadf8\uba3c\ud2b8 \uba85\uba85 \uaddc\uce59.md",
+      "file": "\ubaa8\ub178\ud06c\ub86c \uc6b0\uc120 \uc6d0\uce59.md",
       "x": 1600,
-      "y": 480,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_wiki_design_system_layout_patterns_section_blocks",
+      "id": "n_wiki_design_system_tokens_color_token",
       "type": "file",
-      "file": "\uc139\uc158 \ube4c\ub529\ube14\ub85d.md",
+      "file": "\uc0c9 \ud1a0\ud070 (Color).md",
       "x": 1200,
-      "y": 560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_solution_3d_dpp",
-      "type": "file",
-      "file": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP)_1.md",
-      "x": 1400,
-      "y": 560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_index_moc",
-      "type": "file",
-      "file": "\uc778\ub371\uc2a4 (MOC)_1.md",
-      "x": 1600,
-      "y": 560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_design_system_layout_patterns_page_shell",
-      "type": "file",
-      "file": "\ud398\uc774\uc9c0 \uace8\uaca9 (\uc178).md",
-      "x": 1200,
-      "y": 640,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
@@ -439,44 +1266,26 @@
       "type": "file",
       "file": "\ud55c \ubc88\uc758 \ub300\ube44 \uba74 \uc6d0\uce59.md",
       "x": 1400,
-      "y": 640,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
     {
-      "id": "g2",
+      "id": "g10",
       "type": "group",
-      "label": "3D \uc5d4\uc9c4\u00b7XR\u00b7\uc194\ub8e8\uc158",
+      "label": "\ud68c\uc0ac\u00b7\uc194\ub8e8\uc158\u00b7\ud3ec\ud2b8\ud3f4\ub9ac\uc624 5",
       "x": 2360,
-      "y": 0,
-      "width": 1100,
-      "height": 920,
-      "color": "3"
+      "y": 1600,
+      "width": 660,
+      "height": 420,
+      "color": "5"
     },
     {
       "id": "n_raw_____________________________engine",
       "type": "file",
       "file": "3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
       "x": 2380,
-      "y": 80,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________core_to_edge",
-      "type": "file",
-      "file": "Core-to-Edge \uc0ac\uc5c5 \uad6c\uc870.md",
-      "x": 2580,
-      "y": 80,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________esg_regulation",
-      "type": "file",
-      "file": "ESG \uaddc\uc81c \uc900\uc218  \uc81c\ud488\uc5ec\uad8c \uaddc\uc81c.md",
-      "x": 2780,
-      "y": 80,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -484,8 +1293,8 @@
       "id": "n_wiki____________egg_one",
       "type": "file",
       "file": "Egg One \u2014 \ubc18\uc751\ud615 3D \uc81c\ud488 \uc2dc\uac01\ud654.md",
-      "x": 2380,
-      "y": 160,
+      "x": 2580,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -493,8 +1302,8 @@
       "id": "n_wiki____________egg_two",
       "type": "file",
       "file": "Egg Two \u2014 3D \ubc18\uc751\ud615 \ubbf8\ub514\uc5b4.md",
-      "x": 2580,
-      "y": 160,
+      "x": 2780,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
@@ -502,44 +1311,8 @@
       "id": "n_wiki____________xr_safety_training",
       "type": "file",
       "file": "XR \uc0b0\uc5c5\uc548\uc804 \uad50\uc721 (VRARMR).md",
-      "x": 2780,
-      "y": 160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________native_xr",
-      "type": "file",
-      "file": "\ub124\uc774\ud2f0\ube0c XR \ud655\uc7a5\uc131.md",
       "x": 2380,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________viewpoint_control",
-      "type": "file",
-      "file": "\ub2e4\uac01\ub3c4 \uc2dc\uc810 \uc81c\uc5b4 (Global View  Detail View).md",
-      "x": 2580,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________data_visualization",
-      "type": "file",
-      "file": "\ub370\uc774\ud130\uc758 \uc2dc\uac01\ud654 (\uacf5\uae09\ub9dd \uc815\ubcf4).md",
-      "x": 2780,
-      "y": 240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________digital_ecosystem",
-      "type": "file",
-      "file": "\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4.md",
-      "x": 2380,
-      "y": 320,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -548,25 +1321,7 @@
       "type": "file",
       "file": "\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c.md",
       "x": 2580,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________main_copy",
-      "type": "file",
-      "file": "\uba54\uc778 \uce74\ud53c.md",
-      "x": 2780,
-      "y": 320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________physics_engine",
-      "type": "file",
-      "file": "\ubb3c\ub9ac \uc5d4\uc9c4 \uae30\ubc18 \ub2a5\ub3d9\uc801 \uc0ac\uace0 \uc2dc\ubbac\ub808\uc774\uc158.md",
-      "x": 2380,
-      "y": 400,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -574,8 +1329,8 @@
       "id": "n_raw____________service_plan",
       "type": "file",
       "file": "\uc11c\ube44\uc2a4 \uae30\ud68d\uc11c (\uc815\ub9ac\ubcf8).md",
-      "x": 2580,
-      "y": 400,
+      "x": 2780,
+      "y": 1760,
       "width": 180,
       "height": 60
     },
@@ -583,399 +1338,147 @@
       "id": "n_raw____________service_intro",
       "type": "file",
       "file": "\uc11c\ube44\uc2a4 \uc18c\uac1c\uc11c (\uc6d0\ubcf8 \uc2ac\ub77c\uc774\ub4dc \ubcc0\ud658).md",
-      "x": 2780,
-      "y": 400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________dpp",
-      "type": "file",
-      "file": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP).md",
       "x": 2380,
-      "y": 480,
+      "y": 1840,
       "width": 180,
       "height": 60
     },
     {
-      "id": "n_wiki____________safety_education",
-      "type": "file",
-      "file": "\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721.md",
-      "x": 2580,
-      "y": 480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________realtime_data_link",
-      "type": "file",
-      "file": "\uc2e4\uc2dc\uac04 \ub370\uc774\ud130 \uc5f0\ub3d9.md",
-      "x": 2780,
-      "y": 480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________training_scenarios",
-      "type": "file",
-      "file": "\uc8fc\uc694 \ud6c8\ub828 \uc2dc\ub098\ub9ac\uc624 (\uc9c0\uac8c\ucc28\ud611\ucc29\ucd94\ub77d).md",
-      "x": 2380,
-      "y": 560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________muscle_memory",
-      "type": "file",
-      "file": "\uccb4\ud654\ud615 \ubc18\ubcf5 \ud6c8\ub828 (Muscle Memory).md",
-      "x": 2580,
-      "y": 560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d_____________________engine",
-      "type": "file",
-      "file": "\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4.md",
-      "x": 2780,
-      "y": 560,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________company_overview",
-      "type": "file",
-      "file": "\ud68c\uc0ac \uac1c\uc694 (\ube0c\ub85c\ud070\uc5d0\uadf8).md",
-      "x": 2380,
-      "y": 640,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "g3",
+      "id": "g11",
       "type": "group",
-      "label": "3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98",
-      "x": 0,
-      "y": 1000,
-      "width": 880,
-      "height": 720,
-      "color": "4"
-    },
-    {
-      "id": "n_wiki____________3d__________________________brotli____",
-      "type": "file",
-      "file": "Brotli \uc555\ucd95.md",
-      "x": 20,
-      "y": 1080,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d__________________________coop_coep______",
-      "type": "file",
-      "file": "COOPCOEP cross-origin isolation.md",
-      "x": 220,
-      "y": 1080,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d__________________________canvas________",
-      "type": "file",
-      "file": "Canvas \uc9c1\uc811 \ub9c8\uc6b4\ud2b8 \uc784\ubca0\ub4dc.md",
-      "x": 420,
-      "y": 1080,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d__________________________cloudflare_r2",
-      "type": "file",
-      "file": "Cloudflare R2.md",
-      "x": 20,
-      "y": 1160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d__________________________egress______",
-      "type": "file",
-      "file": "Egress \ube44\uc6a9 (\uc774\uadf8\ub808\uc2a4).md",
-      "x": 220,
-      "y": 1160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d__________________________godot_4_____html5_wasm______",
-      "type": "file",
-      "file": "Godot 4 \uc6f9(HTML5WASM) \uc775\uc2a4\ud3ec\ud2b8.md",
-      "x": 420,
-      "y": 1160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d__________________________pck____",
-      "type": "file",
-      "file": "PCK \ud30c\uc77c (Godot \ub9ac\uc18c\uc2a4 \ubb36\uc74c).md",
-      "x": 20,
-      "y": 1240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d__________________________qr_____________________",
-      "type": "file",
-      "file": "QR\ubcc4 \uac1c\ubcc4 \ub77c\uc6b0\ud2b8 \uc11c\ube59.md",
-      "x": 220,
-      "y": 1240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d__________________________single_thread______",
-      "type": "file",
-      "file": "Single-thread \uc6f9 \uc775\uc2a4\ud3ec\ud2b8.md",
-      "x": 420,
-      "y": 1240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d__________________________brokenegg_app__next_js_16_",
-      "type": "file",
-      "file": "brokenegg-app (Next.js 16, Vercel).md",
-      "x": 20,
-      "y": 1320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d__________________________wasm__________",
-      "type": "file",
-      "file": "wasm \uacf5\uc720 \ud2b8\ub9ad (pck \uad50\uccb4).md",
-      "x": 220,
-      "y": 1320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki________________________",
-      "type": "file",
-      "file": "\ub514\uc9c0\ud138 \uc0dd\ud0dc\uacc4_1.md",
-      "x": 420,
-      "y": 1320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki___________3d______________________dpp__",
-      "type": "file",
-      "file": "\uc194\ub8e8\uc158 - 3D \ub514\uc9c0\ud138\uc81c\ud488\uc5ec\uad8c (DPP)_2.md",
-      "x": 20,
-      "y": 1400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_____________________________service_preview",
-      "type": "file",
-      "file": "\uc778\ub77c\uc778 \ud504\ub9ac\ubdf0 (service-preview).md",
-      "x": 220,
-      "y": 1400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d__________________________3d_______________________________",
-      "type": "file",
-      "file": "\ud575\uc2ec \uae30\uc220 - 3D \uc6f9\ubdf0\uc5b4 \ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98.md",
-      "x": 420,
-      "y": 1400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________3d______________________________________",
-      "type": "file",
-      "file": "\ud575\uc2ec \uae30\uc220 - 3D \uc778\ud130\ub799\uc158 \uc2dc\ubbac\ub808\uc774\uc158 \uc5d4\uc9c4_1.md",
-      "x": 20,
-      "y": 1480,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "g4",
-      "type": "group",
-      "label": "\uc704\ud0a4 \uc6b4\uc601\u00b7MOC",
-      "x": 1180,
-      "y": 1000,
-      "width": 880,
-      "height": 620,
-      "color": "5"
-    },
-    {
-      "id": "n_brokenegg_doc_claude_llm_wiki",
-      "type": "file",
-      "file": "LLM Wiki + Graphify \uc6b4\uc601 \ubc29\uc2dd.md",
-      "x": 1200,
-      "y": 1080,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_____________________________fsd_feature_sliced_design",
-      "type": "file",
-      "file": "fsd-feature-sliced-design_1.md",
-      "x": 1400,
-      "y": 1080,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_____________________________demo_request",
-      "type": "file",
-      "file": "\ub370\ubaa8 \uc694\uccad \ubaa8\ub2ec (demo-request).md",
-      "x": 1600,
-      "y": 1080,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki___________________________",
-      "type": "file",
-      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \uac1c\uc694_1.md",
-      "x": 1200,
-      "y": 1160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki________________________________",
-      "type": "file",
-      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ub514\uc790\uc778 \ud1a0\ud070_1.md",
-      "x": 1400,
-      "y": 1160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki_____________________________",
-      "type": "file",
-      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ucef4\ud3ec\ub10c\ud2b8_1.md",
-      "x": 1600,
-      "y": 1160,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki________________________________________",
-      "type": "file",
-      "file": "\ub514\uc790\uc778 \uc2dc\uc2a4\ud15c - \ud398\uc774\uc9c0 \ub808\uc774\uc544\uc6c3 \ud328\ud134_1.md",
-      "x": 1200,
-      "y": 1240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki________________________cta",
-      "type": "file",
-      "file": "\ub79c\ub529 \ud398\uc774\uc9c0 \uce74\ud53c_2.md",
-      "x": 1400,
-      "y": 1240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________",
-      "type": "file",
-      "file": "\uba54\uc778 \uce74\ud53c_2.md",
-      "x": 1600,
-      "y": 1240,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki___________moc____________________",
-      "type": "file",
-      "file": "\uc11c\ube44\uc2a4 \uae30\ud68d\uc11c (\uc815\ub9ac\ubcf8)_1.md",
-      "x": 1200,
-      "y": 1320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki___________moc______________________________________",
-      "type": "file",
-      "file": "\uc11c\ube44\uc2a4 \uc18c\uac1c\uc11c (\uc6d0\ubcf8 \uc2ac\ub77c\uc774\ub4dc \ubcc0\ud658)_1.md",
-      "x": 1400,
-      "y": 1320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________________________________",
-      "type": "file",
-      "file": "\uc194\ub8e8\uc158 - \uc0b0\uc5c5\uc548\uc804\uc704\ud5d8 \uad50\uc721_1.md",
-      "x": 1600,
-      "y": 1320,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________index_moc",
-      "type": "file",
-      "file": "\uc778\ub371\uc2a4 (MOC).md",
-      "x": 1200,
-      "y": 1400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "n_wiki____________________",
-      "type": "file",
-      "file": "\ud68c\uc0ac \uac1c\uc694.md",
-      "x": 1400,
-      "y": 1400,
-      "width": 180,
-      "height": 60
-    },
-    {
-      "id": "g5",
-      "type": "group",
-      "label": "\uc704\ud0a4 \uac00\uc774\ub4dc(CLAUDE)",
-      "x": 2360,
-      "y": 1000,
-      "width": 600,
+      "label": "\ub514\uc790\uc778 \ud1a0\ud070\u00b7\uac1c\uc694 3",
+      "x": 3320,
+      "y": 1600,
+      "width": 660,
       "height": 400,
       "color": "6"
     },
     {
-      "id": "n_brokenegg_doc_claude_wiki_guide",
+      "id": "n_wiki_design_system_components_badge",
       "type": "file",
-      "file": "brokenegg-doc CLAUDE.md (LLM Wiki \uc6b4\uc601 \uac00\uc774\ub4dc).md",
-      "x": 2380,
-      "y": 1080,
+      "file": "Badge \ucef4\ud3ec\ub10c\ud2b8.md",
+      "x": 3340,
+      "y": 1680,
       "width": 180,
       "height": 60
     },
     {
-      "id": "g6",
+      "id": "n_wiki_design_system_components_button",
+      "type": "file",
+      "file": "Button \ucef4\ud3ec\ub10c\ud2b8.md",
+      "x": 3540,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_overview_micro_typo_label",
+      "type": "file",
+      "file": "\ub9c8\uc774\ud06c\ub85c \ud0c0\uc774\ud3ec \ub77c\ubca8 \uc6d0\uce59.md",
+      "x": 3740,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_tokens_radius_token",
+      "type": "file",
+      "file": "\ubc18\uacbd \ud1a0\ud070 (Radius).md",
+      "x": 3340,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_overview_pill_shape",
+      "type": "file",
+      "file": "\uc54c\uc57d \ud615\ud0dc \uc6d0\uce59.md",
+      "x": 3540,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g12",
       "type": "group",
-      "label": "Obsidian \uc124\uc815",
+      "label": "\ub514\uc790\uc778 \ud1a0\ud070\u00b7\uac1c\uc694 4",
       "x": 0,
-      "y": 1800,
+      "y": 2100,
       "width": 600,
       "height": 400,
       "color": "1"
     },
     {
+      "id": "n_wiki_design_system_tokens_noto_serif_kr",
+      "type": "file",
+      "file": "Noto Serif KR (\uc138\ub9ac\ud504).md",
+      "x": 20,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_tokens_pretendard",
+      "type": "file",
+      "file": "Pretendard (\uc0b0\uc138\ub9ac\ud504).md",
+      "x": 220,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_overview_two_typefaces",
+      "type": "file",
+      "file": "\ub450 \uc11c\uccb4\uc758 \uc5ed\ud560 \ubd84\ub2f4 \uc6d0\uce59.md",
+      "x": 420,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_wiki_design_system_tokens_typography_token",
+      "type": "file",
+      "file": "\uc11c\uccb4 \ud1a0\ud070 (Typography).md",
+      "x": 20,
+      "y": 2260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g13",
+      "type": "group",
+      "label": "\uc704\ud0a4 \uac00\uc774\ub4dc(CLAUDE)",
+      "x": 1180,
+      "y": 2100,
+      "width": 600,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_brokenegg_doc_claude_wiki_guide",
+      "type": "file",
+      "file": "brokenegg-doc CLAUDE.md (LLM Wiki \uc6b4\uc601 \uac00\uc774\ub4dc).md",
+      "x": 1200,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g14",
+      "type": "group",
+      "label": "Obsidian \uc124\uc815",
+      "x": 2360,
+      "y": 2100,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
       "id": "n_obsidian_app",
       "type": "file",
       "file": "app.json.md",
-      "x": 20,
-      "y": 1880,
+      "x": 2380,
+      "y": 2180,
       "width": 180,
       "height": 60
     }
@@ -1000,6 +1503,12 @@
       "label": "references [EXTRACTED]"
     },
     {
+      "id": "e_wiki____________3d_____________________engine_wiki________",
+      "fromNode": "n_wiki____________3d_____________________engine",
+      "toNode": "n_wiki________",
+      "label": "references [EXTRACTED]"
+    },
+    {
       "id": "e_wiki____________3d_____________________engine_wiki____________company_overview",
       "fromNode": "n_wiki____________3d_____________________engine",
       "toNode": "n_wiki____________company_overview",
@@ -1015,12 +1524,6 @@
       "id": "e_wiki____________3d_____________________engine_wiki____________native_xr",
       "fromNode": "n_wiki____________3d_____________________engine",
       "toNode": "n_wiki____________native_xr",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________3d_____________________engine_wiki____________safety_education",
-      "fromNode": "n_wiki____________3d_____________________engine",
-      "toNode": "n_wiki____________safety_education",
       "label": "references [EXTRACTED]"
     },
     {
@@ -1042,12 +1545,6 @@
       "label": "references [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________3d_____________________engine_wiki____________index_moc",
-      "fromNode": "n_wiki____________3d_____________________engine",
-      "toNode": "n_wiki____________index_moc",
-      "label": "references [EXTRACTED]"
-    },
-    {
       "id": "e_wiki____________3d_____________________engine_wiki____________landing_copy",
       "fromNode": "n_wiki____________3d_____________________engine",
       "toNode": "n_wiki____________landing_copy",
@@ -1058,6 +1555,12 @@
       "fromNode": "n_wiki____________3d_____________________engine",
       "toNode": "n_wiki____________main_copy",
       "label": "references [INFERRED]"
+    },
+    {
+      "id": "e_wiki____________3d_____________________engine_wiki____moc_",
+      "fromNode": "n_wiki____________3d_____________________engine",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
     },
     {
       "id": "e_wiki____________dpp_wiki____________company_overview",
@@ -1102,70 +1605,16 @@
       "label": "semantically_similar_to [INFERRED]"
     },
     {
-      "id": "e_wiki____________dpp_wiki____________index_moc",
-      "fromNode": "n_wiki____________dpp",
-      "toNode": "n_wiki____________index_moc",
-      "label": "references [EXTRACTED]"
-    },
-    {
       "id": "e_wiki____________dpp_wiki____________main_copy",
       "fromNode": "n_wiki____________dpp",
       "toNode": "n_wiki____________main_copy",
       "label": "references [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________safety_education_wiki____________company_overview",
-      "fromNode": "n_wiki____________safety_education",
-      "toNode": "n_wiki____________company_overview",
+      "id": "e_wiki____________dpp_wiki____moc_",
+      "fromNode": "n_wiki____________dpp",
+      "toNode": "n_wiki____moc_",
       "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________safety_education_wiki____________digital_ecosystem",
-      "fromNode": "n_wiki____________safety_education",
-      "toNode": "n_wiki____________digital_ecosystem",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________safety_education_wiki____________index_moc",
-      "fromNode": "n_wiki____________safety_education",
-      "toNode": "n_wiki____________index_moc",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________safety_education_wiki____________main_copy",
-      "fromNode": "n_wiki____________safety_education",
-      "toNode": "n_wiki____________main_copy",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________safety_education_raw____________service_intro",
-      "fromNode": "n_wiki____________safety_education",
-      "toNode": "n_raw____________service_intro",
-      "label": "cites [INFERRED]"
-    },
-    {
-      "id": "e_wiki____________safety_education_wiki____________muscle_memory",
-      "fromNode": "n_wiki____________safety_education",
-      "toNode": "n_wiki____________muscle_memory",
-      "label": "conceptually_related_to [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________safety_education_wiki____________physics_engine",
-      "fromNode": "n_wiki____________safety_education",
-      "toNode": "n_wiki____________physics_engine",
-      "label": "conceptually_related_to [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________safety_education_wiki____________training_scenarios",
-      "fromNode": "n_wiki____________safety_education",
-      "toNode": "n_wiki____________training_scenarios",
-      "label": "conceptually_related_to [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________safety_education_wiki____________xr_safety_training",
-      "fromNode": "n_wiki____________safety_education",
-      "toNode": "n_wiki____________xr_safety_training",
-      "label": "semantically_similar_to [INFERRED]"
     },
     {
       "id": "e_wiki____________digital_ecosystem_wiki____________company_overview",
@@ -1174,9 +1623,15 @@
       "label": "references [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________digital_ecosystem_wiki____________index_moc",
+      "id": "e_wiki____________digital_ecosystem_wiki________",
       "fromNode": "n_wiki____________digital_ecosystem",
-      "toNode": "n_wiki____________index_moc",
+      "toNode": "n_wiki________",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________digital_ecosystem_wiki____moc_",
+      "fromNode": "n_wiki____________digital_ecosystem",
+      "toNode": "n_wiki____moc_",
       "label": "references [EXTRACTED]"
     },
     {
@@ -1186,27 +1641,51 @@
       "label": "cites [INFERRED]"
     },
     {
+      "id": "e_wiki____________company_overview_wiki________",
+      "fromNode": "n_wiki____________company_overview",
+      "toNode": "n_wiki________",
+      "label": "references [EXTRACTED]"
+    },
+    {
       "id": "e_wiki____________company_overview_wiki____________core_to_edge",
       "fromNode": "n_wiki____________company_overview",
       "toNode": "n_wiki____________core_to_edge",
       "label": "conceptually_related_to [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________company_overview_wiki____________index_moc",
+      "id": "e_wiki____________company_overview_wiki____moc_",
       "fromNode": "n_wiki____________company_overview",
-      "toNode": "n_wiki____________index_moc",
+      "toNode": "n_wiki____moc_",
       "label": "references [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________main_copy_wiki____________index_moc",
+      "id": "e_wiki____________physics_engine_wiki________",
+      "fromNode": "n_wiki____________physics_engine",
+      "toNode": "n_wiki________",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________muscle_memory_wiki________",
+      "fromNode": "n_wiki____________muscle_memory",
+      "toNode": "n_wiki________",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________training_scenarios_wiki________",
+      "fromNode": "n_wiki____________training_scenarios",
+      "toNode": "n_wiki________",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________main_copy_wiki________",
       "fromNode": "n_wiki____________main_copy",
-      "toNode": "n_wiki____________index_moc",
+      "toNode": "n_wiki________",
       "label": "references [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________landing_copy_wiki____________index_moc",
-      "fromNode": "n_wiki____________landing_copy",
-      "toNode": "n_wiki____________index_moc",
+      "id": "e_wiki____________main_copy_wiki____moc_",
+      "fromNode": "n_wiki____________main_copy",
+      "toNode": "n_wiki____moc_",
       "label": "references [EXTRACTED]"
     },
     {
@@ -1240,105 +1719,39 @@
       "label": "conceptually_related_to [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________index_moc_brokenegg_doc_claude_llm_wiki",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_brokenegg_doc_claude_llm_wiki",
+      "id": "e_wiki____________landing_copy_wiki____moc_",
+      "fromNode": "n_wiki____________landing_copy",
+      "toNode": "n_wiki____moc_",
       "label": "references [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________index_moc_raw____________service_intro",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_raw____________service_intro",
+      "id": "e_wiki____________xr_safety_training_wiki________",
+      "fromNode": "n_wiki____________xr_safety_training",
+      "toNode": "n_wiki________",
+      "label": "semantically_similar_to [INFERRED]"
+    },
+    {
+      "id": "e_raw____________service_plan_wiki____moc_",
+      "fromNode": "n_raw____________service_plan",
+      "toNode": "n_wiki____moc_",
       "label": "references [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________index_moc_raw____________service_plan",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_raw____________service_plan",
+      "id": "e_raw____________service_intro_wiki________",
+      "fromNode": "n_raw____________service_intro",
+      "toNode": "n_wiki________",
+      "label": "cites [INFERRED]"
+    },
+    {
+      "id": "e_raw____________service_intro_wiki____moc_",
+      "fromNode": "n_raw____________service_intro",
+      "toNode": "n_wiki____moc_",
       "label": "references [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________index_moc_wiki___________3d______________________dpp__",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki___________3d______________________dpp__",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki____________",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki____________",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki____________3d__________________________3d_______________________________",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki____________3d__________________________3d_______________________________",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki____________3d______________________________________",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki____________3d______________________________________",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki____________________",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki____________________",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki________________________",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki________________________",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki___________________________",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki___________________________",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki_____________________________",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki_____________________________",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki________________________________",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki________________________________",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki____________________________________",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki____________________________________",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki________________________________________",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki________________________________________",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki________________________cta",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki________________________cta",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki___________moc____________________",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki___________moc____________________",
-      "label": "references [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________index_moc_wiki___________moc______________________________________",
-      "fromNode": "n_wiki____________index_moc",
-      "toNode": "n_wiki___________moc______________________________________",
+      "id": "e_brokenegg_doc_claude_llm_wiki_wiki____moc_",
+      "fromNode": "n_brokenegg_doc_claude_llm_wiki",
+      "toNode": "n_wiki____moc_",
       "label": "references [EXTRACTED]"
     },
     {
@@ -1834,69 +2247,21 @@
       "label": "references [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________3d__________________________3d________________________________wiki___________3d______________________dpp__",
-      "fromNode": "n_wiki____________3d__________________________3d_______________________________",
-      "toNode": "n_wiki___________3d______________________dpp__",
+      "id": "e_wiki____________3d_______________________________________wiki___________3d",
+      "fromNode": "n_wiki____________3d______________________________________",
+      "toNode": "n_wiki___________3d",
       "label": "references [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________3d__________________________3d________________________________wiki____________3d______________________________________",
-      "fromNode": "n_wiki____________3d__________________________3d_______________________________",
-      "toNode": "n_wiki____________3d______________________________________",
+      "id": "e_wiki____________3d_______________________________________wiki____moc_",
+      "fromNode": "n_wiki____________3d______________________________________",
+      "toNode": "n_wiki____moc_",
       "label": "references [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________3d__________________________3d________________________________wiki____________3d__________________________brokenegg_app__next_js_16_",
-      "fromNode": "n_wiki____________3d__________________________3d_______________________________",
-      "toNode": "n_wiki____________3d__________________________brokenegg_app__next_js_16_",
-      "label": "conceptually_related_to [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________3d__________________________3d________________________________wiki____________3d__________________________brotli____",
-      "fromNode": "n_wiki____________3d__________________________3d_______________________________",
-      "toNode": "n_wiki____________3d__________________________brotli____",
-      "label": "conceptually_related_to [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________3d__________________________3d________________________________wiki____________3d__________________________canvas________",
-      "fromNode": "n_wiki____________3d__________________________3d_______________________________",
-      "toNode": "n_wiki____________3d__________________________canvas________",
-      "label": "conceptually_related_to [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________3d__________________________3d________________________________wiki____________3d__________________________cloudflare_r2",
-      "fromNode": "n_wiki____________3d__________________________3d_______________________________",
-      "toNode": "n_wiki____________3d__________________________cloudflare_r2",
-      "label": "conceptually_related_to [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________3d__________________________3d________________________________wiki____________3d__________________________godot_4_____html5_wasm______",
-      "fromNode": "n_wiki____________3d__________________________3d_______________________________",
-      "toNode": "n_wiki____________3d__________________________godot_4_____html5_wasm______",
-      "label": "conceptually_related_to [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________3d__________________________3d________________________________wiki____________3d__________________________qr_____________________",
-      "fromNode": "n_wiki____________3d__________________________3d_______________________________",
-      "toNode": "n_wiki____________3d__________________________qr_____________________",
-      "label": "conceptually_related_to [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________3d__________________________3d________________________________wiki____________3d__________________________single_thread______",
-      "fromNode": "n_wiki____________3d__________________________3d_______________________________",
-      "toNode": "n_wiki____________3d__________________________single_thread______",
-      "label": "conceptually_related_to [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________3d__________________________3d________________________________wiki____________3d__________________________wasm__________",
-      "fromNode": "n_wiki____________3d__________________________3d_______________________________",
-      "toNode": "n_wiki____________3d__________________________wasm__________",
-      "label": "conceptually_related_to [EXTRACTED]"
-    },
-    {
-      "id": "e_wiki____________3d__________________________3d________________________________wiki________________________",
-      "fromNode": "n_wiki____________3d__________________________3d_______________________________",
-      "toNode": "n_wiki________________________",
+      "id": "e_wiki___________3d______________________dpp___wiki___________3d",
+      "fromNode": "n_wiki___________3d______________________dpp__",
+      "toNode": "n_wiki___________3d",
       "label": "references [EXTRACTED]"
     },
     {
@@ -1906,9 +2271,27 @@
       "label": "conceptually_related_to [EXTRACTED]"
     },
     {
-      "id": "e_wiki____________3d__________________________godot_4_____html5_wasm_______wiki____________3d__________________________pck____",
-      "fromNode": "n_wiki____________3d__________________________godot_4_____html5_wasm______",
-      "toNode": "n_wiki____________3d__________________________pck____",
+      "id": "e_wiki___________3d______________________dpp___wiki____moc_",
+      "fromNode": "n_wiki___________3d______________________dpp__",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_________________________wiki___________3d",
+      "fromNode": "n_wiki________________________",
+      "toNode": "n_wiki___________3d",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_________________________wiki____moc_",
+      "fromNode": "n_wiki________________________",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d__________________________single_thread_______wiki___________3d",
+      "fromNode": "n_wiki____________3d__________________________single_thread______",
+      "toNode": "n_wiki___________3d",
       "label": "conceptually_related_to [EXTRACTED]"
     },
     {
@@ -1916,6 +2299,12 @@
       "fromNode": "n_wiki____________3d__________________________single_thread______",
       "toNode": "n_wiki____________3d__________________________coop_coep______",
       "label": "rationale_for [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d__________________________cloudflare_r2_wiki___________3d",
+      "fromNode": "n_wiki____________3d__________________________cloudflare_r2",
+      "toNode": "n_wiki___________3d",
+      "label": "conceptually_related_to [EXTRACTED]"
     },
     {
       "id": "e_wiki____________3d__________________________cloudflare_r2_wiki____________3d__________________________egress______",
@@ -1936,9 +2325,21 @@
       "label": "conceptually_related_to [INFERRED]"
     },
     {
+      "id": "e_wiki____________3d__________________________wasm___________wiki___________3d",
+      "fromNode": "n_wiki____________3d__________________________wasm__________",
+      "toNode": "n_wiki___________3d",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
       "id": "e_wiki____________3d__________________________wasm___________wiki____________3d__________________________pck____",
       "fromNode": "n_wiki____________3d__________________________wasm__________",
       "toNode": "n_wiki____________3d__________________________pck____",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d__________________________canvas_________wiki___________3d",
+      "fromNode": "n_wiki____________3d__________________________canvas________",
+      "toNode": "n_wiki___________3d",
       "label": "conceptually_related_to [EXTRACTED]"
     },
     {
@@ -1954,10 +2355,58 @@
       "label": "semantically_similar_to [INFERRED]"
     },
     {
+      "id": "e_wiki____________3d__________________________brotli_____wiki___________3d",
+      "fromNode": "n_wiki____________3d__________________________brotli____",
+      "toNode": "n_wiki___________3d",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d__________________________pck_____wiki___________3d_godot_export",
+      "fromNode": "n_wiki____________3d__________________________pck____",
+      "toNode": "n_wiki___________3d_godot_export",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d__________________________brokenegg_app__next_js_16__wiki___________3d",
+      "fromNode": "n_wiki____________3d__________________________brokenegg_app__next_js_16_",
+      "toNode": "n_wiki___________3d",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
       "id": "e_wiki____________3d__________________________brokenegg_app__next_js_16__wiki____________3d__________________________qr_____________________",
       "fromNode": "n_wiki____________3d__________________________brokenegg_app__next_js_16_",
       "toNode": "n_wiki____________3d__________________________qr_____________________",
       "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____________3d__________________________qr______________________wiki___________3d",
+      "fromNode": "n_wiki____________3d__________________________qr_____________________",
+      "toNode": "n_wiki___________3d",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____________________wiki____moc_",
+      "fromNode": "n_wiki____________________",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____________________________________wiki____moc_",
+      "fromNode": "n_wiki____________________________________",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____________wiki____moc_",
+      "fromNode": "n_wiki____________",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki________________________cta_wiki____moc_",
+      "fromNode": "n_wiki________________________cta",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
     },
     {
       "id": "e_wiki____________________________wiki_____________________________",
@@ -1966,9 +2415,21 @@
       "label": "references [EXTRACTED]"
     },
     {
+      "id": "e_wiki____________________________wiki____moc_",
+      "fromNode": "n_wiki___________________________",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
+    },
+    {
       "id": "e_wiki_________________________________wiki_____________________________",
       "fromNode": "n_wiki________________________________",
       "toNode": "n_wiki_____________________________",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_________________________________wiki____moc_",
+      "fromNode": "n_wiki________________________________",
+      "toNode": "n_wiki____moc_",
       "label": "references [EXTRACTED]"
     },
     {
@@ -1993,6 +2454,234 @@
       "id": "e_wiki______________________________wiki_____________________________service_preview",
       "fromNode": "n_wiki_____________________________",
       "toNode": "n_wiki_____________________________service_preview",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki______________________________wiki____moc_",
+      "fromNode": "n_wiki_____________________________",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_________________________________________wiki____moc_",
+      "fromNode": "n_wiki________________________________________",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki___________moc_______________________________________wiki____moc_",
+      "fromNode": "n_wiki___________moc______________________________________",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki___________moc_____________________wiki____moc_",
+      "fromNode": "n_wiki___________moc____________________",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____raw__________",
+      "fromNode": "n_wiki____",
+      "toNode": "n_raw__________",
+      "label": "cites [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki_____3d_dpp_",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki_____3d_dpp_",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki______3d_____________",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki______3d_____________",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki________",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki________",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki_____________",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki_____________",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki____single_core_engine",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki____single_core_engine",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki_____concept_3d_dpp",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki_____concept_3d_dpp",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki_____concept_3d_responsive_media",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki_____concept_3d_responsive_media",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki_____concept_3d_simulation_catalog",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki_____concept_3d_simulation_catalog",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki_____concept_3d_simulation_manual",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki_____concept_3d_simulation_manual",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki_____concept_industrial_safety_education",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki_____concept_industrial_safety_education",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki_____concept_interaction_simulation_programming",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki_____concept_interaction_simulation_programming",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki____brokenegg_inc",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki____brokenegg_inc",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki_____wiki____moc_",
+      "fromNode": "n_wiki____",
+      "toNode": "n_wiki____moc_",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki_____cert_venture_confirmation",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki_____cert_venture_confirmation",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki_____customer_daewon_media",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki_____customer_daewon_media",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki_____customer_dexter_studio",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki_____customer_dexter_studio",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki_____customer_pinkfong",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki_____customer_pinkfong",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki_____customer_sbs_ant",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki_____customer_sbs_ant",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki_____partner_incheon_univ",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki_____partner_incheon_univ",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki_____partner_sangmyung_univ",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki_____partner_sangmyung_univ",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki_____patent_3d_modeling_info",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki_____patent_3d_modeling_info",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki_____patent_requirement_matching_3d_modeling",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki_____patent_requirement_matching_3d_modeling",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki_____patent_risk_prediction_maintenance",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki_____patent_risk_prediction_maintenance",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki____customer_orato",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki____customer_orato",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki____customer_pinkfong",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki____customer_pinkfong",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki____customer_sbs_ant",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki____customer_sbs_ant",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki____patent_3d_modeling_matching",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki____patent_3d_modeling_matching",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki____patent_realtime_risk_prediction",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki____patent_realtime_risk_prediction",
+      "label": "references [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki____ceo_lee_sangmun",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki____ceo_lee_sangmun",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki____cert_iso_9001",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki____cert_iso_9001",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki____cert_sw_quality",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki____cert_sw_quality",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki____cto_baek_inchil",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki____cto_baek_inchil",
+      "label": "conceptually_related_to [EXTRACTED]"
+    },
+    {
+      "id": "e_wiki____brokenegg_inc_wiki____nvidia_inception",
+      "fromNode": "n_wiki____brokenegg_inc",
+      "toNode": "n_wiki____nvidia_inception",
       "label": "conceptually_related_to [EXTRACTED]"
     }
   ]

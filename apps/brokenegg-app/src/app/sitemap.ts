@@ -3,7 +3,7 @@ import { SITE_URL } from '@/shared/seo';
 import { routing } from '@/i18n/routing';
 
 /** 사이트맵에 포함할 로케일 뒤 경로. */
-const PATHS = ['', '/services', '/cases', '/about'];
+const PATHS = ['', '/cases', '/about'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return routing.locales.flatMap((locale) =>

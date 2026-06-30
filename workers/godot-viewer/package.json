@@ -1,0 +1,14 @@
+{
+  "name": "brokenegg-godot-viewer-worker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Godot 웹뷰어 에셋 엣지 서버 (Cloudflare Worker × R2)",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+/* 랜딩의 use-cases 섹션 헤더 여백 (행은 use-case.module.css 가 56px 40px). */
+.head {
+	padding: 160px 40px 8px;
+}
+
+@media (max-width: 1024px) {
+	.head {
+		padding: 100px 24px 8px;
+	}
+}

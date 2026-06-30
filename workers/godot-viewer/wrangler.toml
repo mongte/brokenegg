@@ -1,0 +1,18 @@
+# Godot 웹뷰어 에셋 엣지 서버 (Cloudflare Worker × R2)
+# 배포: cd workers/godot-viewer && npx wrangler deploy
+# 자세한 절차: README.md
+name = "brokenegg-godot-viewer"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+# R2 버킷 바인딩. 버킷명은 아래와 일치해야 한다(없으면 README 의 `r2 bucket create` 참고).
+# 코드에서 env.BUCKET 으로 접근.
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "brokenegg-godot"
+
+# 기본은 <name>.<subdomain>.workers.dev 로 노출된다.
+# 커스텀 도메인(예: godot.brokenegg.app)을 쓰려면 아래 routes 주석을 풀고 zone 을 설정.
+# routes = [
+#   { pattern = "godot.brokenegg.app", custom_domain = true }
+# ]

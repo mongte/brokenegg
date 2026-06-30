@@ -1,11 +1,11 @@
 ---
 source_file: "wiki/디자인 시스템 - 디자인 토큰.md"
 type: "concept"
-community: "디자인 시스템 토큰·개요"
+community: "디자인 토큰·개요"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/__
+  - community/_
 ---
 
 # grid-bg (격자 배경)
@@ -15,4 +15,4 @@ tags:
 - [[페이지 골격 (셸)]] - `conceptually_related_to` [EXTRACTED]
 - [[프레임-인-캔버스 원칙]] - `conceptually_related_to` [INFERRED]
 
-#graphify/concept #graphify/EXTRACTED #community/__
+#graphify/concept #graphify/EXTRACTED #community/_

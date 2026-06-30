@@ -32,17 +32,33 @@
     "cases": {
       "title": "Broken Egg — Case Studies",
       "description": "Real customer deployments using Broken Egg's 3D simulation manuals and catalogs. Explore each case with its intro video and interactive 3D experience.",
-      "keywords": ["3D case studies", "customer cases", "3D product demo", "interactive 3D experience"]
+      "keywords": [
+        "3D case studies",
+        "customer cases",
+        "3D product demo",
+        "interactive 3D experience"
+      ]
     },
     "services": {
       "title": "Broken Egg — Services",
       "description": "From exhibitions and training manuals to web publishing, sales meetings, and presentations — how Broken Egg's 3D simulation is put to work.",
-      "keywords": ["3D use cases", "exhibition demo", "training manual", "sales presentation", "product catalog"]
+      "keywords": [
+        "3D use cases",
+        "exhibition demo",
+        "training manual",
+        "sales presentation",
+        "product catalog"
+      ]
     },
     "about": {
       "title": "Broken Egg — Company",
       "description": "About Broken Egg Inc. — overview, growth timeline, leadership, and academic-industry partners of a responsive 3D simulation and XR solutions company.",
-      "keywords": ["Broken Egg Inc", "company profile", "3D solution company", "XR company"]
+      "keywords": [
+        "Broken Egg Inc",
+        "company profile",
+        "3D solution company",
+        "XR company"
+      ]
     }
   },
   "lang": {
@@ -58,7 +74,6 @@
       "open": "Open menu",
       "close": "Close menu",
       "home": "Home",
-      "services": "Services",
       "cases": "Case Studies",
       "about": "Company"
     }
@@ -105,6 +120,39 @@
         "name": "Lee Seo-yoon",
         "role": "Safety Management Div., K-Energy"
       }
+    ]
+  },
+  "trust": {
+    "tag": "CREDENTIALS",
+    "title": "Proven technology, a partner you can trust",
+    "sub": "3D simulation capability backed by patents, international certifications, and real-world references.",
+    "stats": [
+      {
+        "value": "4+ Patents",
+        "label": "3D modeling & simulation tech"
+      },
+      {
+        "value": "ISO 9001:2015",
+        "label": "Quality management certified"
+      },
+      {
+        "value": "SW Quality Lv.1",
+        "label": "Software quality certification"
+      },
+      {
+        "value": "NVIDIA Inception",
+        "label": "Member company"
+      }
+    ],
+    "clientsLabel": "Clients & References",
+    "clients": [
+      "SBS A&T",
+      "The Pinkfong Company",
+      "Daewon Media",
+      "Dexter Studios",
+      "Orato E&C",
+      "FourS Media",
+      "Alton Korea"
     ]
   },
   "servicePreview": {

@@ -4,7 +4,7 @@ type: "concept"
 community: "3D 웹뷰어 배포 아키텍처"
 tags:
   - graphify/concept
-  - graphify/EXTRACTED
+  - graphify/INFERRED
   - community/3D___
 ---
 
@@ -14,4 +14,4 @@ tags:
 - [[Egress 비용 (이그레스)]] - `conceptually_related_to` [INFERRED]
 - [[핵심 기술 - 3D 웹뷰어 배포 아키텍처]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/3D___
+#graphify/concept #graphify/INFERRED #community/3D___

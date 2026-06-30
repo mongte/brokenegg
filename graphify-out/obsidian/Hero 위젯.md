@@ -1,7 +1,7 @@
 ---
 source_file: "wiki/디자인 시스템 - 컴포넌트.md"
 type: "concept"
-community: "디자인 컴포넌트·레이아웃·카피"
+community: "디자인 컴포넌트·카피"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
